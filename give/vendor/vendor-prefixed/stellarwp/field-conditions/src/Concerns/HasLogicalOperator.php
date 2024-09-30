@@ -2,7 +2,7 @@
 /**
  * @license GPL-2.0-or-later
  *
- * Modified by impress-org on 10-September-2024 using Strauss.
+ * Modified by impress-org on 25-September-2024 using Strauss.
  * @see https://github.com/BrianHenryIE/strauss
  */
 

@@ -2,14 +2,14 @@
 # This file is distributed under the same license as the Give - Donation Plugin plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: Give - Donation Plugin 3.16.1\n"
+"Project-Id-Version: Give - Donation Plugin 3.16.2\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/givewp\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-09-10T13:32:43+00:00\n"
+"POT-Creation-Date: 2024-09-25T21:40:36+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: give\n"
@@ -347,7 +347,7 @@ msgstr[1] ""
 #: includes/admin/tools/import/class-give-import-donations.php:259
 #: src/Views/Form/Templates/Classic/Classic.php:350
 #: src/Views/Form/Templates/Sequoia/sections/income-stats.php:61
-#: assets/dist/js/donor-dashboards-block.js:5755
+#: assets/dist/js/donor-dashboards-block.js:5752
 msgid "donor"
 msgid_plural "donors"
 msgstr[0] ""
@@ -387,7 +387,7 @@ msgstr ""
 
 #: includes/admin/admin-actions.php:971
 #: includes/class-give-scripts.php:521
-#: includes/process-donation.php:648
+#: includes/process-donation.php:653
 #: includes/shortcodes.php:509
 msgid "Please enter your first name."
 msgstr ""
@@ -597,8 +597,12 @@ msgstr ""
 msgid "Image"
 msgstr ""
 
+#: includes/admin/class-admin-settings.php:959
+msgid "Select Some Options"
+msgstr ""
+
 #. translators: %s Title
-#: includes/admin/class-admin-settings.php:999
+#: includes/admin/class-admin-settings.php:1000
 #: includes/admin/give-metabox-functions.php:1137
 msgid "Need Help? See docs on \"%s\""
 msgstr ""
@@ -998,9 +1002,9 @@ msgstr ""
 #: assets/dist/js/give-admin-event-tickets.js:5887
 #: assets/dist/js/give-admin-subscriptions.js:3661
 #: assets/dist/js/give-log-list-table-app.js:4604
-#: assets/dist/js/give-log-list-table-app.js:6631
+#: assets/dist/js/give-log-list-table-app.js:6633
 #: assets/dist/js/give-migrations-list-table-app.js:4604
-#: assets/dist/js/give-migrations-list-table-app.js:6545
+#: assets/dist/js/give-migrations-list-table-app.js:6547
 #: build/donationFormRegistrars.js:1
 #: build/formBuilderApp.js:13
 msgid "Cancel"
@@ -1131,15 +1135,15 @@ msgstr ""
 #: includes/formatting.php:805
 #: includes/formatting.php:847
 #: includes/gateways/actions.php:48
-#: includes/process-donation.php:932
+#: includes/process-donation.php:937
 #: src/LegacyPaymentGateways/Adapters/LegacyPaymentGatewayAdapter.php:278
 msgid "We're unable to recognize your session. Please refresh the screen to try again; otherwise contact your website administrator for assistance."
 msgstr ""
 
 #: includes/admin/donors/donor-actions.php:438
 #: includes/login-register.php:267
-#: includes/process-donation.php:888
-#: includes/process-donation.php:1088
+#: includes/process-donation.php:893
+#: includes/process-donation.php:1093
 #: includes/user-functions.php:373
 msgid "Invalid email."
 msgstr ""
@@ -1389,7 +1393,7 @@ msgstr ""
 #: assets/dist/js/give-admin-subscriptions.js:4273
 #: assets/dist/js/give-log-list-table-app.js:5216
 #: assets/dist/js/give-migrations-list-table-app.js:5216
-#: assets/dist/js/give-migrations-list-table-app.js:6605
+#: assets/dist/js/give-migrations-list-table-app.js:6607
 msgid "Actions"
 msgstr ""
 
@@ -1473,8 +1477,8 @@ msgstr ""
 #: src/Donations/ListTable/Columns/StatusColumn.php:36
 #: src/Subscriptions/ListTable/Columns/StatusColumn.php:36
 #: templates/history-donations.php:72
-#: assets/dist/js/give-log-list-table-app.js:6663
-#: assets/dist/js/give-migrations-list-table-app.js:6553
+#: assets/dist/js/give-log-list-table-app.js:6665
+#: assets/dist/js/give-migrations-list-table-app.js:6555
 msgid "Status"
 msgstr ""
 
@@ -3209,8 +3213,8 @@ msgstr[1] ""
 
 #: includes/admin/payments/class-payments-table.php:420
 #: templates/history-donations.php:74
-#: assets/dist/js/give-log-list-table-app.js:6694
-#: assets/dist/js/give-migrations-list-table-app.js:6612
+#: assets/dist/js/give-log-list-table-app.js:6696
+#: assets/dist/js/give-migrations-list-table-app.js:6614
 msgid "Details"
 msgstr ""
 
@@ -3445,7 +3449,7 @@ msgstr ""
 
 #: includes/admin/payments/view-payment-details.php:456
 #: includes/ajax-functions.php:635
-#: assets/dist/js/give-migrations-list-table-app.js:6485
+#: assets/dist/js/give-migrations-list-table-app.js:6487
 msgid "n/a"
 msgstr ""
 
@@ -4799,6 +4803,7 @@ msgid "GiveWP Shortcodes"
 msgstr ""
 
 #: includes/admin/shortcodes/class-shortcode-button.php:222
+#: build/formBuilderApp.js:13
 msgid "Okay"
 msgstr ""
 
@@ -7725,9 +7730,9 @@ msgstr ""
 #: assets/dist/js/give-admin-event-tickets.js:5913
 #: assets/dist/js/give-admin-subscriptions.js:3687
 #: assets/dist/js/give-log-list-table-app.js:4630
-#: assets/dist/js/give-log-list-table-app.js:6627
+#: assets/dist/js/give-log-list-table-app.js:6629
 #: assets/dist/js/give-migrations-list-table-app.js:4630
-#: assets/dist/js/give-migrations-list-table-app.js:6541
+#: assets/dist/js/give-migrations-list-table-app.js:6543
 #: build/adminBlocks.js:1
 #: build/donationFormBlock.js:1
 msgid "Confirm"
@@ -8019,12 +8024,12 @@ msgid "Please select payment mode."
 msgstr ""
 
 #: includes/class-give-scripts.php:522
-#: includes/process-donation.php:798
+#: includes/process-donation.php:803
 msgid "Please enter your last name."
 msgstr ""
 
 #: includes/class-give-scripts.php:523
-#: includes/process-donation.php:644
+#: includes/process-donation.php:649
 msgid "Please enter a valid email address."
 msgstr ""
 
@@ -8033,7 +8038,7 @@ msgid "Invalid email address or username."
 msgstr ""
 
 #: includes/class-give-scripts.php:525
-#: includes/process-donation.php:1043
+#: includes/process-donation.php:1048
 #: includes/user-functions.php:419
 msgid "Enter a password."
 msgstr ""
@@ -8044,7 +8049,7 @@ msgid "Enter the password confirmation."
 msgstr ""
 
 #: includes/class-give-scripts.php:527
-#: includes/process-donation.php:622
+#: includes/process-donation.php:627
 msgid "You must agree to the terms and conditions."
 msgstr ""
 
@@ -13003,22 +13008,22 @@ msgstr ""
 #: includes/forms/functions.php:1280
 #: src/DonationForms/V2/ListTable/Columns/GoalColumn.php:79
 #: src/EventTickets/ListTable/Columns/SalesAmountColumn.php:90
-#: assets/dist/js/give-admin-donation-forms.js:6478
-#: assets/dist/js/give-admin-donation-forms.js:8306
-#: assets/dist/js/give-admin-donations.js:5410
-#: assets/dist/js/give-admin-donations.js:7763
-#: assets/dist/js/give-admin-donors.js:5229
-#: assets/dist/js/give-admin-donors.js:7582
-#: assets/dist/js/give-admin-event-tickets-details.js:7170
-#: assets/dist/js/give-admin-event-tickets-details.js:8998
-#: assets/dist/js/give-admin-event-tickets.js:6667
-#: assets/dist/js/give-admin-event-tickets.js:8495
-#: assets/dist/js/give-admin-subscriptions.js:4441
-#: assets/dist/js/give-admin-subscriptions.js:6269
-#: assets/dist/js/give-log-list-table-app.js:5384
-#: assets/dist/js/give-log-list-table-app.js:7823
-#: assets/dist/js/give-migrations-list-table-app.js:5384
-#: assets/dist/js/give-migrations-list-table-app.js:7710
+#: assets/dist/js/give-admin-donation-forms.js:6485
+#: assets/dist/js/give-admin-donation-forms.js:8308
+#: assets/dist/js/give-admin-donations.js:5417
+#: assets/dist/js/give-admin-donations.js:7765
+#: assets/dist/js/give-admin-donors.js:5236
+#: assets/dist/js/give-admin-donors.js:7584
+#: assets/dist/js/give-admin-event-tickets-details.js:7177
+#: assets/dist/js/give-admin-event-tickets-details.js:9000
+#: assets/dist/js/give-admin-event-tickets.js:6674
+#: assets/dist/js/give-admin-event-tickets.js:8497
+#: assets/dist/js/give-admin-subscriptions.js:4448
+#: assets/dist/js/give-admin-subscriptions.js:6271
+#: assets/dist/js/give-log-list-table-app.js:5391
+#: assets/dist/js/give-log-list-table-app.js:7825
+#: assets/dist/js/give-migrations-list-table-app.js:5391
+#: assets/dist/js/give-migrations-list-table-app.js:7712
 msgid "of"
 msgstr ""
 
@@ -13305,7 +13310,7 @@ msgid "Your password"
 msgstr ""
 
 #: includes/forms/template.php:1676
-#: includes/process-donation.php:1025
+#: includes/process-donation.php:1030
 #: templates/shortcode-login.php:52
 msgid "Reset Password"
 msgstr ""
@@ -14357,12 +14362,12 @@ msgid "We're sorry, your donation failed to process. Please try again or contact
 msgstr ""
 
 #: includes/login-register.php:122
-#: includes/process-donation.php:1023
+#: includes/process-donation.php:1028
 msgid "The password you entered is incorrect."
 msgstr ""
 
 #: includes/login-register.php:125
-#: includes/process-donation.php:1047
+#: includes/process-donation.php:1052
 msgid "The username you entered does not exist."
 msgstr ""
 
@@ -14737,95 +14742,95 @@ msgstr ""
 msgid "The email you are using has been flagged as one used in SPAM comments or donations by our system. Please try using a different email address or contact the site administrator if you have any questions."
 msgstr ""
 
-#: includes/process-donation.php:501
+#: includes/process-donation.php:506
 msgid "The donation form will process with a valid payment gateway."
 msgstr ""
 
-#: includes/process-donation.php:505
+#: includes/process-donation.php:510
 msgid "The selected payment gateway is not enabled."
 msgstr ""
 
-#: includes/process-donation.php:509
+#: includes/process-donation.php:514
 msgid "Please insert a valid donation amount."
 msgstr ""
 
 #. translators: %s: minimum donation amount
-#: includes/process-donation.php:517
+#: includes/process-donation.php:522
 msgid "This form has a minimum donation amount of %s."
 msgstr ""
 
 #. translators: %s: Maximum donation amount
-#: includes/process-donation.php:534
+#: includes/process-donation.php:539
 msgid "This form has a maximum donation amount of %s."
 msgstr ""
 
-#: includes/process-donation.php:656
+#: includes/process-donation.php:661
 msgid "Please enter your title."
 msgstr ""
 
-#: includes/process-donation.php:673
+#: includes/process-donation.php:678
 msgid "Please enter a credit card number."
 msgstr ""
 
-#: includes/process-donation.php:684
+#: includes/process-donation.php:689
 msgid "Please enter a credit card CVC information."
 msgstr ""
 
-#: includes/process-donation.php:704
+#: includes/process-donation.php:709
 msgid "Please enter a name of your credit card account holder."
 msgstr ""
 
-#: includes/process-donation.php:715
+#: includes/process-donation.php:720
 msgid "Please enter a credit card expiry date."
 msgstr ""
 
-#: includes/process-donation.php:725
+#: includes/process-donation.php:730
 msgid "Please enter your primary billing address."
 msgstr ""
 
-#: includes/process-donation.php:729
+#: includes/process-donation.php:734
 msgid "Please enter your zip / postal code."
 msgstr ""
 
-#: includes/process-donation.php:733
+#: includes/process-donation.php:738
 msgid "Please enter your billing city."
 msgstr ""
 
-#: includes/process-donation.php:737
+#: includes/process-donation.php:742
 msgid "Please select your billing country."
 msgstr ""
 
-#: includes/process-donation.php:742
+#: includes/process-donation.php:747
 msgid "Please enter billing state / province / County."
 msgstr ""
 
-#: includes/process-donation.php:790
+#: includes/process-donation.php:795
 msgid "Please enter Company Name."
 msgstr ""
 
-#: includes/process-donation.php:893
+#: includes/process-donation.php:898
 msgid "The user information is invalid."
 msgstr ""
 
-#: includes/process-donation.php:990
+#: includes/process-donation.php:995
 msgid "Please enter your username or email to log in."
 msgstr ""
 
-#: includes/process-donation.php:1114
+#: includes/process-donation.php:1119
 #: includes/user-functions.php:363
 msgid "Enter an email."
 msgstr ""
 
-#: includes/process-donation.php:1296
+#: includes/process-donation.php:1301
 msgid "The zip / postal code you entered for your billing address is invalid."
 msgstr ""
 
 #. translators: %s: invalid donation amount
-#: includes/process-donation.php:1605
+#: includes/process-donation.php:1610
 msgid "Donation amount %s is invalid."
 msgstr ""
 
-#: includes/process-donation.php:1651
+#: includes/process-donation.php:1656
 msgid "The First Name and Last Name fields cannot contain an email address or numbers."
 msgstr ""
 
@@ -14952,7 +14957,7 @@ msgid "You dont have the right permissions to view Migrations"
 msgstr ""
 
 #: src/API/Endpoints/Migrations/RunMigration.php:86
-#: assets/dist/js/give-migrations-list-table-app.js:6481
+#: assets/dist/js/give-migrations-list-table-app.js:6483
 msgid "Migration ID"
 msgstr ""
 
@@ -15171,6 +15176,10 @@ msgstr ""
 
 #: src/DonationForms/Rules/GatewayRule.php:41
 msgid "%s must be a valid gateway.  Valid gateways are: %s"
+msgstr ""
+
+#: src/DonationForms/Rules/HoneyPotRule.php:42
+msgid "Thank you for the submission!"
 msgstr ""
 
 #: src/DonationForms/Rules/Max.php:39
@@ -15421,7 +15430,7 @@ msgstr ""
 
 #: src/DonorDashboards/Admin/Settings.php:142
 #: src/DonorDashboards/resources/views/donordashboard.php:14
-#: assets/dist/js/donor-dashboards-block.js:5749
+#: assets/dist/js/donor-dashboards-block.js:5746
 msgid "Donor Dashboard"
 msgstr ""
 
@@ -15638,8 +15647,8 @@ msgstr ""
 #: assets/dist/js/give-admin-event-tickets-details.js:2753
 #: assets/dist/js/give-admin-event-tickets-details.js:3383
 #: assets/dist/js/give-admin-event-tickets.js:1303
-#: assets/dist/js/give-log-list-table-app.js:6570
-#: assets/dist/js/give-log-list-table-app.js:6691
+#: assets/dist/js/give-log-list-table-app.js:6572
+#: assets/dist/js/give-log-list-table-app.js:6693
 #: build/formBuilderApp.js:1
 #: build/formBuilderApp.js:13
 msgid "Description"
@@ -16346,7 +16355,7 @@ msgid "Warning"
 msgstr ""
 
 #: src/Log/ValueObjects/LogType.php:50
-#: assets/dist/js/give-migrations-list-table-app.js:6532
+#: assets/dist/js/give-migrations-list-table-app.js:6534
 msgid "Notice"
 msgstr ""
 
@@ -19672,6 +19681,7 @@ msgstr ""
 
 #: assets/dist/js/admin-onboarding-wizard.js:9134
 #: build/donationFormApp.js:2
+#: build/formBuilderApp.js:13
 msgid "Previous"
 msgstr ""
 
@@ -19819,8 +19829,8 @@ msgid "Get the Fee Recovery add-on today"
 msgstr ""
 
 #: assets/dist/js/admin-reports.js:9242
-#: assets/dist/js/give-admin-donations.js:5979
-#: assets/dist/js/give-admin-donors.js:5798
+#: assets/dist/js/give-admin-donations.js:5981
+#: assets/dist/js/give-admin-donors.js:5800
 msgid "<strong>PRO TIP: </strong> <message />"
 msgstr ""
 
@@ -19978,19 +19988,19 @@ msgstr ""
 msgid "Confirm New Default Account"
 msgstr ""
 
-#: assets/dist/js/donor-dashboards-block.js:228
+#: assets/dist/js/donor-dashboards-block.js:225
 msgid "Appearance"
 msgstr ""
 
-#: assets/dist/js/donor-dashboards-block.js:233
+#: assets/dist/js/donor-dashboards-block.js:230
 msgid "Accent Color"
 msgstr ""
 
-#: assets/dist/js/donor-dashboards-block.js:5750
+#: assets/dist/js/donor-dashboards-block.js:5747
 msgid "The Donor Dashboard block allows donors to modify and review their donor information from the front-end."
 msgstr ""
 
-#: assets/dist/js/donor-dashboards-block.js:5755
+#: assets/dist/js/donor-dashboards-block.js:5752
 msgid "dashboard"
 msgstr ""
 
@@ -20262,66 +20272,66 @@ msgstr ""
 msgid "Click here to reload the page."
 msgstr ""
 
-#: assets/dist/js/give-admin-donation-forms.js:6425
-#: assets/dist/js/give-admin-donations.js:5357
-#: assets/dist/js/give-admin-donors.js:5176
-#: assets/dist/js/give-admin-event-tickets-details.js:7117
-#: assets/dist/js/give-admin-event-tickets.js:6614
-#: assets/dist/js/give-admin-subscriptions.js:4388
-#: assets/dist/js/give-log-list-table-app.js:5331
-#: assets/dist/js/give-migrations-list-table-app.js:5331
+#: assets/dist/js/give-admin-donation-forms.js:6431
+#: assets/dist/js/give-admin-donations.js:5363
+#: assets/dist/js/give-admin-donors.js:5182
+#: assets/dist/js/give-admin-event-tickets-details.js:7123
+#: assets/dist/js/give-admin-event-tickets.js:6620
+#: assets/dist/js/give-admin-subscriptions.js:4394
+#: assets/dist/js/give-log-list-table-app.js:5337
+#: assets/dist/js/give-migrations-list-table-app.js:5337
 msgid "%s table"
 msgstr ""
 
-#: assets/dist/js/give-admin-donation-forms.js:6460
-#: assets/dist/js/give-admin-donation-forms.js:8300
-#: assets/dist/js/give-admin-donations.js:5392
-#: assets/dist/js/give-admin-donations.js:7757
-#: assets/dist/js/give-admin-donors.js:5211
-#: assets/dist/js/give-admin-donors.js:7576
-#: assets/dist/js/give-admin-event-tickets-details.js:7152
-#: assets/dist/js/give-admin-event-tickets-details.js:8992
-#: assets/dist/js/give-admin-event-tickets.js:6649
-#: assets/dist/js/give-admin-event-tickets.js:8489
-#: assets/dist/js/give-admin-subscriptions.js:4423
-#: assets/dist/js/give-admin-subscriptions.js:6263
-#: assets/dist/js/give-log-list-table-app.js:5366
-#: assets/dist/js/give-log-list-table-app.js:7817
-#: assets/dist/js/give-migrations-list-table-app.js:5366
-#: assets/dist/js/give-migrations-list-table-app.js:7704
+#: assets/dist/js/give-admin-donation-forms.js:6467
+#: assets/dist/js/give-admin-donation-forms.js:8302
+#: assets/dist/js/give-admin-donations.js:5399
+#: assets/dist/js/give-admin-donations.js:7759
+#: assets/dist/js/give-admin-donors.js:5218
+#: assets/dist/js/give-admin-donors.js:7578
+#: assets/dist/js/give-admin-event-tickets-details.js:7159
+#: assets/dist/js/give-admin-event-tickets-details.js:8994
+#: assets/dist/js/give-admin-event-tickets.js:6656
+#: assets/dist/js/give-admin-event-tickets.js:8491
+#: assets/dist/js/give-admin-subscriptions.js:4430
+#: assets/dist/js/give-admin-subscriptions.js:6265
+#: assets/dist/js/give-log-list-table-app.js:5373
+#: assets/dist/js/give-log-list-table-app.js:7819
+#: assets/dist/js/give-migrations-list-table-app.js:5373
+#: assets/dist/js/give-migrations-list-table-app.js:7706
 msgid "Current Page"
 msgstr ""
 
-#: assets/dist/js/give-admin-donation-forms.js:8137
-#: assets/dist/js/give-admin-donations.js:7594
-#: assets/dist/js/give-admin-donors.js:7413
-#: assets/dist/js/give-admin-event-tickets-details.js:8829
-#: assets/dist/js/give-admin-event-tickets.js:8326
-#: assets/dist/js/give-admin-subscriptions.js:6100
-#: assets/dist/js/give-log-list-table-app.js:7654
-#: assets/dist/js/give-migrations-list-table-app.js:7541
+#: assets/dist/js/give-admin-donation-forms.js:8142
+#: assets/dist/js/give-admin-donations.js:7599
+#: assets/dist/js/give-admin-donors.js:7418
+#: assets/dist/js/give-admin-event-tickets-details.js:8834
+#: assets/dist/js/give-admin-event-tickets.js:8331
+#: assets/dist/js/give-admin-subscriptions.js:6105
+#: assets/dist/js/give-log-list-table-app.js:7659
+#: assets/dist/js/give-migrations-list-table-app.js:7546
 msgid "Error details"
 msgstr ""
 
-#: assets/dist/js/give-admin-donation-forms.js:8137
-#: assets/dist/js/give-admin-donations.js:7594
-#: assets/dist/js/give-admin-donors.js:7413
-#: assets/dist/js/give-admin-event-tickets-details.js:8829
-#: assets/dist/js/give-admin-event-tickets.js:8326
-#: assets/dist/js/give-admin-subscriptions.js:6100
-#: assets/dist/js/give-log-list-table-app.js:7654
-#: assets/dist/js/give-migrations-list-table-app.js:7541
+#: assets/dist/js/give-admin-donation-forms.js:8142
+#: assets/dist/js/give-admin-donations.js:7599
+#: assets/dist/js/give-admin-donors.js:7418
+#: assets/dist/js/give-admin-event-tickets-details.js:8834
+#: assets/dist/js/give-admin-event-tickets.js:8331
+#: assets/dist/js/give-admin-subscriptions.js:6105
+#: assets/dist/js/give-log-list-table-app.js:7659
+#: assets/dist/js/give-migrations-list-table-app.js:7546
 msgid "Additional context"
 msgstr ""
 
-#: assets/dist/js/give-admin-donation-forms.js:9066
-#: assets/dist/js/give-admin-donations.js:8523
-#: assets/dist/js/give-admin-donors.js:8342
-#: assets/dist/js/give-admin-event-tickets-details.js:9758
-#: assets/dist/js/give-admin-event-tickets.js:9255
-#: assets/dist/js/give-admin-subscriptions.js:7029
-#: assets/dist/js/give-log-list-table-app.js:8583
-#: assets/dist/js/give-migrations-list-table-app.js:8470
+#: assets/dist/js/give-admin-donation-forms.js:9064
+#: assets/dist/js/give-admin-donations.js:8521
+#: assets/dist/js/give-admin-donors.js:8340
+#: assets/dist/js/give-admin-event-tickets-details.js:9756
+#: assets/dist/js/give-admin-event-tickets.js:9253
+#: assets/dist/js/give-admin-subscriptions.js:7027
+#: assets/dist/js/give-log-list-table-app.js:8581
+#: assets/dist/js/give-migrations-list-table-app.js:8468
 msgid "No data"
 msgstr ""
 
@@ -20716,114 +20726,114 @@ msgstr ""
 msgid "Upgrade this form"
 msgstr ""
 
-#: assets/dist/js/give-log-list-table-app.js:6511
+#: assets/dist/js/give-log-list-table-app.js:6513
 #: build/adminBlocks.js:1
 msgid "All categories"
 msgstr ""
 
-#: assets/dist/js/give-log-list-table-app.js:6524
+#: assets/dist/js/give-log-list-table-app.js:6526
 msgid "All statuses"
 msgstr ""
 
-#: assets/dist/js/give-log-list-table-app.js:6540
+#: assets/dist/js/give-log-list-table-app.js:6542
 msgid "All sources"
 msgstr ""
 
-#: assets/dist/js/give-log-list-table-app.js:6564
+#: assets/dist/js/give-log-list-table-app.js:6566
 msgid "Log ID"
 msgstr ""
 
-#: assets/dist/js/give-log-list-table-app.js:6573
-#: assets/dist/js/give-log-list-table-app.js:6670
+#: assets/dist/js/give-log-list-table-app.js:6575
+#: assets/dist/js/give-log-list-table-app.js:6672
 msgid "Category"
 msgstr ""
 
-#: assets/dist/js/give-log-list-table-app.js:6576
-#: assets/dist/js/give-log-list-table-app.js:6677
-#: assets/dist/js/give-migrations-list-table-app.js:6585
+#: assets/dist/js/give-log-list-table-app.js:6578
+#: assets/dist/js/give-log-list-table-app.js:6679
+#: assets/dist/js/give-migrations-list-table-app.js:6587
 msgid "Source"
 msgstr ""
 
-#: assets/dist/js/give-log-list-table-app.js:6579
+#: assets/dist/js/give-log-list-table-app.js:6581
 msgid "Date & Time"
 msgstr ""
 
-#: assets/dist/js/give-log-list-table-app.js:6596
-#: assets/dist/js/give-log-list-table-app.js:6737
-#: assets/dist/js/give-migrations-list-table-app.js:6668
+#: assets/dist/js/give-log-list-table-app.js:6598
+#: assets/dist/js/give-log-list-table-app.js:6739
+#: assets/dist/js/give-migrations-list-table-app.js:6670
 msgid "Something went wrong!"
 msgstr ""
 
-#: assets/dist/js/give-log-list-table-app.js:6611
+#: assets/dist/js/give-log-list-table-app.js:6613
 msgid "Flushing logs"
 msgstr ""
 
-#: assets/dist/js/give-log-list-table-app.js:6616
-#: assets/dist/js/give-log-list-table-app.js:6804
+#: assets/dist/js/give-log-list-table-app.js:6618
+#: assets/dist/js/give-log-list-table-app.js:6806
 msgid "Flush all logs"
 msgstr ""
 
-#: assets/dist/js/give-log-list-table-app.js:6618
+#: assets/dist/js/give-log-list-table-app.js:6620
 msgid "Do you want to flush all logs?"
 msgstr ""
 
-#: assets/dist/js/give-log-list-table-app.js:6684
+#: assets/dist/js/give-log-list-table-app.js:6686
 msgid "Date/Time"
 msgstr ""
 
-#: assets/dist/js/give-log-list-table-app.js:6728
+#: assets/dist/js/give-log-list-table-app.js:6730
 msgid "Loading log activity"
 msgstr ""
 
-#: assets/dist/js/give-log-list-table-app.js:6778
+#: assets/dist/js/give-log-list-table-app.js:6780
 #: build/donationFormRegistrars.js:1
 #: build/formBuilderApp.js:13
 #: build/formBuilderRegistrars.js:1
 msgid "Reset"
 msgstr ""
 
-#: assets/dist/js/give-migrations-list-table-app.js:6476
+#: assets/dist/js/give-migrations-list-table-app.js:6478
 msgid "Migration Failed"
 msgstr ""
 
-#: assets/dist/js/give-migrations-list-table-app.js:6484
-#: assets/dist/js/give-migrations-list-table-app.js:6575
+#: assets/dist/js/give-migrations-list-table-app.js:6486
+#: assets/dist/js/give-migrations-list-table-app.js:6577
 msgid "Last run"
 msgstr ""
 
-#: assets/dist/js/give-migrations-list-table-app.js:6503
+#: assets/dist/js/give-migrations-list-table-app.js:6505
 msgid "Database update failed!"
 msgstr ""
 
-#: assets/dist/js/give-migrations-list-table-app.js:6509
+#: assets/dist/js/give-migrations-list-table-app.js:6511
 msgid "Check migration details for more information"
 msgstr ""
 
-#: assets/dist/js/give-migrations-list-table-app.js:6516
+#: assets/dist/js/give-migrations-list-table-app.js:6518
 msgid "Running Update"
 msgstr ""
 
-#: assets/dist/js/give-migrations-list-table-app.js:6526
+#: assets/dist/js/give-migrations-list-table-app.js:6528
 msgid "Create a Backup Before Running Database Update"
 msgstr ""
 
-#: assets/dist/js/give-migrations-list-table-app.js:6533
+#: assets/dist/js/give-migrations-list-table-app.js:6535
 msgid "We strongly recommend you create a complete backup of your WordPress files and database prior to performing an update. We are not responsible for any misuse, deletions, white screens, fatal errors, or any other issue resulting from the use of this plugin."
 msgstr ""
 
-#: assets/dist/js/give-migrations-list-table-app.js:6563
+#: assets/dist/js/give-migrations-list-table-app.js:6565
 msgid "Migration Title"
 msgstr ""
 
-#: assets/dist/js/give-migrations-list-table-app.js:6595
+#: assets/dist/js/give-migrations-list-table-app.js:6597
 msgid "Run Order"
 msgstr ""
 
-#: assets/dist/js/give-migrations-list-table-app.js:6635
+#: assets/dist/js/give-migrations-list-table-app.js:6637
 msgid "Re-run Update"
 msgstr ""
 
-#: assets/dist/js/give-migrations-list-table-app.js:6659
+#: assets/dist/js/give-migrations-list-table-app.js:6661
 msgid "Loading updates activity"
 msgstr ""
 
@@ -21319,6 +21329,7 @@ msgstr ""
 
 #: build/donationFormApp.js:1
 #: build/donationFormApp.js:2
+#: build/donationFormRegistrars.js:1
 msgid "Something went wrong, please try again or contact support."
 msgstr ""
 
@@ -22240,6 +22251,10 @@ msgid "Form Field Overview"
 msgstr ""
 
 #: build/formBuilderApp.js:13
+msgid "Next"
+msgstr ""
+
+#: build/formBuilderApp.js:13
 msgid "<strong>Step <stepNumber /></strong> of <stepCount />"
 msgstr ""
 
@@ -22520,6 +22535,22 @@ msgstr ""
 
 #: build/formBuilderRegistrars.js:1
 msgid "Display payment gateway options for donors to process their donation."
+msgstr ""
+
+#: build/formBuilderRegistrars.js:1
+msgid "Enable more payment gateways"
+msgstr ""
+
+#: build/formBuilderRegistrars.js:1
+msgid "Additional Payment Gateways"
+msgstr ""
+
+#: build/formBuilderRegistrars.js:1
+msgid "Enable multiple payment gateways on your forms via the global settings."
+msgstr ""
+
+#: build/formBuilderRegistrars.js:1
+msgid "Go to payment gateway settings"
 msgstr ""
 
 #: build/formBuilderRegistrars.js:1
