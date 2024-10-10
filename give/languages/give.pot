@@ -2,14 +2,14 @@
 # This file is distributed under the same license as the Give - Donation Plugin plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: Give - Donation Plugin 3.16.3\n"
+"Project-Id-Version: Give - Donation Plugin 3.16.4\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/givewp\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-10-07T14:07:54+00:00\n"
+"POT-Creation-Date: 2024-10-10T22:56:25+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: give\n"
@@ -387,7 +387,7 @@ msgstr ""
 
 #: includes/admin/admin-actions.php:971
 #: includes/class-give-scripts.php:521
-#: includes/process-donation.php:654
+#: includes/process-donation.php:632
 #: includes/shortcodes.php:509
 msgid "Please enter your first name."
 msgstr ""
@@ -1135,15 +1135,15 @@ msgstr ""
 #: includes/formatting.php:805
 #: includes/formatting.php:847
 #: includes/gateways/actions.php:48
-#: includes/process-donation.php:938
+#: includes/process-donation.php:916
 #: src/LegacyPaymentGateways/Adapters/LegacyPaymentGatewayAdapter.php:278
 msgid "We're unable to recognize your session. Please refresh the screen to try again; otherwise contact your website administrator for assistance."
 msgstr ""
 
 #: includes/admin/donors/donor-actions.php:438
 #: includes/login-register.php:267
-#: includes/process-donation.php:894
-#: includes/process-donation.php:1094
+#: includes/process-donation.php:872
+#: includes/process-donation.php:1072
 #: includes/user-functions.php:373
 msgid "Invalid email."
 msgstr ""
@@ -8024,12 +8024,12 @@ msgid "Please select payment mode."
 msgstr ""
 
 #: includes/class-give-scripts.php:522
-#: includes/process-donation.php:804
+#: includes/process-donation.php:782
 msgid "Please enter your last name."
 msgstr ""
 
 #: includes/class-give-scripts.php:523
-#: includes/process-donation.php:650
+#: includes/process-donation.php:628
 msgid "Please enter a valid email address."
 msgstr ""
 
@@ -8038,7 +8038,7 @@ msgid "Invalid email address or username."
 msgstr ""
 
 #: includes/class-give-scripts.php:525
-#: includes/process-donation.php:1049
+#: includes/process-donation.php:1027
 #: includes/user-functions.php:419
 msgid "Enter a password."
 msgstr ""
@@ -8049,7 +8049,7 @@ msgid "Enter the password confirmation."
 msgstr ""
 
 #: includes/class-give-scripts.php:527
-#: includes/process-donation.php:628
+#: includes/process-donation.php:606
 msgid "You must agree to the terms and conditions."
 msgstr ""
 
@@ -13310,7 +13310,7 @@ msgid "Your password"
 msgstr ""
 
 #: includes/forms/template.php:1676
-#: includes/process-donation.php:1031
+#: includes/process-donation.php:1009
 #: templates/shortcode-login.php:52
 msgid "Reset Password"
 msgstr ""
@@ -14362,12 +14362,12 @@ msgid "We're sorry, your donation failed to process. Please try again or contact
 msgstr ""
 
 #: includes/login-register.php:122
-#: includes/process-donation.php:1029
+#: includes/process-donation.php:1007
 msgid "The password you entered is incorrect."
 msgstr ""
 
 #: includes/login-register.php:125
-#: includes/process-donation.php:1053
+#: includes/process-donation.php:1031
 msgid "The username you entered does not exist."
 msgstr ""
 
@@ -14742,103 +14742,107 @@ msgstr ""
 msgid "The email you are using has been flagged as one used in SPAM comments or donations by our system. Please try using a different email address or contact the site administrator if you have any questions."
 msgstr ""
 
-#: includes/process-donation.php:507
+#: includes/process-donation.php:485
 msgid "The donation form will process with a valid payment gateway."
 msgstr ""
 
-#: includes/process-donation.php:511
+#: includes/process-donation.php:489
 msgid "The selected payment gateway is not enabled."
 msgstr ""
 
-#: includes/process-donation.php:515
+#: includes/process-donation.php:493
 msgid "Please insert a valid donation amount."
 msgstr ""
 
 #. translators: %s: minimum donation amount
-#: includes/process-donation.php:523
+#: includes/process-donation.php:501
 msgid "This form has a minimum donation amount of %s."
 msgstr ""
 
 #. translators: %s: Maximum donation amount
-#: includes/process-donation.php:540
+#: includes/process-donation.php:518
 msgid "This form has a maximum donation amount of %s."
 msgstr ""
 
-#: includes/process-donation.php:662
+#: includes/process-donation.php:640
 msgid "Please enter your title."
 msgstr ""
 
-#: includes/process-donation.php:679
+#: includes/process-donation.php:657
 msgid "Please enter a credit card number."
 msgstr ""
 
-#: includes/process-donation.php:690
+#: includes/process-donation.php:668
 msgid "Please enter a credit card CVC information."
 msgstr ""
 
-#: includes/process-donation.php:710
+#: includes/process-donation.php:688
 msgid "Please enter a name of your credit card account holder."
 msgstr ""
 
-#: includes/process-donation.php:721
+#: includes/process-donation.php:699
 msgid "Please enter a credit card expiry date."
 msgstr ""
 
-#: includes/process-donation.php:731
+#: includes/process-donation.php:709
 msgid "Please enter your primary billing address."
 msgstr ""
 
-#: includes/process-donation.php:735
+#: includes/process-donation.php:713
 msgid "Please enter your zip / postal code."
 msgstr ""
 
-#: includes/process-donation.php:739
+#: includes/process-donation.php:717
 msgid "Please enter your billing city."
 msgstr ""
 
-#: includes/process-donation.php:743
+#: includes/process-donation.php:721
 msgid "Please select your billing country."
 msgstr ""
 
-#: includes/process-donation.php:748
+#: includes/process-donation.php:726
 msgid "Please enter billing state / province / County."
 msgstr ""
 
-#: includes/process-donation.php:796
+#: includes/process-donation.php:774
 msgid "Please enter Company Name."
 msgstr ""
 
-#: includes/process-donation.php:899
+#: includes/process-donation.php:877
 msgid "The user information is invalid."
 msgstr ""
 
-#: includes/process-donation.php:996
+#: includes/process-donation.php:974
 msgid "Please enter your username or email to log in."
 msgstr ""
 
-#: includes/process-donation.php:1120
+#: includes/process-donation.php:1098
 #: includes/user-functions.php:363
 msgid "Enter an email."
 msgstr ""
 
-#: includes/process-donation.php:1302
+#: includes/process-donation.php:1280
 msgid "The zip / postal code you entered for your billing address is invalid."
 msgstr ""
 
 #. translators: %s: invalid donation amount
-#: includes/process-donation.php:1611
+#: includes/process-donation.php:1589
 msgid "Donation amount %s is invalid."
 msgstr ""
 
-#: includes/process-donation.php:1657
+#: includes/process-donation.php:1636
 msgid "The name title prefix field is not enabled."
 msgstr ""
 
-#: includes/process-donation.php:1661
+#: includes/process-donation.php:1640
+msgid "The company field is not enabled."
+msgstr ""
+
+#: includes/process-donation.php:1644
 msgid "The name title prefix field is not valid."
 msgstr ""
 
-#: includes/process-donation.php:1669
+#: includes/process-donation.php:1652
 msgid "The First Name and Last Name fields cannot contain an email address or numbers."
 msgstr ""
 
