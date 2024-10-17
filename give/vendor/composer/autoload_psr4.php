@@ -17,7 +17,6 @@ return array(
     'Psr\\Container\\' => array($vendorDir . '/psr/container/src'),
     'PayPalHttp\\' => array($vendorDir . '/paypal/paypalhttp/lib/PayPalHttp'),
     'PayPalCheckoutSdk\\' => array($vendorDir . '/paypal/paypal-checkout-sdk/lib/PayPalCheckoutSdk'),
-    'MyCLabs\\Enum\\' => array($vendorDir . '/myclabs/php-enum/src'),
     'Money\\' => array($vendorDir . '/moneyphp/money/src'),
     'Give\\' => array($baseDir . '/src'),
     'FormatObjectList\\' => array($vendorDir . '/kjohnson/format-object-list/src'),

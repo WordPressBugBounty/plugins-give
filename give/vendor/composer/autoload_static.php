@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit710d2ab2c1fe36ccdb02fe9d59fa4d93
+class ComposerStaticInit43cef1ed6b67b39654509b96e53093c7
 {
     public static $files = array (
         '6e3fae29631ef280660b3cdad06f25a8' => __DIR__ . '/..' . '/symfony/deprecation-contracts/function.php',
@@ -34,7 +34,6 @@ class ComposerStaticInit710d2ab2c1fe36ccdb02fe9d59fa4d93
         ),
         'M' => 
         array (
-            'MyCLabs\\Enum\\' => 13,
             'Money\\' => 6,
         ),
         'G' => 
@@ -97,10 +96,6 @@ class ComposerStaticInit710d2ab2c1fe36ccdb02fe9d59fa4d93
         array (
             0 => __DIR__ . '/..' . '/paypal/paypal-checkout-sdk/lib/PayPalCheckoutSdk',
         ),
-        'MyCLabs\\Enum\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/myclabs/php-enum/src',
-        ),
         'Money\\' => 
         array (
             0 => __DIR__ . '/..' . '/moneyphp/money/src',
@@ -144,9 +139,9 @@ class ComposerStaticInit710d2ab2c1fe36ccdb02fe9d59fa4d93
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit710d2ab2c1fe36ccdb02fe9d59fa4d93::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit710d2ab2c1fe36ccdb02fe9d59fa4d93::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit710d2ab2c1fe36ccdb02fe9d59fa4d93::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit43cef1ed6b67b39654509b96e53093c7::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit43cef1ed6b67b39654509b96e53093c7::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit43cef1ed6b67b39654509b96e53093c7::$classMap;
 
         }, null, ClassLoader::class);
     }

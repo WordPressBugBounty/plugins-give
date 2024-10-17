@@ -2,14 +2,14 @@
 # This file is distributed under the same license as the Give - Donation Plugin plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: Give - Donation Plugin 3.16.5\n"
+"Project-Id-Version: Give - Donation Plugin 3.17.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/givewp\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-10-15T19:55:28+00:00\n"
+"POT-Creation-Date: 2024-10-17T01:28:50+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: give\n"
@@ -112,11 +112,11 @@ msgstr ""
 msgid "Give"
 msgstr ""
 
-#: give.php:452
+#: give.php:454
 msgid "The Visual Form Builder Beta plugin is no longer needed, since the form builder is included in your current version of GiveWP. To prevent conflicts, the Beta plugin has been deactivated and can be safely deleted."
 msgstr ""
 
-#: give.php:479
+#: give.php:481
 msgid "<strong>Attention:</strong> GiveWP 2.5.0+ requires the latest version of the Recurring Donations add-on to process payments properly with Stripe. Please update to the latest version add-on to resolve compatibility issues. If your license is active, you should see the update available in WordPress. Otherwise, you can access the latest version by <a href=\"%1$s\" target=\"_blank\">logging into your account</a> and visiting <a href=\"%1$s\" target=\"_blank\">your downloads</a> page on the GiveWP website."
 msgstr ""
 
@@ -1229,6 +1229,7 @@ msgstr ""
 #: includes/admin/donors/donors.php:368
 #: includes/admin/import-functions.php:542
 #: includes/forms/template.php:790
+#: src/DonationForms/Actions/ConvertDonationFormBlocksToFieldsApi.php:305
 #: build/adminBlocks.js:1
 #: build/donationFormBlock.js:1
 #: build/formBuilderApp.js:13
@@ -1844,6 +1845,7 @@ msgstr ""
 #: src/PaymentGateways/Gateways/PayPalStandard/PayPalStandard.php:240
 #: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:157
 #: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:230
+#: src/Settings/Security/Actions/RegisterSettings.php:55
 #: src/Tracking/AdminSettings.php:47
 #: src/Views/Form/Templates/Classic/optionConfig.php:57
 #: src/Views/Form/Templates/Classic/optionConfig.php:113
@@ -1909,6 +1911,7 @@ msgstr ""
 #: src/PaymentGateways/Gateways/PayPalStandard/PayPalStandard.php:241
 #: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:158
 #: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:231
+#: src/Settings/Security/Actions/RegisterSettings.php:56
 #: src/Tracking/AdminSettings.php:48
 #: src/Views/Form/Templates/Classic/optionConfig.php:58
 #: src/Views/Form/Templates/Classic/optionConfig.php:114
@@ -3127,7 +3130,7 @@ msgstr ""
 #: src/Donations/ValueObjects/DonationStatus.php:58
 #: src/Onboarding/Setup/templates/index.html.php:61
 #: src/Onboarding/Setup/templates/index.html.php:94
-#: src/Subscriptions/ValueObjects/SubscriptionStatus.php:51
+#: src/Subscriptions/ValueObjects/SubscriptionStatus.php:56
 msgid "Completed"
 msgstr ""
 
@@ -3137,7 +3140,7 @@ msgstr ""
 #: src/DonationForms/V2/ValueObjects/DonationFormStatus.php:40
 #: src/Donations/ValueObjects/DonationStatus.php:56
 #: src/MigrationLog/MigrationLogStatus.php:37
-#: src/Subscriptions/ValueObjects/SubscriptionStatus.php:48
+#: src/Subscriptions/ValueObjects/SubscriptionStatus.php:53
 #: assets/dist/js/give-admin-donation-forms.js:1095
 msgid "Pending"
 msgstr ""
@@ -3153,7 +3156,7 @@ msgstr ""
 #: includes/post-types.php:343
 #: src/API/Endpoints/Reports/PaymentStatuses.php:95
 #: src/Donations/ValueObjects/DonationStatus.php:59
-#: src/Subscriptions/ValueObjects/SubscriptionStatus.php:52
+#: src/Subscriptions/ValueObjects/SubscriptionStatus.php:57
 #: assets/dist/js/admin-reports.js:3512
 msgid "Refunded"
 msgstr ""
@@ -3172,7 +3175,7 @@ msgstr ""
 #: src/API/Endpoints/Reports/PaymentStatuses.php:110
 #: src/Donations/ValueObjects/DonationStatus.php:60
 #: src/MigrationLog/MigrationLogStatus.php:36
-#: src/Subscriptions/ValueObjects/SubscriptionStatus.php:53
+#: src/Subscriptions/ValueObjects/SubscriptionStatus.php:58
 #: src/Views/Form/Templates/Classic/resources/views/receipt.php:38
 msgid "Failed"
 msgstr ""
@@ -3182,7 +3185,7 @@ msgstr ""
 #: includes/post-types.php:376
 #: src/API/Endpoints/Reports/PaymentStatuses.php:105
 #: src/Donations/ValueObjects/DonationStatus.php:61
-#: src/Subscriptions/ValueObjects/SubscriptionStatus.php:54
+#: src/Subscriptions/ValueObjects/SubscriptionStatus.php:59
 #: assets/dist/js/admin-reports.js:3510
 msgid "Cancelled"
 msgstr ""
@@ -3192,7 +3195,7 @@ msgstr ""
 #: includes/post-types.php:387
 #: src/API/Endpoints/Reports/PaymentStatuses.php:100
 #: src/Donations/ValueObjects/DonationStatus.php:62
-#: src/Subscriptions/ValueObjects/SubscriptionStatus.php:55
+#: src/Subscriptions/ValueObjects/SubscriptionStatus.php:60
 #: assets/dist/js/admin-reports.js:3508
 msgid "Abandoned"
 msgstr ""
@@ -13032,14 +13035,17 @@ msgid "Goal achieved"
 msgstr ""
 
 #: includes/forms/functions.php:1513
+#: build/formBuilderRegistrars.js:1
 msgid "Mr."
 msgstr ""
 
 #: includes/forms/functions.php:1514
+#: build/formBuilderRegistrars.js:1
 msgid "Mrs."
 msgstr ""
 
 #: includes/forms/functions.php:1515
+#: build/formBuilderRegistrars.js:1
 msgid "Ms."
 msgstr ""
 
@@ -13760,12 +13766,12 @@ msgstr ""
 msgid "This option enables the billing details section for Stripe, requiring the donor's address to complete the donation. These fields are not required by Stripe to process the transaction, but you may have the need to collect the data."
 msgstr ""
 
-#: includes/gateways/stripe/includes/admin/class-give-stripe-admin-settings.php:213
+#: includes/gateways/stripe/includes/admin/class-give-stripe-admin-settings.php:204
 msgid "Stripe Receipt Emails"
 msgstr ""
 
 #. translators: 1. GiveWP Support URL
-#: includes/gateways/stripe/includes/admin/class-give-stripe-admin-settings.php:216
+#: includes/gateways/stripe/includes/admin/class-give-stripe-admin-settings.php:207
 msgid "Check this option if you would like donors to receive receipt emails directly from Stripe. By default, donors will receive GiveWP generated <a href=\"%1$s\" target=\"_blank\">receipt emails</a>. Checking this option does not disable GiveWP emails."
 msgstr ""
 
@@ -16208,7 +16214,7 @@ msgid "Progress"
 msgstr ""
 
 #: src/Framework/Receipts/Actions/GenerateConfirmationPageReceipt.php:283
-#: src/LegacySubscriptions/includes/give-subscription.php:967
+#: src/LegacySubscriptions/includes/give-subscription.php:996
 #: build/formBuilderRegistrars.js:1
 msgid "Ongoing"
 msgstr ""
@@ -18553,6 +18559,19 @@ msgstr ""
 msgid "An error occurred inserting data into the revenue table"
 msgstr ""
 
+#: src/Settings/Security/Actions/RegisterSection.php:15
+#: src/Settings/Security/SecuritySettingsPage.php:17
+msgid "Security"
+msgstr ""
+
+#: src/Settings/Security/Actions/RegisterSettings.php:46
+msgid "Enable Honeypot Field"
+msgstr ""
+
+#: src/Settings/Security/Actions/RegisterSettings.php:47
+msgid "If enabled, this option will add a honeypot security measure to all donation forms"
+msgstr ""
+
 #: src/Subscriptions/Endpoints/SubscriptionActions.php:79
 msgid "You don't have permission to edit Subscriptions"
 msgstr ""
@@ -18661,16 +18680,20 @@ msgstr ""
 msgid "Every %d years"
 msgstr ""
 
-#: src/Subscriptions/ValueObjects/SubscriptionStatus.php:49
+#: src/Subscriptions/ValueObjects/SubscriptionStatus.php:54
 msgid "Active"
 msgstr ""
 
-#: src/Subscriptions/ValueObjects/SubscriptionStatus.php:50
+#: src/Subscriptions/ValueObjects/SubscriptionStatus.php:55
 msgid "Expired"
 msgstr ""
 
-#: src/Subscriptions/ValueObjects/SubscriptionStatus.php:56
+#: src/Subscriptions/ValueObjects/SubscriptionStatus.php:61
 msgid "Suspended"
+msgstr ""
+
+#: src/Subscriptions/ValueObjects/SubscriptionStatus.php:62
+msgid "Paused"
 msgstr ""
 
 #: src/Tracking/AdminSettings.php:37
