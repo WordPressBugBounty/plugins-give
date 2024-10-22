@@ -2,14 +2,14 @@
 # This file is distributed under the same license as the Give - Donation Plugin plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: Give - Donation Plugin 3.17.0\n"
+"Project-Id-Version: Give - Donation Plugin 3.17.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/givewp\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-10-17T01:28:50+00:00\n"
+"POT-Creation-Date: 2024-10-22T21:34:41+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: give\n"
@@ -563,33 +563,33 @@ msgstr ""
 msgid "Get Support"
 msgstr ""
 
-#: includes/admin/class-admin-settings.php:106
+#: includes/admin/class-admin-settings.php:107
 msgid "Action failed. Please refresh the page and retry."
 msgstr ""
 
-#: includes/admin/class-admin-settings.php:121
+#: includes/admin/class-admin-settings.php:122
 msgid "Your settings have been saved."
 msgstr ""
 
-#: includes/admin/class-admin-settings.php:469
+#: includes/admin/class-admin-settings.php:470
 msgid "Add Field"
 msgstr ""
 
-#: includes/admin/class-admin-settings.php:598
+#: includes/admin/class-admin-settings.php:599
 msgid "Remove setting field"
 msgstr ""
 
-#: includes/admin/class-admin-settings.php:816
+#: includes/admin/class-admin-settings.php:817
 #: includes/admin/give-metabox-functions.php:1045
 msgid "Add or Upload %s"
 msgstr ""
 
-#: includes/admin/class-admin-settings.php:816
+#: includes/admin/class-admin-settings.php:817
 #: includes/admin/give-metabox-functions.php:1045
 msgid "File"
 msgstr ""
 
-#: includes/admin/class-admin-settings.php:816
+#: includes/admin/class-admin-settings.php:817
 #: includes/admin/give-metabox-functions.php:1045
 #: src/Views/Form/Templates/Sequoia/optionConfig.php:111
 #: src/Views/Form/Templates/Sequoia/optionConfig.php:268
@@ -597,12 +597,12 @@ msgstr ""
 msgid "Image"
 msgstr ""
 
-#: includes/admin/class-admin-settings.php:959
+#: includes/admin/class-admin-settings.php:960
 msgid "Select Some Options"
 msgstr ""
 
 #. translators: %s Title
-#: includes/admin/class-admin-settings.php:1000
+#: includes/admin/class-admin-settings.php:1001
 #: includes/admin/give-metabox-functions.php:1137
 msgid "Need Help? See docs on \"%s\""
 msgstr ""
@@ -1845,7 +1845,7 @@ msgstr ""
 #: src/PaymentGateways/Gateways/PayPalStandard/PayPalStandard.php:240
 #: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:157
 #: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:230
-#: src/Settings/Security/Actions/RegisterSettings.php:55
+#: src/Settings/Security/Actions/RegisterSettings.php:56
 #: src/Tracking/AdminSettings.php:47
 #: src/Views/Form/Templates/Classic/optionConfig.php:57
 #: src/Views/Form/Templates/Classic/optionConfig.php:113
@@ -1911,7 +1911,7 @@ msgstr ""
 #: src/PaymentGateways/Gateways/PayPalStandard/PayPalStandard.php:241
 #: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:158
 #: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:231
-#: src/Settings/Security/Actions/RegisterSettings.php:56
+#: src/Settings/Security/Actions/RegisterSettings.php:57
 #: src/Tracking/AdminSettings.php:48
 #: src/Views/Form/Templates/Classic/optionConfig.php:58
 #: src/Views/Form/Templates/Classic/optionConfig.php:114
@@ -18564,11 +18564,11 @@ msgstr ""
 msgid "Security"
 msgstr ""
 
-#: src/Settings/Security/Actions/RegisterSettings.php:46
+#: src/Settings/Security/Actions/RegisterSettings.php:47
 msgid "Enable Honeypot Field"
 msgstr ""
 
-#: src/Settings/Security/Actions/RegisterSettings.php:47
+#: src/Settings/Security/Actions/RegisterSettings.php:48
 msgid "If enabled, this option will add a honeypot security measure to all donation forms"
 msgstr ""
 
