@@ -4,10 +4,9 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit43cef1ed6b67b39654509b96e53093c7
+class ComposerStaticInit035a59cb7f15cc6ca6964b692035eb4d
 {
     public static $files = array (
-        '6e3fae29631ef280660b3cdad06f25a8' => __DIR__ . '/..' . '/symfony/deprecation-contracts/function.php',
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
         '5f6326688f4debc6e43d6860fdea3df8' => __DIR__ . '/../..' . '/src/Framework/Http/Response/functions.php',
@@ -28,7 +27,6 @@ class ComposerStaticInit43cef1ed6b67b39654509b96e53093c7
         ),
         'P' => 
         array (
-            'Psr\\Container\\' => 14,
             'PayPalHttp\\' => 11,
             'PayPalCheckoutSdk\\' => 18,
         ),
@@ -43,7 +41,6 @@ class ComposerStaticInit43cef1ed6b67b39654509b96e53093c7
         'F' => 
         array (
             'FormatObjectList\\' => 17,
-            'Faker\\' => 6,
         ),
         'C' => 
         array (
@@ -84,10 +81,6 @@ class ComposerStaticInit43cef1ed6b67b39654509b96e53093c7
         array (
             0 => __DIR__ . '/..' . '/paypal/paypal-checkout-sdk/samples',
         ),
-        'Psr\\Container\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/psr/container/src',
-        ),
         'PayPalHttp\\' => 
         array (
             0 => __DIR__ . '/..' . '/paypal/paypalhttp/lib/PayPalHttp',
@@ -107,10 +100,6 @@ class ComposerStaticInit43cef1ed6b67b39654509b96e53093c7
         'FormatObjectList\\' => 
         array (
             0 => __DIR__ . '/..' . '/kjohnson/format-object-list/src',
-        ),
-        'Faker\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/fakerphp/faker/src/Faker',
         ),
         'Composer\\Installers\\' => 
         array (
@@ -139,9 +128,9 @@ class ComposerStaticInit43cef1ed6b67b39654509b96e53093c7
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit43cef1ed6b67b39654509b96e53093c7::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit43cef1ed6b67b39654509b96e53093c7::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit43cef1ed6b67b39654509b96e53093c7::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit035a59cb7f15cc6ca6964b692035eb4d::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit035a59cb7f15cc6ca6964b692035eb4d::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit035a59cb7f15cc6ca6964b692035eb4d::$classMap;
 
         }, null, ClassLoader::class);
     }

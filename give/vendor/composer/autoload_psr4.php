@@ -14,12 +14,10 @@ return array(
     'StellarWP\\FieldConditions\\' => array($vendorDir . '/stellarwp/field-conditions/src'),
     'StellarWP\\ContainerContract\\' => array($vendorDir . '/stellarwp/container-contract/src'),
     'Sample\\' => array($vendorDir . '/paypal/paypal-checkout-sdk/samples'),
-    'Psr\\Container\\' => array($vendorDir . '/psr/container/src'),
     'PayPalHttp\\' => array($vendorDir . '/paypal/paypalhttp/lib/PayPalHttp'),
     'PayPalCheckoutSdk\\' => array($vendorDir . '/paypal/paypal-checkout-sdk/lib/PayPalCheckoutSdk'),
     'Money\\' => array($vendorDir . '/moneyphp/money/src'),
     'Give\\' => array($baseDir . '/src'),
     'FormatObjectList\\' => array($vendorDir . '/kjohnson/format-object-list/src'),
-    'Faker\\' => array($vendorDir . '/fakerphp/faker/src/Faker'),
     'Composer\\Installers\\' => array($vendorDir . '/composer/installers/src/Composer/Installers'),
 );
