@@ -2,14 +2,14 @@
 # This file is distributed under the same license as the Give - Donation Plugin plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: Give - Donation Plugin 3.17.2\n"
+"Project-Id-Version: Give - Donation Plugin 3.18.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/givewp\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-11-06T18:46:19+00:00\n"
+"POT-Creation-Date: 2024-11-20T23:11:15+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: give\n"
@@ -112,11 +112,11 @@ msgstr ""
 msgid "Give"
 msgstr ""
 
-#: give.php:454
+#: give.php:455
 msgid "The Visual Form Builder Beta plugin is no longer needed, since the form builder is included in your current version of GiveWP. To prevent conflicts, the Beta plugin has been deactivated and can be safely deleted."
 msgstr ""
 
-#: give.php:481
+#: give.php:482
 msgid "<strong>Attention:</strong> GiveWP 2.5.0+ requires the latest version of the Recurring Donations add-on to process payments properly with Stripe. Please update to the latest version add-on to resolve compatibility issues. If your license is active, you should see the update available in WordPress. Otherwise, you can access the latest version by <a href=\"%1$s\" target=\"_blank\">logging into your account</a> and visiting <a href=\"%1$s\" target=\"_blank\">your downloads</a> page on the GiveWP website."
 msgstr ""
 
@@ -371,7 +371,7 @@ msgid "Import Donations"
 msgstr ""
 
 #: includes/admin/admin-actions.php:663
-#: src/DonationForms/V2/DonationFormsAdminPage.php:251
+#: src/DonationForms/V2/DonationFormsAdminPage.php:253
 #: src/Donors/DonorsAdminPage.php:144
 #: src/Subscriptions/SubscriptionsAdminPage.php:109
 msgid "Switch to New View"
@@ -597,12 +597,12 @@ msgstr ""
 msgid "Image"
 msgstr ""
 
-#: includes/admin/class-admin-settings.php:960
+#: includes/admin/class-admin-settings.php:962
 msgid "Select Some Options"
 msgstr ""
 
 #. translators: %s Title
-#: includes/admin/class-admin-settings.php:1001
+#: includes/admin/class-admin-settings.php:1003
 #: includes/admin/give-metabox-functions.php:1137
 msgid "Need Help? See docs on \"%s\""
 msgstr ""
@@ -700,7 +700,7 @@ msgstr ""
 #: includes/admin/shortcodes/shortcode-give-donor-wall.php:48
 #: includes/admin/tools/export/class-give-export-donations.php:222
 #: includes/post-types.php:62
-#: src/DonationForms/V2/DonationFormsAdminPage.php:59
+#: src/DonationForms/V2/DonationFormsAdminPage.php:60
 msgid "All Forms"
 msgstr ""
 
@@ -953,7 +953,7 @@ msgstr ""
 #: includes/admin/donors/class-donor-table.php:613
 #: includes/admin/payments/class-payments-table.php:643
 #: includes/admin/payments/class-payments-table.php:773
-#: includes/payments/functions.php:1452
+#: includes/payments/functions.php:1456
 #: assets/dist/js/give-admin-donation-forms.js:1285
 #: assets/dist/js/give-admin-donation-forms.js:1946
 #: assets/dist/js/give-admin-donation-forms.js:2013
@@ -1163,7 +1163,7 @@ msgstr ""
 #: includes/admin/donors/donor-actions.php:466
 #: includes/admin/donors/donor-actions.php:524
 #: includes/admin/donors/donor-actions.php:576
-#: includes/payments/functions.php:1432
+#: includes/payments/functions.php:1436
 msgid "System"
 msgstr ""
 
@@ -1419,7 +1419,7 @@ msgstr ""
 
 #: includes/admin/donors/donors.php:874
 #: includes/admin/emails/class-email-setting-field.php:335
-#: includes/admin/settings/class-settings-advanced.php:233
+#: includes/admin/settings/class-settings-advanced.php:268
 msgid "Add Email"
 msgstr ""
 
@@ -1803,12 +1803,13 @@ msgstr ""
 #: includes/admin/forms/class-metabox-form-data.php:412
 #: includes/admin/forms/class-metabox-form-data.php:461
 #: includes/admin/forms/class-metabox-form-data.php:529
-#: includes/admin/settings/class-settings-advanced.php:79
-#: includes/admin/settings/class-settings-advanced.php:111
-#: includes/admin/settings/class-settings-advanced.php:153
-#: includes/admin/settings/class-settings-advanced.php:175
-#: includes/admin/settings/class-settings-advanced.php:213
-#: includes/admin/settings/class-settings-advanced.php:261
+#: includes/admin/settings/class-settings-advanced.php:86
+#: includes/admin/settings/class-settings-advanced.php:102
+#: includes/admin/settings/class-settings-advanced.php:138
+#: includes/admin/settings/class-settings-advanced.php:181
+#: includes/admin/settings/class-settings-advanced.php:206
+#: includes/admin/settings/class-settings-advanced.php:246
+#: includes/admin/settings/class-settings-advanced.php:297
 #: includes/admin/settings/class-settings-display.php:108
 #: includes/admin/settings/class-settings-display.php:119
 #: includes/admin/settings/class-settings-display.php:150
@@ -1821,7 +1822,7 @@ msgstr ""
 #: includes/admin/settings/class-settings-display.php:286
 #: includes/admin/settings/class-settings-gateways.php:75
 #: includes/admin/settings/class-settings-gateways.php:124
-#: includes/admin/settings/class-settings-gateways.php:483
+#: includes/admin/settings/class-settings-gateways.php:492
 #: includes/admin/settings/class-settings-general.php:117
 #: includes/admin/settings/class-settings-general.php:131
 #: includes/admin/settings/class-settings-general.php:462
@@ -1868,12 +1869,13 @@ msgstr ""
 #: includes/admin/forms/class-metabox-form-data.php:413
 #: includes/admin/forms/class-metabox-form-data.php:462
 #: includes/admin/forms/class-metabox-form-data.php:530
-#: includes/admin/settings/class-settings-advanced.php:80
-#: includes/admin/settings/class-settings-advanced.php:112
-#: includes/admin/settings/class-settings-advanced.php:154
-#: includes/admin/settings/class-settings-advanced.php:176
-#: includes/admin/settings/class-settings-advanced.php:214
-#: includes/admin/settings/class-settings-advanced.php:262
+#: includes/admin/settings/class-settings-advanced.php:87
+#: includes/admin/settings/class-settings-advanced.php:103
+#: includes/admin/settings/class-settings-advanced.php:139
+#: includes/admin/settings/class-settings-advanced.php:182
+#: includes/admin/settings/class-settings-advanced.php:207
+#: includes/admin/settings/class-settings-advanced.php:247
+#: includes/admin/settings/class-settings-advanced.php:298
 #: includes/admin/settings/class-settings-display.php:62
 #: includes/admin/settings/class-settings-display.php:85
 #: includes/admin/settings/class-settings-display.php:109
@@ -2185,7 +2187,7 @@ msgstr ""
 #: includes/admin/import-functions.php:183
 #: includes/admin/tools/export/give-export-donations-exporter.php:437
 #: includes/forms/template.php:532
-#: includes/payments/functions.php:1542
+#: includes/payments/functions.php:1565
 #: build/formBuilderRegistrars.js:1
 msgid "Custom Amount"
 msgstr ""
@@ -2231,7 +2233,7 @@ msgstr ""
 
 #: includes/admin/forms/class-metabox-form-data.php:294
 #: includes/admin/give-metabox-functions.php:199
-#: includes/admin/settings/class-settings-gateways.php:482
+#: includes/admin/settings/class-settings-gateways.php:491
 #: includes/admin/tools/views/html-admin-page-system-info.php:134
 #: includes/gateways/stripe/includes/admin/class-give-stripe-admin-settings.php:393
 #: includes/gateways/stripe/includes/admin/class-give-stripe-admin-settings.php:464
@@ -2981,7 +2983,7 @@ msgstr ""
 
 #: includes/admin/import-functions.php:486
 #: includes/admin/reports/class-gateways-reports-table.php:143
-#: includes/admin/settings/class-settings-gateways.php:480
+#: includes/admin/settings/class-settings-gateways.php:489
 #: src/Donations/ListTable/Columns/GatewayColumn.php:37
 msgid "Gateway"
 msgstr ""
@@ -3135,7 +3137,7 @@ msgid "Completed"
 msgstr ""
 
 #: includes/admin/payments/class-payments-table.php:317
-#: includes/payments/functions.php:539
+#: includes/payments/functions.php:543
 #: src/API/Endpoints/Reports/PaymentStatuses.php:90
 #: src/DonationForms/V2/ValueObjects/DonationFormStatus.php:40
 #: src/Donations/ValueObjects/DonationStatus.php:56
@@ -3146,13 +3148,13 @@ msgid "Pending"
 msgstr ""
 
 #: includes/admin/payments/class-payments-table.php:321
-#: includes/payments/functions.php:546
+#: includes/payments/functions.php:550
 #: src/Donations/ValueObjects/DonationStatus.php:57
 msgid "Processing"
 msgstr ""
 
 #: includes/admin/payments/class-payments-table.php:325
-#: includes/payments/functions.php:541
+#: includes/payments/functions.php:545
 #: includes/post-types.php:343
 #: src/API/Endpoints/Reports/PaymentStatuses.php:95
 #: src/Donations/ValueObjects/DonationStatus.php:59
@@ -3162,7 +3164,7 @@ msgid "Refunded"
 msgstr ""
 
 #: includes/admin/payments/class-payments-table.php:329
-#: includes/payments/functions.php:547
+#: includes/payments/functions.php:551
 #: includes/post-types.php:365
 #: src/Donations/ValueObjects/DonationStatus.php:64
 msgid "Revoked"
@@ -3170,7 +3172,7 @@ msgstr ""
 
 #: includes/admin/payments/class-payments-table.php:333
 #: includes/class-give-cli-commands.php:1258
-#: includes/payments/functions.php:542
+#: includes/payments/functions.php:546
 #: includes/post-types.php:354
 #: src/API/Endpoints/Reports/PaymentStatuses.php:110
 #: src/Donations/ValueObjects/DonationStatus.php:60
@@ -3181,7 +3183,7 @@ msgid "Failed"
 msgstr ""
 
 #: includes/admin/payments/class-payments-table.php:337
-#: includes/payments/functions.php:543
+#: includes/payments/functions.php:547
 #: includes/post-types.php:376
 #: src/API/Endpoints/Reports/PaymentStatuses.php:105
 #: src/Donations/ValueObjects/DonationStatus.php:61
@@ -3191,7 +3193,7 @@ msgid "Cancelled"
 msgstr ""
 
 #: includes/admin/payments/class-payments-table.php:341
-#: includes/payments/functions.php:544
+#: includes/payments/functions.php:548
 #: includes/post-types.php:387
 #: src/API/Endpoints/Reports/PaymentStatuses.php:100
 #: src/Donations/ValueObjects/DonationStatus.php:62
@@ -3850,150 +3852,163 @@ msgstr ""
 msgid "Revenue Report"
 msgstr ""
 
-#: includes/admin/settings/class-settings-advanced.php:32
+#: includes/admin/settings/class-settings-advanced.php:35
 #: build/formBuilderApp.js:13
 msgid "Advanced"
 msgstr ""
 
-#: includes/admin/settings/class-settings-advanced.php:73
-msgid "Default GiveWP Styles"
+#: includes/admin/settings/class-settings-advanced.php:79
+#: includes/admin/settings/class-settings-gateways.php:399
+msgid "Option-Based Form Editor"
 msgstr ""
 
-#: includes/admin/settings/class-settings-advanced.php:74
-msgid "This controls GiveWP's default styles for legacy donation forms and other front end elements. Disabling this option means that you'll need to supply your own styles."
-msgstr ""
-
-#: includes/admin/settings/class-settings-advanced.php:84
-msgid "Remove Data on Uninstall"
-msgstr ""
-
-#: includes/admin/settings/class-settings-advanced.php:85
-msgid "When the plugin is deleted, completely remove all GiveWP data. This includes all GiveWP settings, forms, form meta, donor, donor data, donations. Everything."
-msgstr ""
-
-#: includes/admin/settings/class-settings-advanced.php:90
-msgid "Yes, Remove all data"
-msgstr ""
-
-#: includes/admin/settings/class-settings-advanced.php:91
-msgid "No, keep my GiveWP settings and donation data"
+#: includes/admin/settings/class-settings-advanced.php:80
+msgid "If enabled, you'll gain access to the legacy settings and can create forms using the Option-Based Editor. Disabling this option will not affect existing forms created with the Option-Based Editor."
 msgstr ""
 
 #: includes/admin/settings/class-settings-advanced.php:95
-msgid "Default User Role"
+msgid "Default GiveWP Styles"
 msgstr ""
 
 #: includes/admin/settings/class-settings-advanced.php:96
+msgid "This controls GiveWP's default styles for legacy donation forms and other front end elements. Disabling this option means that you'll need to supply your own styles."
+msgstr ""
+
+#: includes/admin/settings/class-settings-advanced.php:107
+msgid "Remove Data on Uninstall"
+msgstr ""
+
+#: includes/admin/settings/class-settings-advanced.php:108
+msgid "When the plugin is deleted, completely remove all GiveWP data. This includes all GiveWP settings, forms, form meta, donor, donor data, donations. Everything."
+msgstr ""
+
+#: includes/admin/settings/class-settings-advanced.php:114
+msgid "Yes, Remove all data"
+msgstr ""
+
+#: includes/admin/settings/class-settings-advanced.php:115
+msgid "No, keep my GiveWP settings and donation data"
+msgstr ""
+
+#: includes/admin/settings/class-settings-advanced.php:119
+msgid "Default User Role"
+msgstr ""
+
+#: includes/admin/settings/class-settings-advanced.php:120
 msgid "Users are given this user role when they opt into creating a WordPress/site account along with their donation."
 msgstr ""
 
 #. translators: %s: the_content
-#: includes/admin/settings/class-settings-advanced.php:104
+#: includes/admin/settings/class-settings-advanced.php:129
 msgid "%s filter"
 msgstr ""
 
 #. translators: 1: https://codex.wordpress.org/Plugin_API/Filter_Reference/the_content 2: the_content
-#: includes/admin/settings/class-settings-advanced.php:106
+#: includes/admin/settings/class-settings-advanced.php:131
 msgid "This controls whether or not GiveWP legacy form content is treated like WordPress content. Disabling this option means that things like social sharing and other theme- or plugin-added functionality to enhance or append things to content will not be applied to GiveWP legacy form content. <a href=\"%1$s\" target=\"_blank\">Learn more</a> about %2$s filter."
 msgstr ""
 
-#: includes/admin/settings/class-settings-advanced.php:116
+#: includes/admin/settings/class-settings-advanced.php:143
 msgid "Script Loading Location"
 msgstr ""
 
-#: includes/admin/settings/class-settings-advanced.php:117
+#: includes/admin/settings/class-settings-advanced.php:144
 msgid "This allows you to load your GiveWP scripts either in the <code>&lt;head&gt;</code> or footer of your website."
 msgstr ""
 
-#: includes/admin/settings/class-settings-advanced.php:122
+#: includes/admin/settings/class-settings-advanced.php:150
 msgid "Head"
 msgstr ""
 
-#: includes/admin/settings/class-settings-advanced.php:123
+#: includes/admin/settings/class-settings-advanced.php:151
 msgid "Footer"
 msgstr ""
 
-#: includes/admin/settings/class-settings-advanced.php:127
+#: includes/admin/settings/class-settings-advanced.php:155
 msgid "Setup Page"
 msgstr ""
 
-#: includes/admin/settings/class-settings-advanced.php:131
+#: includes/admin/settings/class-settings-advanced.php:159
 msgid "This option controls the display of the %s when GiveWP is first installed."
 msgstr ""
 
-#: includes/admin/settings/class-settings-advanced.php:159
+#: includes/admin/settings/class-settings-advanced.php:188
 msgid "Form Page URL Prefix"
 msgstr ""
 
-#: includes/admin/settings/class-settings-advanced.php:161
+#: includes/admin/settings/class-settings-advanced.php:190
 msgid "This slug is used as a base for the (invisible to users/site visitors) iframe URL that contains all form templates besides the legacy form template. The URL currently looks like this: %1$s. This option allows you to modify that URL to avoid conflicts that might exist with other pages and URLs on the site."
 msgstr ""
 
-#: includes/admin/settings/class-settings-advanced.php:169
+#: includes/admin/settings/class-settings-advanced.php:199
 msgid "Advanced Database Updates"
 msgstr ""
 
-#: includes/admin/settings/class-settings-advanced.php:170
+#: includes/admin/settings/class-settings-advanced.php:200
 msgid "This option is only for advanced users and/or those directed by GiveWP support. Once you enable this, you'll have the ability to override the run order and to force re-running for database updates at Donations > Tools > Data. If you don't know what you are doing, you can easily break things with this option enabled. Do not leave this option enabled after you're done troubleshooting."
 msgstr ""
 
-#: includes/admin/settings/class-settings-advanced.php:180
+#: includes/admin/settings/class-settings-advanced.php:211
 #: includes/admin/tools/views/html-admin-page-system-info.php:477
 #: includes/admin/tools/views/html-admin-page-system-info.php:581
 msgid "GiveWP Cache"
 msgstr ""
 
-#: includes/admin/settings/class-settings-advanced.php:182
+#: includes/admin/settings/class-settings-advanced.php:213
 msgid "Clear Cache"
 msgstr ""
 
-#: includes/admin/settings/class-settings-advanced.php:183
+#: includes/admin/settings/class-settings-advanced.php:214
 msgid "Click this button if you want to clear GiveWP's cache. The plugin stores common settings and queries in cache to optimize performance. Clearing cache will remove and begin rebuilding these saved queries."
 msgstr ""
 
-#: includes/admin/settings/class-settings-advanced.php:187
+#: includes/admin/settings/class-settings-advanced.php:219
 msgid "Advanced Settings Docs Link"
 msgstr ""
 
-#: includes/admin/settings/class-settings-advanced.php:190
+#: includes/admin/settings/class-settings-advanced.php:222
 msgid "Advanced Settings"
 msgstr ""
 
-#: includes/admin/settings/class-settings-advanced.php:207
-#: includes/admin/settings/class-settings-advanced.php:297
+#: includes/admin/settings/class-settings-advanced.php:239
+#: includes/admin/settings/class-settings-advanced.php:335
 msgid "Akismet SPAM Protection"
 msgstr ""
 
-#: includes/admin/settings/class-settings-advanced.php:208
+#: includes/admin/settings/class-settings-advanced.php:240
 msgid "Add a layer of SPAM protection to your donation submissions with Akismet. When enabled, donation submissions will be first sent through Akismet's SPAM check API if you have the plugin activated and configured."
 msgstr ""
 
-#: includes/admin/settings/class-settings-advanced.php:218
+#: includes/admin/settings/class-settings-advanced.php:251
 msgid "Whitelist by Email"
 msgstr ""
 
-#: includes/admin/settings/class-settings-advanced.php:221
+#: includes/admin/settings/class-settings-advanced.php:254
 msgid "Add emails one at a time to ensure that donations using that email bypass GiveWP's Akismet SPAM filtering. Emails added to the list here are always allowed to donate, even if they've been flagged by Akismet."
 msgstr ""
 
-#: includes/admin/settings/class-settings-advanced.php:223
+#: includes/admin/settings/class-settings-advanced.php:257
 msgid "To permanently prevent emails from being flagged as SPAM by Akismet <a href=\"%1$s\" target=\"_blank\">contact their team here</a>."
 msgstr ""
 
-#: includes/admin/settings/class-settings-advanced.php:255
+#: includes/admin/settings/class-settings-advanced.php:290
 msgid "Cache"
 msgstr ""
 
-#: includes/admin/settings/class-settings-advanced.php:256
+#: includes/admin/settings/class-settings-advanced.php:291
 msgid "If caching is enabled the plugin will start caching custom post type related queries and reduce the overall load time."
 msgstr ""
 
-#: includes/admin/settings/class-settings-advanced.php:296
+#: includes/admin/settings/class-settings-advanced.php:334
 msgid "Advanced Options"
 msgstr ""
 
-#: includes/admin/settings/class-settings-advanced.php:352
+#: includes/admin/settings/class-settings-advanced.php:400
 msgid "Please properly configure Akismet to enable SPAM protection."
+msgstr ""
+
+#: includes/admin/settings/class-settings-advanced.php:442
+msgid "We recommend moving away from Legacy settings and the Option-Based Editor as they are not compatible with newer features and will eventually be removed."
 msgstr ""
 
 #: includes/admin/settings/class-settings-display.php:30
@@ -4266,7 +4281,7 @@ msgstr ""
 
 #: includes/admin/settings/class-settings-gateways.php:129
 #: includes/admin/settings/class-settings-gateways.php:135
-#: includes/admin/settings/class-settings-gateways.php:417
+#: includes/admin/settings/class-settings-gateways.php:423
 msgid "Enabled Gateways"
 msgstr ""
 
@@ -4317,28 +4332,25 @@ msgstr ""
 msgid "Uses the blocks-based visual form builder for creating and customizing a donation form."
 msgstr ""
 
-#: includes/admin/settings/class-settings-gateways.php:399
-msgid "Option-Based Form Editor"
-msgstr ""
-
 #: includes/admin/settings/class-settings-gateways.php:405
+#: src/FeatureFlags/OptionBasedFormEditor/OptionBasedFormEditor.php:50
 msgid "Uses the traditional settings options for creating and customizing a donation form."
 msgstr ""
 
-#: includes/admin/settings/class-settings-gateways.php:481
+#: includes/admin/settings/class-settings-gateways.php:490
 #: build/formBuilderApp.js:1
 #: build/formBuilderRegistrars.js:1
 msgid "Label"
 msgstr ""
 
-#: includes/admin/settings/class-settings-gateways.php:579
+#: includes/admin/settings/class-settings-gateways.php:588
 #: assets/dist/js/give-add-v2form.js:600
 #: assets/dist/js/give-admin-donation-forms.js:2545
 #: assets/dist/js/give-edit-v2form.js:637
 msgid "Feature notice"
 msgstr ""
 
-#: includes/admin/settings/class-settings-gateways.php:584
+#: includes/admin/settings/class-settings-gateways.php:593
 #: assets/dist/js/give-add-v2form.js:1638
 #: assets/dist/js/give-add-v2form.js:1647
 #: assets/dist/js/give-admin-donation-forms.js:3732
@@ -4353,18 +4365,18 @@ msgstr ""
 msgid "Close dialog"
 msgstr ""
 
-#: includes/admin/settings/class-settings-gateways.php:601
+#: includes/admin/settings/class-settings-gateways.php:610
 #: assets/dist/js/give-add-v2form.js:605
 #: assets/dist/js/give-admin-donation-forms.js:2550
 #: assets/dist/js/give-edit-v2form.js:642
 msgid "What's new"
 msgstr ""
 
-#: includes/admin/settings/class-settings-gateways.php:604
+#: includes/admin/settings/class-settings-gateways.php:613
 msgid "GiveWP 3.0 introduces an enhanced forms experience powered by the new Visual Donations Form Builder. However, we are still working on gateway compatibility with the new forms experience."
 msgstr ""
 
-#: includes/admin/settings/class-settings-gateways.php:611
+#: includes/admin/settings/class-settings-gateways.php:620
 #: assets/dist/js/give-add-v2form.js:627
 #: assets/dist/js/give-admin-donation-forms.js:2092
 #: assets/dist/js/give-admin-donation-forms.js:2572
@@ -4372,13 +4384,13 @@ msgstr ""
 msgid "Supported gateways"
 msgstr ""
 
-#: includes/admin/settings/class-settings-gateways.php:631
+#: includes/admin/settings/class-settings-gateways.php:640
 #: assets/dist/js/give-admin-donation-forms.js:1163
 #: build/formBuilderApp.js:13
 msgid "Got it"
 msgstr ""
 
-#: includes/admin/settings/class-settings-gateways.php:634
+#: includes/admin/settings/class-settings-gateways.php:643
 #: assets/dist/js/give-add-v2form.js:658
 #: assets/dist/js/give-admin-donation-forms.js:2099
 #: assets/dist/js/give-admin-donation-forms.js:2603
@@ -4853,7 +4865,7 @@ msgid "Different parameter to set the order for the forms display in the form gr
 msgstr ""
 
 #: includes/admin/shortcodes/shortcode-give-donation-grid.php:65
-#: templates/shortcode-donor-wall.php:170
+#: templates/shortcode-donor-wall.php:181
 #: build/adminBlocks.js:1
 msgid "Amount Donated"
 msgstr ""
@@ -13966,19 +13978,19 @@ msgstr ""
 msgid "Stripe webhooks are critical to configure so that GiveWP can recieve communication properly from the payment gateway. Webhooks for test-mode donations are configured separately on the Stripe dashboard. Note: webhooks do not function on localhost or websites in maintenance mode."
 msgstr ""
 
-#: includes/gateways/stripe/includes/admin/class-give-stripe-admin-settings.php:743
+#: includes/gateways/stripe/includes/admin/class-give-stripe-admin-settings.php:744
 msgid "Base Styles"
 msgstr ""
 
-#: includes/gateways/stripe/includes/admin/class-give-stripe-admin-settings.php:757
+#: includes/gateways/stripe/includes/admin/class-give-stripe-admin-settings.php:758
 msgid "Empty Styles"
 msgstr ""
 
-#: includes/gateways/stripe/includes/admin/class-give-stripe-admin-settings.php:773
+#: includes/gateways/stripe/includes/admin/class-give-stripe-admin-settings.php:774
 msgid "Invalid Styles"
 msgstr ""
 
-#: includes/gateways/stripe/includes/admin/class-give-stripe-admin-settings.php:789
+#: includes/gateways/stripe/includes/admin/class-give-stripe-admin-settings.php:790
 msgid "Complete Styles"
 msgstr ""
 
@@ -14443,7 +14455,7 @@ msgstr ""
 
 #: includes/misc-functions.php:537
 #: includes/post-types.php:56
-#: src/DonationForms/V2/DonationFormsAdminPage.php:58
+#: src/DonationForms/V2/DonationFormsAdminPage.php:59
 #: assets/dist/js/give-admin-donation-forms.js:1397
 #: assets/dist/js/give-admin-event-tickets-details.js:975
 msgid "Donation Forms"
@@ -14483,19 +14495,19 @@ msgstr ""
 msgid "This custom meta key has been deprecated for performance reasons. Your custom meta data will still be stored but we recommend updating your code to store meta keys individually from GiveWP 2.0.0."
 msgstr ""
 
-#: includes/payments/functions.php:540
+#: includes/payments/functions.php:544
 msgid "Complete"
 msgstr ""
 
-#: includes/payments/functions.php:545
+#: includes/payments/functions.php:549
 msgid "Pre-Approved"
 msgstr ""
 
-#: includes/payments/functions.php:1452
+#: includes/payments/functions.php:1456
 msgid "Delete this donation note."
 msgstr ""
 
-#: includes/payments/functions.php:1679
+#: includes/payments/functions.php:1702
 msgctxt "custom donation dropdown item"
 msgid "Custom"
 msgstr ""
@@ -15742,6 +15754,10 @@ msgstr ""
 
 #: src/Exports/resources/views/export-donors-table-row.php:70
 msgid "Export Columns:"
+msgstr ""
+
+#: src/FeatureFlags/OptionBasedFormEditor/OptionBasedFormEditor.php:49
+msgid "Only for Option-Based Form Editor"
 msgstr ""
 
 #: src/Form/LegacyConsumer/Commands/SetupFieldValidation.php:97
@@ -17148,28 +17164,28 @@ msgstr ""
 msgid "Click to get started!"
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/AdminSettingFields.php:438
+#: src/PaymentGateways/PayPalCommerce/AdminSettingFields.php:436
 msgid "Sign up for PayPal"
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/AdminSettingFields.php:451
+#: src/PaymentGateways/PayPalCommerce/AdminSettingFields.php:449
 #: src/PaymentGateways/Stripe/Admin/AccountManagerSettingField.php:420
 msgid "Connected"
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/AdminSettingFields.php:460
+#: src/PaymentGateways/PayPalCommerce/AdminSettingFields.php:458
 msgid "Connected as Advanced for payments as"
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/AdminSettingFields.php:461
+#: src/PaymentGateways/PayPalCommerce/AdminSettingFields.php:459
 msgid "Connected as Standard for payments as"
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/AdminSettingFields.php:463
+#: src/PaymentGateways/PayPalCommerce/AdminSettingFields.php:461
 msgid "Connected for payments as"
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/AdminSettingFields.php:479
+#: src/PaymentGateways/PayPalCommerce/AdminSettingFields.php:477
 #: src/PaymentGateways/Stripe/Admin/AccountManagerSettingField.php:432
 msgid "Disconnect"
 msgstr ""
@@ -19325,7 +19341,11 @@ msgstr ""
 msgid "Anonymous User"
 msgstr ""
 
-#: templates/shortcode-donor-wall.php:75
+#: templates/shortcode-donor-wall.php:44
+msgid "Donor Avatar"
+msgstr ""
+
+#: templates/shortcode-donor-wall.php:86
 #: assets/dist/js/admin-reports.js:3601
 msgid "Anonymous"
 msgstr ""
