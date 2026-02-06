@@ -697,6 +697,7 @@ function give_maybe_safe_unserialize($data)
  * Load donation import ajax callback
  * Fire when importing from CSV start
  *
+ * @since 4.11.0 Updated error handling to display errors in the import page.
  * @since 3.5.0 Extract safe unserialize logic to a function and use it in other places.
  * @since 2.25.3 Append nonce to response url.
  * @since  1.8.13
@@ -762,12 +763,18 @@ function give_donation_import_callback() {
 	remove_action( 'give_insert_user', 'give_new_user_notification', 10 );
 	remove_action( 'give_insert_payment', 'give_payment_save_page_data' );
 
-	$current_key = $start;
-	foreach ( $raw_data as $row_data ) {
-		$import_setting['donation_key'] = $current_key;
-		give_save_import_donation_to_db( $raw_key, $row_data, $main_key, $import_setting );
-		$current_key ++;
-	}
+    $current_key = $start;
+    foreach ( $raw_data as $row_data ) {
+        $import_setting['donation_key'] = $current_key;
+        $result = give_save_import_donation_to_db( $raw_key, $row_data, $main_key, $import_setting );
+        if ( is_string( $result ) && ! empty( $result ) ) {
+            if ( empty( $json_data['errors'] ) ) {
+                $json_data['errors'] = [];
+            }
+            $json_data['errors'][] = sprintf( __( 'Row %1$d: %2$s', 'give' ), $current_key, $result );
+        }
+        $current_key ++;
+    }
 
 	// Check if function exists or not.
 	if ( function_exists( 'give_payment_save_page_data' ) ) {
@@ -832,6 +839,127 @@ function give_donation_import_callback() {
 }
 
 add_action( 'wp_ajax_give_donation_import', 'give_donation_import_callback' );
+
+/**
+ * Load subscription import ajax callback
+ *
+ * @since 4.11.0
+ */
+function give_subscription_import_callback() {
+
+    check_ajax_referer('give_subscription_import');
+
+    if ( ! current_user_can( 'manage_give_settings' ) ) {
+        give_die();
+    }
+
+    // Disable Give cache
+    Give_Cache::get_instance()->disable();
+
+    $import_setting = [];
+    $fields         = isset( $_POST['fields'] ) ? $_POST['fields'] : null;
+
+    parse_str( $fields, $output );
+
+    $import_setting['mode']        = $output['mode'];
+    $import_setting['create_user'] = isset($output['create_user']) ? $output['create_user'] : '0';
+    $import_setting['delimiter']   = $output['delimiter'];
+    $import_setting['csv']         = $output['csv'];
+    $import_setting['delete_csv']  = $output['delete_csv'];
+    $import_setting['dry_run']     = $output['dry_run'];
+
+    $main_key = give_maybe_safe_unserialize($output['main_key']);
+
+    $current    = absint( $_REQUEST['current'] );
+    $total_ajax = absint( $_REQUEST['total_ajax'] );
+    $start      = absint( $_REQUEST['start'] );
+    $end        = absint( $_REQUEST['end'] );
+    $next       = absint( $_REQUEST['next'] );
+    $total      = absint( $_REQUEST['total'] );
+    $per_page   = absint( $_REQUEST['per_page'] );
+    $delimiter  = empty( $output['delimiter'] ) ? ',' : $output['delimiter'];
+
+    // Ensure importer class is loaded for admin-ajax context
+    if ( ! class_exists( 'Give_Import_Subscriptions' ) ) {
+        require_once GIVE_PLUGIN_DIR . 'includes/admin/tools/import/class-give-import-subscriptions.php';
+    }
+
+    $importer = \Give_Import_Subscriptions::get_instance();
+
+    // Processing
+    $raw_data                  = $importer->get_subscription_data_from_csv( $output['csv'], $start, $end, $delimiter );
+    $raw_key = give_maybe_safe_unserialize($output['mapto']);
+    $import_setting['raw_key'] = $raw_key;
+
+    $current_key = $start;
+    foreach ( $raw_data as $row_data ) {
+        $import_setting['row_key'] = $current_key;
+        $result = $importer->import_row( $raw_key, $row_data, $main_key, $import_setting );
+        if ( is_string( $result ) && ! empty( $result ) ) {
+            if ( empty( $json_data['errors'] ) ) {
+                $json_data['errors'] = [];
+            }
+            $json_data['errors'][] = sprintf( __( 'Row %1$d: %2$s', 'give' ), $current_key, $result );
+        }
+        $current_key ++;
+    }
+
+    if ( $next == false ) {
+        $json_data = [
+            'success' => true,
+            'message' => __( 'All subscriptions uploaded successfully!', 'give' ),
+        ];
+    } else {
+        $index_start = $start;
+        $index_end   = $end;
+        $last        = false;
+        $next        = true;
+        if ( $next ) {
+            $index_start = $index_start + $per_page;
+            $index_end   = $per_page + ( $index_start - 1 );
+        }
+        if ( $index_end >= $total ) {
+            $index_end = $total;
+            $last      = true;
+        }
+        $json_data = [
+            'raw_data' => $raw_data,
+            'raw_key'  => $raw_key,
+            'next'     => $next,
+            'start'    => $index_start,
+            'end'      => $index_end,
+            'last'     => $last,
+        ];
+    }
+
+    $url              = give_import_page_url(
+        [
+            'step'          => '4',
+            'importer-type' => 'import_subscriptions',
+            'csv'           => $output['csv'],
+            'total'         => $total,
+            'delete_csv'    => $import_setting['delete_csv'],
+            'success'       => ( isset( $json_data['success'] ) ? $json_data['success'] : '' ),
+            'dry_run'       => $output['dry_run'],
+            '_wpnonce'      => wp_create_nonce( 'give_subscription_import_success' ),
+        ]
+    );
+    $json_data['url'] = $url;
+
+    $current ++;
+    $json_data['current'] = $current;
+
+    $percentage              = ( 100 / ( $total_ajax + 1 ) ) * $current;
+    $json_data['percentage'] = $percentage;
+
+    // Enable Give cache
+    Give_Cache::get_instance()->enable();
+
+    $json_data = apply_filters( 'give_import_ajax_responces', $json_data, $fields );
+    wp_die( json_encode( $json_data ) );
+}
+
+add_action( 'wp_ajax_give_subscription_import', 'give_subscription_import_callback' );
 
 /**
  * Load core settings import ajax callback
@@ -1023,6 +1151,62 @@ function give_get_user_roles() {
 	return $user_roles;
 }
 
+
+/**
+ * Get user roles that are safe for donor registration.
+ *
+ * This excludes privileged roles like administrator, editor, give_accountant, etc.
+ * to prevent security issues if the default donor role setting is misconfigured.
+ * Only basic subscriber-level roles should be available for donor registration.
+ *
+ * @since 4.14.0
+ * @return array
+ */
+function give_get_donor_safe_user_roles() {
+	$user_roles = [];
+
+	// Capabilities that indicate a privileged role - exclude these
+	$privileged_caps = [
+		// WordPress privileged caps
+		'manage_options',
+		'edit_users',
+		'delete_users',
+		'create_users',
+		'edit_others_posts',
+		'delete_others_posts',
+		'edit_pages',
+		'edit_others_pages',
+		'publish_pages',
+		'delete_pages',
+		'edit_posts',
+		// GiveWP privileged caps - access to sensitive donor/payment data
+		'view_give_reports',
+		'export_give_reports',
+		'manage_give_settings',
+		'view_give_sensitive_data',
+		'edit_give_payments',
+		'edit_give_forms',
+	];
+
+	foreach ( get_editable_roles() as $role_name => $role_info ) {
+		$is_privileged = false;
+
+		// Check if role has any privileged capabilities
+		foreach ( $privileged_caps as $cap ) {
+			if ( ! empty( $role_info['capabilities'][ $cap ] ) ) {
+				$is_privileged = true;
+				break;
+			}
+		}
+
+		// Only include non-privileged roles
+		if ( ! $is_privileged ) {
+			$user_roles[ $role_name ] = $role_info['name'];
+		}
+	}
+
+	return $user_roles;
+}
 
 /**
  * Ajax handle for donor address.

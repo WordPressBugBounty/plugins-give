@@ -1,5 +1,5 @@
 import {Header, OverviewPanel, SummaryItem, SummaryTable} from '@givewp/admin/components';
-import {amountFormatter} from '@givewp/src/Admin/utils';
+import {amountFormatter, formatTimestamp} from '@givewp/admin/common';
 import {Subscription} from '@givewp/subscriptions/admin/components/types';
 import {dateI18n} from '@wordpress/date';
 import {__} from '@wordpress/i18n';
@@ -78,6 +78,7 @@ interface SummaryProps {
 }
 
 /**
+ * @since 4.11.0 fix form link
  * @since 4.10.0 removed donation from props
  * @since 4.8.0
  */
@@ -89,18 +90,18 @@ export default function Summary({subscription, adminUrl, intendedAmount, isLoadi
     const summaryItems: SummaryItem[] = [
         {
             label: __('Start date', 'give'),
-            value: dateI18n('jS M, Y', subscription?.createdAt, undefined),
+            value: formatTimestamp(subscription?.createdAt, false),
         },
         {
             label: __('End date', 'give'),
-            value: endDate ? dateI18n('jS M, Y', endDate, undefined) : __('Ongoing', 'give'),
+            value: endDate ? formatTimestamp(endDate, false) : __('Ongoing', 'give'),
         },
         {
             label: __('Donation form', 'give'),
             value: subscription?.donationFormId ? (
                 <a
                     className={styles.link}
-                    href={`${adminUrl}edit.php?post_type=give_forms&page=givewp-form-builder&donationFormID=${subscription?.donationFormId}`}
+                    href={`${adminUrl}post.php?post=${subscription?.donationFormId}&action=edit`}
                     target="_blank"
                     rel="noopener noreferrer"
                 >

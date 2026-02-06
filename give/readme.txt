@@ -3,9 +3,9 @@ Contributors: givewp, dlocc, webdevmattcrom, ravinderk, mehul0810, kevinwhoffman
 Donate link: https://go.givewp.com/home
 Tags: donation, donate, recurring donations, fundraising, crowdfunding
 Requires at least: 6.6
-Tested up to: 6.8
+Tested up to: 6.9
 Requires PHP: 7.4
-Stable tag: 4.10.1
+Stable tag: 4.14.0
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -272,6 +272,54 @@ You can report security bugs through the Patchstack Vulnerability Disclosure Pro
 10. Use almost any payment gateway integration with GiveWP through our add-ons or by creating your own add-on.
 
 == Changelog ==
+
+= 4.14.0: January 28th, 2026 =
+* New: Added failed donation email notifications to keep you informed when donations don't go through
+* New: Added default country field setting for the billing address block to streamline the donation process
+* Enhancement: Improved compatibility with legacy user roles for sites upgrading from older versions of GiveWP
+* Fix: Resolved a conflict with the Paid Membership Subscriptions plugin
+* Fix: Resolved inconsistencies with the currency switcher display and functionality
+* Fix: Resolved an issue where revenue entries were not being properly removed when donations were deleted
+* Fix: Resolved schema mismatches for donors and donor subresources in the REST API V3
+* Fix: Resolved an issue with the admin fee recovery upgrade notice display
+
+= 4.13.2: December 8th, 2025 =
+* Fix: Resolved block compatibility with WordPress 6.9
+* Security: Added additional sanitization to the donor wall and campaign blocks (CVE-2025-66533)
+* Security: Added additional CSRF protection to PayPal onboarding settings (CVE-2025-67467)
+
+= 4.13.1: November 18th, 2025 =
+* Enhancement: Added Caribbean guilder (XCG) as a currency option
+* Enhancement: Added Curaçao as a country option (open-source contribution by @Genevieve-K)
+* Security: Added additional escaping to the donor wall (CVE-2025-13206)
+* Fix: Resolved a validation issue with some custom form fields using conditional logic
+* Fix: Resolved an issue that was causing REST API console log errors in the browser for not being logged in
+* Fix: Resolved an issue with Donor REST API and sorting by totalAmountDonated
+* Fix: Resolved an issue with merging campaigns and cached campaign goal data
+
+= 4.13.0: November 5th, 2025 =
+* Enhancement: Updated the date and time formatting throughout the new admin screens to respect WordPress settings for timezone, date format, and time format
+* Fix: Resolved an issue with form field manager checkboxes and conditional logic
+* Fix: Resolved an issue with the legacy future status of donations
+* Fix: Resolved a compatibility issue with the Divi color pickers default palette setting
+* Fix: Resolved an issue with Loco Translate that was preventing custom translation files from being loaded properly
+* Dev: Updated the schema for Campaigns and Donations in the v3 REST API
+* Dev: Updated MCP server to be compatible with Angie 1.0.2
+
+= 4.12.0: October 29th, 2025 =
+* New: The admin subscription list table has been upgraded to a new design with additional sorting, filters and statistics
+* New: Updated the new admin donor list table with additional filters and sorting
+* New: Updated the new admin donation list table with additional filters
+* Fix: Subscriptions that were transferred to a form using the visual form builder are now referencing the correct form ID
+* Fix: Resolved an issue with sorting by revenue on the Campaigns list table
+* Fix: Resolved MCP server console errors with Angie v1.0.1
+* Fix: Resolved a migration issue that was causing the cache campaign data migration to be incomplete in some cases
+
+= 4.11.0: October 16th, 2025 =
+* New: Added a new csv subscriptions importer tool for the ability to import recurring donations into GiveWP
+* New: The admin donor list table now displays quick stats
+* New: The new admin subscription details screen now has record fields for status, gateway subscription ID, campaign, form, and associated donor
+* Fix: Resolved conflict from composer with some plugins like KestrelWP
 
 = 4.10.1: October 2nd, 2025 =
 * Security: Improved REST endpoint permissions for campaigns and forms (CVE-2025-11227, CVE-2025-11228)

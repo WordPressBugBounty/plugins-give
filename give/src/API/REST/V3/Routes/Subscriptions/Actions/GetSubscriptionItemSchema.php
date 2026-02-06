@@ -19,6 +19,7 @@ class GetSubscriptionItemSchema
         return [
             '$schema' => 'http://json-schema.org/draft-04/schema#',
             'title' => 'givewp/subscription',
+            'description' => esc_html__('Subscription routes for CRUD operations', 'give'),
             'type' => 'object',
             'properties' => [
                 'id' => [
@@ -30,6 +31,11 @@ class GetSubscriptionItemSchema
                     'description' => esc_html__('Subscription mode (live or test)', 'give'),
                     'default' => 'live',
                     'enum' => ['live', 'test'],
+                ],
+                'campaignId' => [
+                    'type' => 'integer',
+                    'description' => esc_html__('Campaign ID', 'give'),
+                    'nullable' => true,
                 ],
                 'donationFormId' => [
                     'type' => 'integer',
@@ -195,10 +201,6 @@ class GetSubscriptionItemSchema
                     ],
                     'description' => esc_html__('Projected annual revenue for this subscription', 'give'),
                     'readonly' => true,
-                ],
-                'campaignId' => [
-                    'type' => ['integer', 'null'],
-                    'description' => esc_html__('Campaign ID', 'give'),
                 ],
             ],
         ];

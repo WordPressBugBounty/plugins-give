@@ -312,6 +312,7 @@ class SubscriptionController extends WP_REST_Controller
     /**
      * Update a subscription.
      *
+     * @since 4.11.0 Exclude gatewaySubscriptionId from non-editable fields
      * @since 4.8.0
      *
      * @param WP_REST_Request $request Full data about the request.
@@ -333,7 +334,6 @@ class SubscriptionController extends WP_REST_Controller
             'createdAt',
             'mode',
             'gatewayId',
-            'gatewaySubscriptionId',
         ];
 
         foreach ($request->get_params() as $key => $value) {
@@ -538,6 +538,7 @@ class SubscriptionController extends WP_REST_Controller
     }
 
     /**
+     * @since 4.13.0 added anonymousDonors and includeSensitiveData to embeddable links
      * @since 4.10.0 added embeddable links for campaign and form
      * @since 4.8.0
      *
@@ -562,6 +563,8 @@ class SubscriptionController extends WP_REST_Controller
                     $donor_url = rest_url(sprintf('%s/%s/%d', $this->namespace, 'donors', $item['donorId']));
                     $donor_url = add_query_arg([
                         'mode' => $request->get_param('mode'),
+                        'anonymousDonors' => $request->get_param('anonymousDonors'),
+                        'includeSensitiveData' => $request->get_param('includeSensitiveData'),
                     ], $donor_url);
 
                     $links[CURIE::relationUrl('donor')] = [
@@ -598,6 +601,8 @@ class SubscriptionController extends WP_REST_Controller
                 $donations_url = add_query_arg([
                     'mode' => $subscription->mode->getValue(),
                     'subscriptionId' => $subscription->id,
+                    'anonymousDonations' => $request->get_param('anonymousDonors'),
+                    'includeSensitiveData' => $request->get_param('includeSensitiveData'),
                 ], $donations_url);
 
                 $links[CURIE::relationUrl('donations')] = [
