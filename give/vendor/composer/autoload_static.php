@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit03d86e5d412eab6a48fcc5f5b81a2800
+class ComposerStaticInitf5d861c3b73bc87d200afc0d0cefad0b
 {
     public static $files = array (
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
@@ -34,10 +34,6 @@ class ComposerStaticInit03d86e5d412eab6a48fcc5f5b81a2800
         'G' =>
         array (
             'Give\\' => 5,
-        ),
-        'F' =>
-        array (
-            'FormatObjectList\\' => 17,
         ),
         'C' =>
         array (
@@ -82,10 +78,6 @@ class ComposerStaticInit03d86e5d412eab6a48fcc5f5b81a2800
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
-        'FormatObjectList\\' =>
-        array (
-            0 => __DIR__ . '/..' . '/kjohnson/format-object-list/src',
-        ),
         'Composer\\Installers\\' =>
         array (
             0 => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers',
@@ -105,17 +97,15 @@ class ComposerStaticInit03d86e5d412eab6a48fcc5f5b81a2800
         'TCPDF_FONTS' => __DIR__ . '/..' . '/tecnickcom/tcpdf/include/tcpdf_fonts.php',
         'TCPDF_FONT_DATA' => __DIR__ . '/..' . '/tecnickcom/tcpdf/include/tcpdf_font_data.php',
         'TCPDF_IMAGES' => __DIR__ . '/..' . '/tecnickcom/tcpdf/include/tcpdf_images.php',
-        'TCPDF_IMPORT' => __DIR__ . '/..' . '/tecnickcom/tcpdf/tcpdf_import.php',
-        'TCPDF_PARSER' => __DIR__ . '/..' . '/tecnickcom/tcpdf/tcpdf_parser.php',
         'TCPDF_STATIC' => __DIR__ . '/..' . '/tecnickcom/tcpdf/include/tcpdf_static.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit03d86e5d412eab6a48fcc5f5b81a2800::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit03d86e5d412eab6a48fcc5f5b81a2800::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit03d86e5d412eab6a48fcc5f5b81a2800::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitf5d861c3b73bc87d200afc0d0cefad0b::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitf5d861c3b73bc87d200afc0d0cefad0b::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInitf5d861c3b73bc87d200afc0d0cefad0b::$classMap;
 
         }, null, ClassLoader::class);
     }

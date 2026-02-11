@@ -15,6 +15,5 @@ return array(
     'PayPalCheckoutSdk\\' => array($vendorDir . '/paypal/paypal-checkout-sdk/lib/PayPalCheckoutSdk'),
     'Money\\' => array($vendorDir . '/moneyphp/money/src'),
     'Give\\' => array($baseDir . '/src'),
-    'FormatObjectList\\' => array($vendorDir . '/kjohnson/format-object-list/src'),
     'Composer\\Installers\\' => array($vendorDir . '/composer/installers/src/Composer/Installers'),
 );
