@@ -2,14 +2,14 @@
 # This file is distributed under the same license as the Give - Donation Plugin plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: Give - Donation Plugin 4.14.3\n"
+"Project-Id-Version: Give - Donation Plugin 4.14.4\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/givewp\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-03-11T18:38:13+00:00\n"
+"POT-Creation-Date: 2026-04-02T19:44:31+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: give\n"
@@ -19977,20 +19977,34 @@ msgstr ""
 msgid "You are not allowed to perform this action."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:368
+#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:377
 msgid "Make sure to complete the entire PayPal process. Do not close the window until you have finished the process."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:372
+#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:381
 msgid "The last screen of the PayPal connect process includes a button to be sent back to your site. It is important you click this and do not close the window yourself."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:376
+#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:385
 msgid "If you’re still having problems connecting: "
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:384
+#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:393
 msgid "Having trouble connecting to PayPal?"
+msgstr ""
+
+#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:439
+msgid "Invalid donation amount."
+msgstr ""
+
+#. translators: %s: maximum donation amount
+#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:447
+#, php-format
+msgid "Donation amount must not exceed %s."
+msgstr ""
+
+#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:471
+msgid "Donation amount cannot be decreased."
 msgstr ""
 
 #: src/PaymentGateways/PayPalCommerce/Banners/GatewaySettingPageBanner.php:48
