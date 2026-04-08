@@ -2,14 +2,14 @@
 # This file is distributed under the same license as the Give - Donation Plugin plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: Give - Donation Plugin 4.14.4\n"
+"Project-Id-Version: Give - Donation Plugin 4.14.5\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/givewp\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-04-02T19:44:31+00:00\n"
+"POT-Creation-Date: 2026-04-08T18:23:04+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: give\n"
@@ -2512,7 +2512,7 @@ msgstr ""
 #: includes/admin/import-functions.php:183
 #: includes/admin/tools/export/give-export-donations-exporter.php:437
 #: includes/forms/template.php:532
-#: includes/payments/functions.php:1622
+#: includes/payments/functions.php:1640
 #: build/assets/dist/js/donor-dashboards-app.js:1
 #: build/formBuilderRegistrars.js:1
 msgid "Custom Amount"
@@ -15785,7 +15785,7 @@ msgstr ""
 msgid "Delete this donation note."
 msgstr ""
 
-#: includes/payments/functions.php:1759
+#: includes/payments/functions.php:1777
 msgctxt "custom donation dropdown item"
 msgid "Custom"
 msgstr ""
