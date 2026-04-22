@@ -2,14 +2,14 @@
 # This file is distributed under the same license as the Give - Donation Plugin plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: Give - Donation Plugin 4.14.5\n"
+"Project-Id-Version: Give - Donation Plugin 4.14.6\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/givewp\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-04-08T18:23:04+00:00\n"
+"POT-Creation-Date: 2026-04-22T21:10:33+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: give\n"
@@ -73,8 +73,8 @@ msgstr ""
 
 #: blocks/donation-form/class-give-donation-form-block.php:137
 #: src/DonationForms/Blocks/DonationFormBlock/DataTransferObjects/BlockAttributes.php:39
-#: src/DonationForms/Properties/FormSettings.php:308
-#: src/DonationForms/Properties/FormSettings.php:370
+#: src/DonationForms/Properties/FormSettings.php:309
+#: src/DonationForms/Properties/FormSettings.php:371
 #: build/campaignBlocks.js:1
 msgid "Donate now"
 msgstr ""
@@ -610,7 +610,7 @@ msgstr ""
 #: includes/admin/tools/import/class-give-import-donations.php:604
 #: src/API/Endpoints/Reports/Income.php:98
 #: src/API/Endpoints/Reports/IncomeBreakdown.php:83
-#: src/DonationForms/ViewModels/DonationFormViewModel.php:188
+#: src/DonationForms/ViewModels/DonationFormViewModel.php:194
 #: src/Donors/DonorsAdminPage.php:25
 #: src/Donors/DonorsAdminPage.php:26
 #: build/assets/dist/js/give-admin-donors.js:4
@@ -1081,7 +1081,7 @@ msgstr ""
 #: src/API/Endpoints/Reports/IncomeBreakdown.php:84
 #: src/Campaigns/ListTable/Columns/DonationsCountColumn.php:29
 #: src/DonationForms/V2/ListTable/Columns/DonationCountColumn.php:38
-#: src/DonationForms/ViewModels/DonationFormViewModel.php:192
+#: src/DonationForms/ViewModels/DonationFormViewModel.php:198
 #: src/Donations/DonationsAdminPage.php:31
 #: src/Donations/DonationsAdminPage.php:32
 #: src/Donors/ListTable/Columns/DonationCountColumn.php:37
@@ -2818,7 +2818,7 @@ msgstr ""
 
 #: includes/admin/forms/class-metabox-form-data.php:539
 #: src/DonationForms/Factories/DonationFormFactory.php:42
-#: src/DonationForms/Properties/FormSettings.php:330
+#: src/DonationForms/Properties/FormSettings.php:331
 #: src/Onboarding/DefaultFormFactory.php:67
 msgid "Thank you to all our donors, we have met our fundraising goal."
 msgstr ""
@@ -3455,7 +3455,7 @@ msgstr ""
 #: includes/admin/shortcodes/shortcode-give-form.php:27
 #: includes/admin/shortcodes/shortcode-give-form.php:28
 #: includes/post-types.php:71
-#: src/DonationForms/Properties/FormSettings.php:307
+#: src/DonationForms/Properties/FormSettings.php:308
 #: src/FormBuilder/Routes/CreateFormRoute.php:44
 #: src/ThirdPartySupport/Elementor/Widgets/V2/ElementorDonationFormWidget/ElementorDonationFormWidget.php:115
 #: build/adminBlocks.js:1
@@ -14625,7 +14625,7 @@ msgstr ""
 
 #: includes/forms/widget.php:170
 #: includes/forms/widget.php:177
-#: src/DonationForms/Properties/FormSettings.php:372
+#: src/DonationForms/Properties/FormSettings.php:373
 #: src/Onboarding/DefaultFormFactory.php:140
 #: src/Views/Form/Templates/Sequoia/Actions.php:321
 #: src/Views/Form/Templates/Sequoia/optionConfig.php:178
@@ -16370,11 +16370,11 @@ msgstr ""
 msgid "Total Refunds"
 msgstr ""
 
-#: src/API/REST/V3/Routes/Campaigns/CampaignCommentsController.php:79
+#: src/API/REST/V3/Routes/Campaigns/CampaignCommentsController.php:83
 #: src/API/REST/V3/Routes/Campaigns/CampaignController.php:299
-#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:411
-#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:484
-#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:514
+#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:413
+#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:486
+#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:516
 #: src/API/REST/V3/Routes/Campaigns/CampaignPageController.php:69
 #: src/API/REST/V3/Routes/Campaigns/CampaignRevenueController.php:75
 #: src/API/REST/V3/Routes/Campaigns/CampaignStatisticsController.php:84
@@ -16382,172 +16382,173 @@ msgstr ""
 msgid "Campaign not found"
 msgstr ""
 
-#: src/API/REST/V3/Routes/Campaigns/CampaignCommentsController.php:134
-msgid "Provides comments for a specific campaign."
-msgstr ""
-
-#: src/API/REST/V3/Routes/Campaigns/CampaignCommentsController.php:139
-msgid "The Campaign ID."
-msgstr ""
-
-#: src/API/REST/V3/Routes/Campaigns/CampaignCommentsController.php:144
-msgid "Comments per page"
-msgstr ""
-
-#: src/API/REST/V3/Routes/Campaigns/CampaignCommentsController.php:148
-msgid "Include anonymous comments"
-msgstr ""
-
-#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:307
+#: src/API/REST/V3/Routes/Campaigns/CampaignCommentsController.php:94
+#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:309
 msgid "You do not have permission to view this campaign."
 msgstr ""
 
-#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:354
+#: src/API/REST/V3/Routes/Campaigns/CampaignCommentsController.php:150
+msgid "Provides comments for a specific campaign."
+msgstr ""
+
+#: src/API/REST/V3/Routes/Campaigns/CampaignCommentsController.php:155
+msgid "The Campaign ID."
+msgstr ""
+
+#: src/API/REST/V3/Routes/Campaigns/CampaignCommentsController.php:160
+msgid "Comments per page"
+msgstr ""
+
+#: src/API/REST/V3/Routes/Campaigns/CampaignCommentsController.php:164
+msgid "Include anonymous comments"
+msgstr ""
+
+#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:356
 #, php-format
 msgid "Error while preparing campaign for response: %s"
 msgstr ""
 
-#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:399
+#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:401
 msgid "Error while creating campaign"
 msgstr ""
 
-#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:500
+#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:502
 msgid "Error while merging campaigns"
 msgstr ""
 
-#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:590
+#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:592
 msgid "Campaign routes for CRUD operations"
 msgstr ""
 
-#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:595
+#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:597
 #: src/API/REST/V3/Routes/Donations/DonationController.php:965
 #: src/API/REST/V3/Routes/Subscriptions/Actions/GetSubscriptionItemSchema.php:37
 msgid "Campaign ID"
 msgstr ""
 
-#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:600
+#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:602
 msgid "Campaign page permalink"
 msgstr ""
 
-#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:605
+#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:607
 msgid "Campaign title"
 msgstr ""
 
-#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:613
+#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:615
 msgid "Campaign status"
 msgstr ""
 
-#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:618
+#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:620
 #: src/Campaigns/Factories/CampaignFactory.php:30
 msgid "Campaign short description"
 msgstr ""
 
-#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:623
+#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:625
 #: src/Campaigns/Factories/CampaignFactory.php:31
 msgid "Campaign long description"
 msgstr ""
 
-#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:628
+#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:630
 msgid "Campaign logo URL"
 msgstr ""
 
-#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:633
+#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:635
 msgid "Campaign featured image URL"
 msgstr ""
 
-#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:637
+#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:639
 msgid "Primary color for the campaign"
 msgstr ""
 
-#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:641
+#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:643
 msgid "Secondary color for the campaign"
 msgstr ""
 
-#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:645
+#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:647
 msgid "Campaign goal"
 msgstr ""
 
-#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:646
+#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:648
 msgid "Must be a number"
 msgstr ""
 
-#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:652
+#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:654
 msgid "Campaign goal type"
 msgstr ""
 
-#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:657
+#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:659
 msgid "Campaign goal statistics"
 msgstr ""
 
-#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:662
+#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:664
 msgid "Actual progress value"
 msgstr ""
 
-#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:666
+#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:668
 msgid "Formatted actual progress"
 msgstr ""
 
-#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:670
+#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:672
 msgid "Progress percentage"
 msgstr ""
 
-#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:674
+#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:676
 msgid "Goal value"
 msgstr ""
 
-#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:678
+#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:680
 msgid "Formatted goal value"
 msgstr ""
 
-#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:685
+#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:687
 msgid "Campaign type"
 msgstr ""
 
-#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:690
+#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:692
 msgid "Default campaign form ID"
 msgstr ""
 
-#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:695
+#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:697
 msgid "Default campaign form title"
 msgstr ""
 
-#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:700
+#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:702
 msgid "Campaign page ID"
 msgstr ""
 
-#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:704
+#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:706
 msgid "Campaign start date"
 msgstr ""
 
-#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:709
+#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:711
 msgid "Campaign end date"
 msgstr ""
 
-#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:714
+#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:716
 msgid "Campaign creation date (Y-m-d H:i:s)"
 msgstr ""
 
-#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:735
+#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:737
 msgid "Goal amount must be greater than 0"
 msgstr ""
 
-#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:757
+#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:759
 msgid "Number of donations must be greater than 0"
 msgstr ""
 
-#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:779
+#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:781
 msgid "Number of donors must be greater than 0"
 msgstr ""
 
-#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:801
+#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:803
 msgid "Goal recurring amount must be greater than 0"
 msgstr ""
 
-#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:823
+#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:825
 msgid "Number of recurring donations must be greater than 0"
 msgstr ""
 
-#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:845
+#: src/API/REST/V3/Routes/Campaigns/CampaignController.php:847
 msgid "Number of recurring donors must be greater than 0"
 msgstr ""
 
@@ -17791,7 +17792,7 @@ msgid "GiveWP Donation Form"
 msgstr ""
 
 #: src/DonationForms/Factories/DonationFormFactory.php:37
-#: src/DonationForms/Properties/FormSettings.php:301
+#: src/DonationForms/Properties/FormSettings.php:302
 #: src/Onboarding/DefaultFormFactory.php:122
 #: src/Views/Form/Templates/Classic/optionConfig.php:70
 #: src/Views/Form/Templates/Sequoia/optionConfig.php:10
@@ -17812,16 +17813,16 @@ msgstr ""
 msgid "Two Panel"
 msgstr ""
 
-#: src/DonationForms/Properties/FormSettings.php:303
+#: src/DonationForms/Properties/FormSettings.php:304
 msgid "Help our organization by donating today! Donations go to making a difference for our cause."
 msgstr ""
 
-#: src/DonationForms/Properties/FormSettings.php:334
+#: src/DonationForms/Properties/FormSettings.php:335
 #: src/Framework/Receipts/Actions/GenerateConfirmationPageReceipt.php:342
 msgid "Hey {first_name}, thanks for your donation!"
 msgstr ""
 
-#: src/DonationForms/Properties/FormSettings.php:338
+#: src/DonationForms/Properties/FormSettings.php:339
 #: src/Framework/Receipts/Actions/GenerateConfirmationPageReceipt.php:359
 msgid "{first_name}, your contribution means a lot and will be put to good use in making a difference. We’ve sent your donation receipt to {email}."
 msgstr ""
@@ -17962,7 +17963,7 @@ msgstr ""
 msgid "Upgraded"
 msgstr ""
 
-#: src/DonationForms/ViewModels/DonationFormViewModel.php:196
+#: src/DonationForms/ViewModels/DonationFormViewModel.php:202
 #: src/Onboarding/Setup/templates/index.html.php:252
 #: src/Onboarding/Setup/templates/index.html.php:253
 #: build/assets/dist/js/admin-onboarding-wizard.js:1
@@ -17972,7 +17973,7 @@ msgstr ""
 msgid "Recurring Donations"
 msgstr ""
 
-#: src/DonationForms/ViewModels/DonationFormViewModel.php:199
+#: src/DonationForms/ViewModels/DonationFormViewModel.php:205
 msgid "Counted"
 msgstr ""
 
