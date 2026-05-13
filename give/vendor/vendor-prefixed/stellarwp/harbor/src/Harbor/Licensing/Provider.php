@@ -9,7 +9,7 @@ use Give\Vendors\LiquidWeb\Harbor\Licensing\Registry\Product_Registry;
 use Give\Vendors\LiquidWeb\Harbor\Licensing\Repositories\License_Repository;
 use Give\Vendors\LiquidWeb\LicensingApiClient\Config as LicensingConfig;
 use Give\Vendors\LiquidWeb\LicensingApiClient\Contracts\LicensingClientInterface;
-use Give\Vendors\LiquidWeb\LicensingApiClientWordPress\Http\WordPressHttpClient;
+use Give\Vendors\Psr\Http\Client\ClientInterface;
 use Give\Vendors\LiquidWeb\LicensingApiClientWordPress\WordPressApiFactory;
 use Give\Vendors\Nyholm\Psr7\Factory\Psr17Factory;
 
@@ -29,7 +29,7 @@ final class Provider extends Abstract_Provider {
 			function () {
 				$psr17   = $this->container->get( Psr17Factory::class );
 				$factory = new WordPressApiFactory(
-					$this->container->get( WordPressHttpClient::class ),
+					$this->container->get( ClientInterface::class ),
 					$psr17,
 					$psr17
 				);

@@ -3,11 +3,11 @@
 namespace Give\Vendors\LiquidWeb\Harbor\Admin;
 
 use Give\Vendors\LiquidWeb\Harbor\Config;
+use Give\Vendors\LiquidWeb\Harbor\Contracts\Abstract_Admin_Page;
 use Give\Vendors\LiquidWeb\Harbor\Harbor;
 use Give\Vendors\LiquidWeb\Harbor\Licensing\License_Manager;
 use Give\Vendors\LiquidWeb\Harbor\Portal\Catalog_Repository;
 use Give\Vendors\LiquidWeb\Harbor\Site\Data;
-use Give\Vendors\LiquidWeb\Harbor\Utils\Version;
 
 /**
  * Manages the unified feature manager admin page.
@@ -16,14 +16,7 @@ use Give\Vendors\LiquidWeb\Harbor\Utils\Version;
  *
  * @package LiquidWeb\Harbor
  */
-class Feature_Manager_Page {
-
-	/**
-	 * The admin page slug.
-	 *
-	 * @since 1.0.0
-	 */
-	public const PAGE_SLUG = 'lw-software-manager';
+class Feature_Manager_Page extends Abstract_Admin_Page {
 
 	/**
 	 * Site data provider.
@@ -53,16 +46,6 @@ class Feature_Manager_Page {
 	private Catalog_Repository $catalog;
 
 	/**
-	 * Hook suffix returned by add_menu_page().
-	 * Empty string until the page is registered.
-	 *
-	 * @since 1.0.0
-	 *
-	 * @var string
-	 */
-	private string $page_hook = '';
-
-	/**
 	 * Constructor.
 	 *
 	 * @since 1.0.0
@@ -78,50 +61,10 @@ class Feature_Manager_Page {
 	}
 
 	/**
-	 * Registers the unified feature manager page if this instance is the version leader.
-	 *
-	 * @since 1.0.0
-	 *
-	 * @return void
+	 * @inheritDoc
 	 */
-	public function maybe_register_page(): void {
-		if ( ! Version::should_handle( 'admin_page' ) ) {
-			return;
-		}
-
-		$this->page_hook = add_menu_page(
-			__( 'Liquid Web Software Manager', 'give' ),
-			__( 'Liquid Web', 'give' ),
-			'manage_options',
-			self::PAGE_SLUG,
-			[ $this, 'render' ],
-			'dashicons-cloud',
-			3
-		);
-
-		add_action( 'admin_enqueue_scripts', [ $this, 'maybe_enqueue_assets' ] );
+	protected function register_additional_hooks(): void {
 		add_action( 'admin_init', [ $this, 'maybe_redirect_after_refresh' ] );
-	}
-
-	/**
-	 * Enqueues the React Feature Manager UI assets only on the lw-software-manager page.
-	 *
-	 * Called on admin_enqueue_scripts. The hook suffix is compared against
-	 * $this->page_hook — the value returned by add_menu_page() — to ensure
-	 * the React bundle is loaded only on this specific admin page.
-	 *
-	 * @since 1.0.0
-	 *
-	 * @param string $hook_suffix Current admin page hook suffix.
-	 *
-	 * @return void
-	 */
-	public function maybe_enqueue_assets( string $hook_suffix ): void {
-		if ( $hook_suffix !== $this->page_hook ) {
-			return;
-		}
-
-		$this->enqueue_assets();
 	}
 
 	/**
@@ -131,16 +74,16 @@ class Feature_Manager_Page {
 	 * from build/ otherwise (minified, no source maps).
 	 *
 	 * Path resolution from this file:
-	 *   __DIR__                               → src/Harbor/Admin
-	 *   dirname(__DIR__)                      → src/Harbor
-	 *   dirname(dirname(__DIR__))             → src
-	 *   dirname(dirname(dirname(__DIR__)))    → plugin root (harbor/)
+	 *   __DIR__                               -> src/Harbor/Admin
+	 *   dirname(__DIR__)                      -> src/Harbor
+	 *   dirname(dirname(__DIR__))             -> src
+	 *   dirname(dirname(dirname(__DIR__)))    -> plugin root (harbor/)
 	 *
 	 * @since 1.0.0
 	 *
 	 * @return void
 	 */
-	private function enqueue_assets(): void {
+	protected function enqueue_assets(): void {
 		$build_dir       = ( defined( 'WP_DEBUG' ) && WP_DEBUG ) ? 'build-dev' : 'build';
 		$plugin_root_dir = dirname( dirname( dirname( __DIR__ ) ) );
 		$plugin_root_url = trailingslashit(
@@ -175,7 +118,7 @@ class Feature_Manager_Page {
 				'activationUrl'       => Config::get_portal_base_url() . '/subscriptions/?' . http_build_query(
 					[
 						'portal-referral' => 'plugin',
-						'redirect_url'    => admin_url( 'admin.php?page=' . self::PAGE_SLUG . '&refresh=auto' ),
+						'redirect_url'    => admin_url( 'options-general.php?page=' . self::PAGE_SLUG . '&refresh=auto' ),
 						'domain'          => $this->site_data->get_domain(),
 					],
 					'',
@@ -185,6 +128,9 @@ class Feature_Manager_Page {
 				'subscriptionsUrl'    => Config::get_portal_base_url() . '/subscriptions/',
 				'domain'              => $this->site_data->get_domain(),
 				'version'             => Harbor::VERSION,
+				'licensingBaseUrl'    => Config::get_licensing_base_url(),
+				'portalBaseUrl'       => Config::get_portal_base_url(),
+				'heraldBaseUrl'       => Config::get_herald_base_url(),
 			]
 		);
 
@@ -236,7 +182,7 @@ class Feature_Manager_Page {
 	 *
 	 * Hooked on admin_init so headers have not yet been sent, allowing
 	 * wp_safe_redirect() to issue the Location header successfully. Calling
-	 * this from render() (the add_menu_page callback) is too late — WordPress
+	 * this from render() (the add_submenu_page callback) is too late — WordPress
 	 * has already begun sending HTML output by that point.
 	 *
 	 * @since 1.0.0
