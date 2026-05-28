@@ -7,6 +7,7 @@ use Give\Vendors\LiquidWeb\Harbor\Harbor;
 use Give\Vendors\LiquidWeb\Harbor\Licensing\License_Manager;
 use Give\Vendors\LiquidWeb\Harbor\Portal\Catalog_Repository;
 use Give\Vendors\LiquidWeb\Harbor\Site\Data;
+use Give\Vendors\LiquidWeb\Harbor\Utils\License_Key;
 use Give\Vendors\LiquidWeb\Harbor\Utils\Version;
 
 /**
@@ -127,12 +128,13 @@ class Feature_Manager_Page {
 	 * the React bundle is loaded only on this specific admin page.
 	 *
 	 * @since 1.0.0
+	 * @since 1.4.0 Dropped string type-hint for $hook_suffix.
 	 *
 	 * @param string $hook_suffix Current admin page hook suffix.
 	 *
 	 * @return void
 	 */
-	public function maybe_enqueue_assets( string $hook_suffix ): void {
+	public function maybe_enqueue_assets( $hook_suffix ): void {
 		if ( $hook_suffix !== $this->page_hook ) {
 			return;
 		}
@@ -152,6 +154,7 @@ class Feature_Manager_Page {
 	 *   dirname(dirname(__DIR__))             → src
 	 *   dirname(dirname(dirname(__DIR__)))    → plugin root (harbor/)
 	 *
+	 * @since 1.3.0   Expose License_Key::PREFIX to the React app via the localized payload.
 	 * @since 1.0.0
 	 *
 	 * @return void
@@ -185,10 +188,10 @@ class Feature_Manager_Page {
 			$handle,
 			'harborData',
 			[
-				'restUrl'             => rest_url( 'liquidweb/harbor/v1/' ),
-				'nonce'               => wp_create_nonce( 'wp_rest' ),
-				'pluginsUrl'          => admin_url( 'plugins.php' ),
-				'activationUrl'       => Config::get_portal_base_url() . '/subscriptions/?' . http_build_query(
+				'restUrl'          => rest_url( 'liquidweb/harbor/v1/' ),
+				'nonce'            => wp_create_nonce( 'wp_rest' ),
+				'pluginsUrl'       => admin_url( 'plugins.php' ),
+				'activationUrl'    => Config::get_portal_base_url() . '/subscriptions/?' . http_build_query(
 					[
 						'portal-referral' => 'plugin',
 						'redirect_url'    => admin_url( 'admin.php?page=' . self::PAGE_SLUG . '&refresh=auto' ),
@@ -198,9 +201,10 @@ class Feature_Manager_Page {
 					'&',
 					PHP_QUERY_RFC3986
 				),
-				'subscriptionsUrl'    => Config::get_portal_base_url() . '/subscriptions/',
-				'domain'              => $this->site_data->get_domain(),
-				'version'             => Harbor::VERSION,
+				'subscriptionsUrl' => Config::get_portal_base_url() . '/subscriptions/',
+				'domain'           => $this->site_data->get_domain(),
+				'version'          => Harbor::VERSION,
+				'licenseKeyPrefix' => License_Key::PREFIX,
 			]
 		);
 
