@@ -2,14 +2,14 @@
 # This file is distributed under the same license as the Give - Donation Plugin plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: Give - Donation Plugin 4.15.3\n"
+"Project-Id-Version: Give - Donation Plugin 4.15.4\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/givewp\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-05-28T20:50:57+00:00\n"
+"POT-Creation-Date: 2026-06-15T14:32:38+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: give\n"
@@ -335,7 +335,7 @@ msgid "The test email has been sent to %s."
 msgstr ""
 
 #: includes/admin/admin-actions.php:339
-#: includes/class-give-scripts.php:331
+#: includes/class-give-scripts.php:332
 msgid "You cannot set the success and failed pages to the same page"
 msgstr ""
 
@@ -480,7 +480,7 @@ msgid "ERROR"
 msgstr ""
 
 #: includes/admin/admin-actions.php:1099
-#: includes/class-give-scripts.php:523
+#: includes/class-give-scripts.php:525
 #: includes/process-donation.php:629
 #: includes/shortcodes.php:510
 msgid "Please enter your first name."
@@ -1144,7 +1144,7 @@ msgstr ""
 #: includes/admin/donors/donors.php:1200
 #: includes/admin/payments/view-payment-details.php:730
 #: includes/class-give-scripts.php:252
-#: includes/class-give-scripts.php:303
+#: includes/class-give-scripts.php:304
 #: includes/forms/template.php:1671
 #: src/ThirdPartySupport/Elementor/Widgets/V1/GiveSubscriptionsWidget.php:291
 #: build/assets/dist/js/admin.js:1
@@ -1234,7 +1234,7 @@ msgstr ""
 #: includes/api/class-give-api.php:1972
 #: includes/api/class-give-api.php:1993
 #: includes/api/class-give-api.php:2004
-#: includes/class-give-scripts.php:305
+#: includes/class-give-scripts.php:306
 #: includes/class-notices.php:630
 #: includes/formatting.php:829
 #: includes/gateways/stripe/includes/admin/admin-actions.php:183
@@ -5362,7 +5362,7 @@ msgid "RECOMMENDED"
 msgstr ""
 
 #: includes/admin/shortcodes/abstract-shortcode-generator.php:91
-#: includes/class-give-scripts.php:306
+#: includes/class-give-scripts.php:307
 #: build/formBuilderApp.js:13
 #: build/formBuilderRegistrars.js:1
 #: build/subscriptionDetails.js:10
@@ -7132,7 +7132,7 @@ msgid "Use these tools to recount stats, delete test transactions, or reset stat
 msgstr ""
 
 #: includes/admin/tools/views/html-admin-page-data.php:33
-#: includes/class-give-scripts.php:540
+#: includes/class-give-scripts.php:542
 msgid "Please select an option"
 msgstr ""
 
@@ -8224,7 +8224,7 @@ msgid "Unable to send email. Please try again."
 msgstr ""
 
 #: includes/ajax-functions.php:716
-#: includes/class-give-scripts.php:489
+#: includes/class-give-scripts.php:491
 #: templates/email-login-form.php:33
 msgid "Please check your email and click on the link to access your complete donation history."
 msgstr ""
@@ -8500,7 +8500,7 @@ msgid "%1$s: '%2$s' does not contain git repo."
 msgstr ""
 
 #: includes/class-give-cli-commands.php:1257
-#: includes/class-give-scripts.php:304
+#: includes/class-give-scripts.php:305
 #: src/Log/ValueObjects/LogType.php:51
 #: src/MigrationLog/MigrationLogStatus.php:36
 #: src/Views/Form/Templates/Classic/resources/views/receipt.php:44
@@ -8547,7 +8547,7 @@ msgid "License Key"
 msgstr ""
 
 #: includes/class-give-license-handler.php:916
-#: includes/class-give-scripts.php:301
+#: includes/class-give-scripts.php:302
 #: src/Views/Admin/Form/Metabox-Settings.php:35
 msgid "Activate"
 msgstr ""
@@ -8557,7 +8557,7 @@ msgid "Reactivate"
 msgstr ""
 
 #: includes/class-give-license-handler.php:927
-#: includes/class-give-scripts.php:302
+#: includes/class-give-scripts.php:303
 #: src/Views/Admin/Form/Metabox-Settings.php:35
 msgid "Deactivate"
 msgstr ""
@@ -8707,51 +8707,51 @@ msgstr ""
 msgid "Error: Please complete the required field."
 msgstr ""
 
-#: includes/class-give-scripts.php:291
+#: includes/class-give-scripts.php:292
 msgid "Not available for variable priced forms."
 msgstr ""
 
-#: includes/class-give-scripts.php:292
+#: includes/class-give-scripts.php:293
 msgid "Are you sure you want to <strong>permanently</strong> delete this donation?"
 msgstr ""
 
-#: includes/class-give-scripts.php:293
+#: includes/class-give-scripts.php:294
 #: build/donationDetails.js:10
 #: build/donorDetails.js:10
 #: build/subscriptionDetails.js:10
 msgid "Are you sure you want to delete this note?"
 msgstr ""
 
-#: includes/class-give-scripts.php:294
+#: includes/class-give-scripts.php:295
 msgid "Are you sure you want to revoke this API key?"
 msgstr ""
 
-#: includes/class-give-scripts.php:295
+#: includes/class-give-scripts.php:296
 msgid "Are you sure you want to regenerate this API key?"
 msgstr ""
 
-#: includes/class-give-scripts.php:296
+#: includes/class-give-scripts.php:297
 #: build/donationDetails.js:10
 msgid "Are you sure you want to resend the donation receipt?"
 msgstr ""
 
-#: includes/class-give-scripts.php:297
+#: includes/class-give-scripts.php:298
 msgid "Are you sure you want to disconnect the user from this donor?"
 msgstr ""
 
-#: includes/class-give-scripts.php:298
+#: includes/class-give-scripts.php:299
 msgid "Choose a form"
 msgstr ""
 
-#: includes/class-give-scripts.php:299
+#: includes/class-give-scripts.php:300
 msgid "Choose one or more forms"
 msgstr ""
 
-#: includes/class-give-scripts.php:300
+#: includes/class-give-scripts.php:301
 msgid "Ok"
 msgstr ""
 
-#: includes/class-give-scripts.php:307
+#: includes/class-give-scripts.php:308
 #: build/adminBlocks.js:1
 #: build/assets/dist/js/give-admin-donation-forms.js:4
 #: build/assets/dist/js/give-admin-donations.js:4
@@ -8780,247 +8780,247 @@ msgstr ""
 msgid "Confirm"
 msgstr ""
 
-#: includes/class-give-scripts.php:308
+#: includes/class-give-scripts.php:309
 #: build/formBuilderApp.js:13
 #: build/offlineGatewayFormBuilder.js:1
 msgid "Copied!"
 msgstr ""
 
-#: includes/class-give-scripts.php:309
+#: includes/class-give-scripts.php:310
 msgid "Shortcode could not be copied."
 msgstr ""
 
-#: includes/class-give-scripts.php:310
+#: includes/class-give-scripts.php:311
 msgid "Confirm Action"
 msgstr ""
 
-#: includes/class-give-scripts.php:311
+#: includes/class-give-scripts.php:312
 msgid "Confirm Deletion"
 msgstr ""
 
-#: includes/class-give-scripts.php:312
+#: includes/class-give-scripts.php:313
 msgid "Confirm Delete Donation"
 msgstr ""
 
-#: includes/class-give-scripts.php:313
+#: includes/class-give-scripts.php:314
 msgid "Confirm re-send"
 msgstr ""
 
-#: includes/class-give-scripts.php:314
+#: includes/class-give-scripts.php:315
 msgid "Confirm bulk action"
 msgstr ""
 
-#: includes/class-give-scripts.php:315
+#: includes/class-give-scripts.php:316
 msgid "Do you want to restart the update process?"
 msgstr ""
 
-#: includes/class-give-scripts.php:316
+#: includes/class-give-scripts.php:317
 msgid "It is recommended that you backup your database before proceeding. Do you want to run the update now?"
 msgstr ""
 
-#: includes/class-give-scripts.php:317
+#: includes/class-give-scripts.php:318
 msgid "Do you want to stop the update process now?"
 msgstr ""
 
-#: includes/class-give-scripts.php:318
+#: includes/class-give-scripts.php:319
 msgid "Import failed"
 msgstr ""
 
-#: includes/class-give-scripts.php:319
+#: includes/class-give-scripts.php:320
 msgid "Flush success"
 msgstr ""
 
-#: includes/class-give-scripts.php:320
+#: includes/class-give-scripts.php:321
 msgid "Flush error"
 msgstr ""
 
-#: includes/class-give-scripts.php:321
+#: includes/class-give-scripts.php:322
 msgid "No form selected"
 msgstr ""
 
-#: includes/class-give-scripts.php:322
+#: includes/class-give-scripts.php:323
 msgid "You must choose a method."
 msgstr ""
 
-#: includes/class-give-scripts.php:323
+#: includes/class-give-scripts.php:324
 msgid "Required fields not completed."
 msgstr ""
 
-#: includes/class-give-scripts.php:324
+#: includes/class-give-scripts.php:325
 msgid "Are you sure you want to reset Give? This process is <strong><em>not reversible</em></strong> and will delete all data regardless of test or live mode. Please be sure you have a recent backup before proceeding."
 msgstr ""
 
-#: includes/class-give-scripts.php:325
+#: includes/class-give-scripts.php:326
 msgid "Are you sure you want to delete all the test donors? This process will also delete test donations as well."
 msgstr ""
 
-#: includes/class-give-scripts.php:326
+#: includes/class-give-scripts.php:327
 msgid "Are you sure you want to delete all the imported donors? This process will also delete imported donations as well."
 msgstr ""
 
-#: includes/class-give-scripts.php:327
+#: includes/class-give-scripts.php:328
 msgid "Are you sure you want to delete all the donations in the specfied date range?"
 msgstr ""
 
-#: includes/class-give-scripts.php:328
+#: includes/class-give-scripts.php:329
 #, php-format
 msgid "Please enter amount in monetary decimal ( %1$s ) format without thousand separator ( %2$s ) ."
 msgstr ""
 
 #. translators : %s: Donation form options metabox
-#: includes/class-give-scripts.php:330
+#: includes/class-give-scripts.php:331
 msgid "Do you want to delete this item?"
 msgstr ""
 
-#: includes/class-give-scripts.php:332
+#: includes/class-give-scripts.php:333
 #: build/assets/dist/js/admin.js:1
 #: build/assets/dist/js/give.js:1
 msgid "Dismiss this notice."
 msgstr ""
 
-#: includes/class-give-scripts.php:333
+#: includes/class-give-scripts.php:334
 msgid "Type to search all forms"
 msgstr ""
 
-#: includes/class-give-scripts.php:334
+#: includes/class-give-scripts.php:335
 msgid "Type to search all donors"
 msgstr ""
 
-#: includes/class-give-scripts.php:335
+#: includes/class-give-scripts.php:336
 msgid "Type to search all countries"
 msgstr ""
 
-#: includes/class-give-scripts.php:336
+#: includes/class-give-scripts.php:337
 msgid "Type to search all states/provinces"
 msgstr ""
 
-#: includes/class-give-scripts.php:337
+#: includes/class-give-scripts.php:338
 msgid "Action forbidden"
 msgstr ""
 
-#: includes/class-give-scripts.php:338
+#: includes/class-give-scripts.php:339
 msgid "To edit first name and last name, please go to the user profile of the donor."
 msgstr ""
 
-#: includes/class-give-scripts.php:339
+#: includes/class-give-scripts.php:340
 msgid "Remove from Bulk Delete"
 msgstr ""
 
-#: includes/class-give-scripts.php:341
+#: includes/class-give-scripts.php:342
 msgid "Select Form Template"
 msgstr ""
 
-#: includes/class-give-scripts.php:342
+#: includes/class-give-scripts.php:343
 msgid "Please activate a \"Form Template\" to save the donation form. Select a template by clicking on the \"Form Template\" tab and \"Activate\"."
 msgstr ""
 
-#: includes/class-give-scripts.php:346
+#: includes/class-give-scripts.php:347
 msgid "No donors selected"
 msgstr ""
 
-#: includes/class-give-scripts.php:347
+#: includes/class-give-scripts.php:348
 msgid "You must choose at least one or more donors to delete."
 msgstr ""
 
-#: includes/class-give-scripts.php:350
+#: includes/class-give-scripts.php:351
 msgid "No action selected"
 msgstr ""
 
-#: includes/class-give-scripts.php:351
+#: includes/class-give-scripts.php:352
 msgid "You must select a bulk action to proceed."
 msgstr ""
 
-#: includes/class-give-scripts.php:356
+#: includes/class-give-scripts.php:357
 msgid "No payments selected"
 msgstr ""
 
-#: includes/class-give-scripts.php:359
+#: includes/class-give-scripts.php:360
 msgid "You must choose at least one or more donations to delete."
 msgstr ""
 
-#: includes/class-give-scripts.php:360
+#: includes/class-give-scripts.php:361
 msgid "Are you sure you want to permanently delete this donation?"
 msgstr ""
 
-#: includes/class-give-scripts.php:361
+#: includes/class-give-scripts.php:362
 msgid "Are you sure you want to permanently delete the selected {payment_count} donations?"
 msgstr ""
 
-#: includes/class-give-scripts.php:364
+#: includes/class-give-scripts.php:365
 msgid "You must choose at least one or more recipients to resend the email receipt."
 msgstr ""
 
-#: includes/class-give-scripts.php:365
+#: includes/class-give-scripts.php:366
 msgid "Are you sure you want to resend the email receipt to this recipient?"
 msgstr ""
 
-#: includes/class-give-scripts.php:366
+#: includes/class-give-scripts.php:367
 msgid "Are you sure you want to resend the emails receipt to {payment_count} recipients?"
 msgstr ""
 
-#: includes/class-give-scripts.php:369
+#: includes/class-give-scripts.php:370
 msgid "You must choose at least one or more donations to set status to {status}."
 msgstr ""
 
-#: includes/class-give-scripts.php:370
+#: includes/class-give-scripts.php:371
 msgid "Are you sure you want to set status of this donation to {status}?"
 msgstr ""
 
-#: includes/class-give-scripts.php:371
+#: includes/class-give-scripts.php:372
 msgid "Are you sure you want to set status of {payment_count} donations to {status}?"
 msgstr ""
 
-#: includes/class-give-scripts.php:375
+#: includes/class-give-scripts.php:376
 msgid "Please reload this page and try again"
 msgstr ""
 
-#: includes/class-give-scripts.php:379
+#: includes/class-give-scripts.php:380
 msgid "Choose Image"
 msgstr ""
 
-#: includes/class-give-scripts.php:382
+#: includes/class-give-scripts.php:383
 msgid "Choose File"
 msgstr ""
 
-#: includes/class-give-scripts.php:386
+#: includes/class-give-scripts.php:387
 msgid "No results match {search_term}"
 msgstr ""
 
-#: includes/class-give-scripts.php:387
+#: includes/class-give-scripts.php:388
 msgid "Searching results for match {search_term}"
 msgstr ""
 
-#: includes/class-give-scripts.php:389
+#: includes/class-give-scripts.php:390
 msgid "Run Updates"
 msgstr ""
 
-#: includes/class-give-scripts.php:390
+#: includes/class-give-scripts.php:391
 msgid "The following process will make updates to your site's database. Please create a database backup before proceeding with updates."
 msgstr ""
 
-#: includes/class-give-scripts.php:391
+#: includes/class-give-scripts.php:392
 msgid "Something went wrong kindly try again!"
 msgstr ""
 
-#: includes/class-give-scripts.php:399
+#: includes/class-give-scripts.php:401
 msgid "Changes you made may not be saved."
 msgstr ""
 
-#: includes/class-give-scripts.php:404
+#: includes/class-give-scripts.php:406
 msgid "No result found. Press enter to add"
 msgstr ""
 
-#: includes/class-give-scripts.php:407
+#: includes/class-give-scripts.php:409
 msgid "Please confirm you would like to add a donor note. An email notification will be sent to the donor with the note. If you do not want to notify the donor you may add a private note or disable the donor note email."
 msgstr ""
 
-#: includes/class-give-scripts.php:414
+#: includes/class-give-scripts.php:416
 #: build/formBuilderApp.js:13
 msgid "Updating..."
 msgstr ""
 
-#: includes/class-give-scripts.php:415
-#: includes/class-give-scripts.php:505
+#: includes/class-give-scripts.php:417
+#: includes/class-give-scripts.php:507
 #: build/adminBlocks.js:1
 #: build/assets/dist/js/donor-dashboards-app.js:1
 #: build/campaignBlock.js:1
@@ -9036,75 +9036,75 @@ msgstr ""
 msgid "Loading..."
 msgstr ""
 
-#: includes/class-give-scripts.php:416
+#: includes/class-give-scripts.php:418
 msgid "Uploading..."
 msgstr ""
 
-#: includes/class-give-scripts.php:417
-#: includes/class-give-scripts.php:507
+#: includes/class-give-scripts.php:419
+#: includes/class-give-scripts.php:509
 msgid "Processing..."
 msgstr ""
 
-#: includes/class-give-scripts.php:418
+#: includes/class-give-scripts.php:420
 msgid "Activating..."
 msgstr ""
 
-#: includes/class-give-scripts.php:502
+#: includes/class-give-scripts.php:504
 msgid "Please select a payment method."
 msgstr ""
 
-#: includes/class-give-scripts.php:503
+#: includes/class-give-scripts.php:505
 msgid "The minimum custom donation amount for this form is"
 msgstr ""
 
-#: includes/class-give-scripts.php:504
+#: includes/class-give-scripts.php:506
 msgid "The maximum custom donation amount for this form is"
 msgstr ""
 
-#: includes/class-give-scripts.php:506
+#: includes/class-give-scripts.php:508
 msgid "Please Wait..."
 msgstr ""
 
-#: includes/class-give-scripts.php:507
+#: includes/class-give-scripts.php:509
 #: src/PaymentGateways/PayPalCommerce/ScriptLoader.php:272
 msgid "This will only take a second!"
 msgstr ""
 
-#: includes/class-give-scripts.php:522
+#: includes/class-give-scripts.php:524
 msgid "Please select payment mode."
 msgstr ""
 
-#: includes/class-give-scripts.php:524
+#: includes/class-give-scripts.php:526
 #: includes/process-donation.php:779
 msgid "Please enter your last name."
 msgstr ""
 
-#: includes/class-give-scripts.php:525
+#: includes/class-give-scripts.php:527
 #: includes/process-donation.php:625
 msgid "Please enter a valid email address."
 msgstr ""
 
-#: includes/class-give-scripts.php:526
+#: includes/class-give-scripts.php:528
 msgid "Invalid email address or username."
 msgstr ""
 
-#: includes/class-give-scripts.php:527
+#: includes/class-give-scripts.php:529
 #: includes/process-donation.php:1024
 #: includes/user-functions.php:419
 msgid "Enter a password."
 msgstr ""
 
-#: includes/class-give-scripts.php:528
+#: includes/class-give-scripts.php:530
 #: includes/user-functions.php:423
 msgid "Enter the password confirmation."
 msgstr ""
 
-#: includes/class-give-scripts.php:529
+#: includes/class-give-scripts.php:531
 #: includes/process-donation.php:603
 msgid "You must agree to the terms and conditions."
 msgstr ""
 
-#: includes/class-give-scripts.php:538
+#: includes/class-give-scripts.php:540
 msgid "Loading"
 msgstr ""
 
