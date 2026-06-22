@@ -2,14 +2,14 @@
 # This file is distributed under the same license as the Give - Donation Plugin plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: Give - Donation Plugin 4.15.4\n"
+"Project-Id-Version: Give - Donation Plugin 4.15.5\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/givewp\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-06-15T14:32:38+00:00\n"
+"POT-Creation-Date: 2026-06-22T16:05:24+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: give\n"
@@ -18152,13 +18152,12 @@ msgstr ""
 msgid "I'll setup Donor Dashboards later"
 msgstr ""
 
-#: src/DonorDashboards/Routes/LoginRoute.php:89
-msgid "The provided password was incorrect."
+#: src/DonorDashboards/Routes/LoginRoute.php:118
+msgid "Too many failed login attempts. Please try again later."
 msgstr ""
 
-#: src/DonorDashboards/Routes/LoginRoute.php:101
-#, php-format
-msgid "A record for the provided login (%s) could not be found."
+#: src/DonorDashboards/Routes/LoginRoute.php:129
+msgid "The provided credentials are invalid."
 msgstr ""
 
 #: src/DonorDashboards/Routes/LogoutRoute.php:80
