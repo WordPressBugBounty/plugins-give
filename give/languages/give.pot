@@ -2,14 +2,14 @@
 # This file is distributed under the same license as the Give - Donation Plugin plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: Give - Donation Plugin 4.15.5\n"
+"Project-Id-Version: Give - Donation Plugin 4.16.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/givewp\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-06-22T16:05:24+00:00\n"
+"POT-Creation-Date: 2026-06-24T16:18:20+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: give\n"
@@ -18791,7 +18791,7 @@ msgid "An unexpected error occurred while processing your donation.  Please try 
 msgstr ""
 
 #: src/Framework/PaymentGateways/Webhooks/EventHandlers/Actions/UpdateDonationStatus.php:36
-#: src/Framework/PaymentGateways/Webhooks/EventHandlers/SubscriptionFirstDonationCompleted.php:56
+#: src/Framework/PaymentGateways/Webhooks/EventHandlers/SubscriptionFirstDonationCompleted.php:73
 #: src/Framework/PaymentGateways/Webhooks/EventHandlers/SubscriptionRenewalDonationCreated.php:81
 #, php-format
 msgid "%s transaction ID: %s"
@@ -18833,47 +18833,52 @@ msgstr ""
 msgid "Donation Revoked."
 msgstr ""
 
-#: src/Framework/PaymentGateways/Webhooks/EventHandlers/Actions/UpdateSubscriptionStatus.php:53
+#: src/Framework/PaymentGateways/Webhooks/EventHandlers/Actions/UpdateSubscriptionStatus.php:37
+#, php-format
+msgid "%s subscription ID: %s"
+msgstr ""
+
+#: src/Framework/PaymentGateways/Webhooks/EventHandlers/Actions/UpdateSubscriptionStatus.php:64
 msgid "Subscription Completed."
 msgstr ""
 
-#: src/Framework/PaymentGateways/Webhooks/EventHandlers/Actions/UpdateSubscriptionStatus.php:56
+#: src/Framework/PaymentGateways/Webhooks/EventHandlers/Actions/UpdateSubscriptionStatus.php:67
 msgid "Subscription Expired."
 msgstr ""
 
-#: src/Framework/PaymentGateways/Webhooks/EventHandlers/Actions/UpdateSubscriptionStatus.php:59
+#: src/Framework/PaymentGateways/Webhooks/EventHandlers/Actions/UpdateSubscriptionStatus.php:70
 msgid "Subscription Active."
 msgstr ""
 
-#: src/Framework/PaymentGateways/Webhooks/EventHandlers/Actions/UpdateSubscriptionStatus.php:62
+#: src/Framework/PaymentGateways/Webhooks/EventHandlers/Actions/UpdateSubscriptionStatus.php:73
 msgid "Subscription Cancelled."
 msgstr ""
 
-#: src/Framework/PaymentGateways/Webhooks/EventHandlers/Actions/UpdateSubscriptionStatus.php:65
+#: src/Framework/PaymentGateways/Webhooks/EventHandlers/Actions/UpdateSubscriptionStatus.php:76
 msgid "Subscription Failing."
 msgstr ""
 
-#: src/Framework/PaymentGateways/Webhooks/EventHandlers/Actions/UpdateSubscriptionStatus.php:68
+#: src/Framework/PaymentGateways/Webhooks/EventHandlers/Actions/UpdateSubscriptionStatus.php:79
 msgid "Subscription Paused."
 msgstr ""
 
-#: src/Framework/PaymentGateways/Webhooks/EventHandlers/Actions/UpdateSubscriptionStatus.php:71
+#: src/Framework/PaymentGateways/Webhooks/EventHandlers/Actions/UpdateSubscriptionStatus.php:82
 msgid "Subscription Pending."
 msgstr ""
 
-#: src/Framework/PaymentGateways/Webhooks/EventHandlers/Actions/UpdateSubscriptionStatus.php:74
+#: src/Framework/PaymentGateways/Webhooks/EventHandlers/Actions/UpdateSubscriptionStatus.php:85
 msgid "Subscription Suspended."
 msgstr ""
 
-#: src/Framework/PaymentGateways/Webhooks/EventHandlers/SubscriptionFirstDonationCompleted.php:45
+#: src/Framework/PaymentGateways/Webhooks/EventHandlers/SubscriptionFirstDonationCompleted.php:62
 msgid "Subscription First Donation Completed."
 msgstr ""
 
-#: src/Framework/PaymentGateways/Webhooks/EventHandlers/SubscriptionFirstDonationCompleted.php:51
+#: src/Framework/PaymentGateways/Webhooks/EventHandlers/SubscriptionFirstDonationCompleted.php:68
 msgid "Subscription First Donation Updated."
 msgstr ""
 
-#: src/Framework/PaymentGateways/Webhooks/EventHandlers/SubscriptionFirstDonationCompleted.php:65
+#: src/Framework/PaymentGateways/Webhooks/EventHandlers/SubscriptionFirstDonationCompleted.php:82
 msgid "Subscription Active After The First Donation Got Completed."
 msgstr ""
 

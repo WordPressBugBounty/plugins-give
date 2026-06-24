@@ -395,6 +395,7 @@ return array(
     'Give\\DonationForms\\ViewModels\\DonationFormViewModel' => $baseDir . '/src/DonationForms/ViewModels/DonationFormViewModel.php',
     'Give\\DonationSpam\\Akismet\\API' => $baseDir . '/src/DonationSpam/Akismet/API.php',
     'Give\\DonationSpam\\Akismet\\Actions\\ValidateDonation' => $baseDir . '/src/DonationSpam/Akismet/Actions/ValidateDonation.php',
+    'Give\\DonationSpam\\Akismet\\Actions\\ValidateDonationOnFinalSubmission' => $baseDir . '/src/DonationSpam/Akismet/Actions/ValidateDonationOnFinalSubmission.php',
     'Give\\DonationSpam\\Akismet\\DataTransferObjects\\CommentCheckArgs' => $baseDir . '/src/DonationSpam/Akismet/DataTransferObjects/CommentCheckArgs.php',
     'Give\\DonationSpam\\Akismet\\DataTransferObjects\\SpamContext' => $baseDir . '/src/DonationSpam/Akismet/DataTransferObjects/SpamContext.php',
     'Give\\DonationSpam\\EmailAddressWhiteList' => $baseDir . '/src/DonationSpam/EmailAddressWhiteList.php',

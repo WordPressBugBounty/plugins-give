@@ -474,6 +474,7 @@ class ComposerStaticInitb75550006f5bc80dbe46d39f13664bf0
         'Give\\DonationForms\\ViewModels\\DonationFormViewModel' => __DIR__ . '/../..' . '/src/DonationForms/ViewModels/DonationFormViewModel.php',
         'Give\\DonationSpam\\Akismet\\API' => __DIR__ . '/../..' . '/src/DonationSpam/Akismet/API.php',
         'Give\\DonationSpam\\Akismet\\Actions\\ValidateDonation' => __DIR__ . '/../..' . '/src/DonationSpam/Akismet/Actions/ValidateDonation.php',
+        'Give\\DonationSpam\\Akismet\\Actions\\ValidateDonationOnFinalSubmission' => __DIR__ . '/../..' . '/src/DonationSpam/Akismet/Actions/ValidateDonationOnFinalSubmission.php',
         'Give\\DonationSpam\\Akismet\\DataTransferObjects\\CommentCheckArgs' => __DIR__ . '/../..' . '/src/DonationSpam/Akismet/DataTransferObjects/CommentCheckArgs.php',
         'Give\\DonationSpam\\Akismet\\DataTransferObjects\\SpamContext' => __DIR__ . '/../..' . '/src/DonationSpam/Akismet/DataTransferObjects/SpamContext.php',
         'Give\\DonationSpam\\EmailAddressWhiteList' => __DIR__ . '/../..' . '/src/DonationSpam/EmailAddressWhiteList.php',
