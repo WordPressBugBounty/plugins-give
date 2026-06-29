@@ -2,14 +2,14 @@
 # This file is distributed under the same license as the Give - Donation Plugin plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: Give - Donation Plugin 4.16.0\n"
+"Project-Id-Version: Give - Donation Plugin 4.16.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/givewp\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-06-24T16:18:20+00:00\n"
+"POT-Creation-Date: 2026-06-29T13:49:57+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: give\n"
@@ -1192,7 +1192,6 @@ msgstr ""
 #: includes/admin/emails/class-donation-receipt-email.php:314
 #: includes/admin/emails/class-donor-note-email.php:79
 #: includes/admin/emails/class-donor-register-email.php:114
-#: includes/admin/emails/class-email-access-email.php:271
 #: includes/admin/emails/class-failed-donation-email.php:253
 #: includes/admin/emails/class-new-donation-email.php:248
 #: includes/admin/emails/class-new-donor-register-email.php:110
@@ -1252,7 +1251,6 @@ msgstr ""
 #: includes/admin/emails/class-donation-receipt-email.php:313
 #: includes/admin/emails/class-donor-note-email.php:78
 #: includes/admin/emails/class-donor-register-email.php:113
-#: includes/admin/emails/class-email-access-email.php:270
 #: includes/admin/emails/class-failed-donation-email.php:252
 #: includes/admin/emails/class-new-donation-email.php:247
 #: includes/admin/emails/class-new-donor-register-email.php:109
@@ -8216,37 +8214,13 @@ msgstr ""
 msgid "All Levels"
 msgstr ""
 
-#: includes/ajax-functions.php:701
-#: includes/login-register.php:396
-#: src/DonorDashboards/Routes/VerifyEmailRoute.php:69
-#: src/DonorDashboards/Routes/VerifyEmailRoute.php:104
-msgid "Unable to send email. Please try again."
-msgstr ""
-
-#: includes/ajax-functions.php:716
+#: includes/ajax-functions.php:709
 #: includes/class-give-scripts.php:491
 #: templates/email-login-form.php:33
 msgid "Please check your email and click on the link to access your complete donation history."
 msgstr ""
 
-#: includes/ajax-functions.php:741
-#: templates/email-login-form.php:60
-#: templates/history-donations.php:45
-#, php-format
-msgid "Too many access email requests detected. Please wait %s before requesting a new donation history access link."
-msgstr ""
-
-#: includes/ajax-functions.php:742
-#: src/DonorDashboards/Routes/VerifyEmailRoute.php:123
-#: templates/email-login-form.php:61
-#: templates/history-donations.php:46
-#, php-format
-msgid "%s minute"
-msgid_plural "%s minutes"
-msgstr[0] ""
-msgstr[1] ""
-
-#: includes/ajax-functions.php:836
+#: includes/ajax-functions.php:799
 msgid "Sorry, unable to load changelog."
 msgstr ""
 
@@ -15699,6 +15673,12 @@ msgstr ""
 msgid "It looks like the reCAPTCHA test has failed."
 msgstr ""
 
+#: includes/login-register.php:396
+#: src/DonorDashboards/Routes/VerifyEmailRoute.php:69
+#: src/DonorDashboards/Routes/VerifyEmailRoute.php:104
+msgid "Unable to send email. Please try again."
+msgstr ""
+
 #: includes/login-register.php:406
 msgid "We were unable to find any donations associated with the email address provided. Please try again using another email."
 msgstr ""
@@ -18176,6 +18156,15 @@ msgstr ""
 #: src/DonorDashboards/Routes/VerifyEmailRoute.php:122
 msgid "Email sent. If not received, make sure it is a valid donor email."
 msgstr ""
+
+#: src/DonorDashboards/Routes/VerifyEmailRoute.php:123
+#: templates/email-login-form.php:61
+#: templates/history-donations.php:46
+#, php-format
+msgid "%s minute"
+msgid_plural "%s minutes"
+msgstr[0] ""
+msgstr[1] ""
 
 #: src/DonorDashboards/Tabs/Contracts/Route.php:86
 msgid "An error occurred while validating donor ID on request."
@@ -23566,6 +23555,12 @@ msgstr ""
 
 #: src/Views/IframeView.php:102
 msgid "Click to donate"
+msgstr ""
+
+#: templates/email-login-form.php:60
+#: templates/history-donations.php:45
+#, php-format
+msgid "Too many access email requests detected. Please wait %s before requesting a new donation history access link."
 msgstr ""
 
 #: templates/email-login-form.php:102
