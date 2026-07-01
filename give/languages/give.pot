@@ -2,14 +2,14 @@
 # This file is distributed under the same license as the Give - Donation Plugin plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: Give - Donation Plugin 4.16.1\n"
+"Project-Id-Version: Give - Donation Plugin 4.16.2\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/givewp\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-06-29T13:49:57+00:00\n"
+"POT-Creation-Date: 2026-07-01T14:53:55+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: give\n"
@@ -133,7 +133,7 @@ msgstr ""
 #: build/Campaigns/Blocks/CampaignForm/render.php:26
 #: includes/forms/template.php:695
 #: includes/forms/template.php:725
-#: includes/forms/template.php:2034
+#: includes/forms/template.php:2036
 #: includes/forms/widget.php:172
 #: includes/gateways/stripe/includes/give-stripe-scripts.php:54
 #: includes/shortcodes.php:658
@@ -2892,7 +2892,7 @@ msgstr ""
 msgid "Goal Statistics"
 msgstr ""
 
-#: includes/admin/forms/class-metabox-form-data.php:1416
+#: includes/admin/forms/class-metabox-form-data.php:1422
 #: includes/admin/settings/class-settings-gateways.php:229
 #: includes/gateways/offline-donations.php:41
 #: includes/gateways/offline-donations.php:82
@@ -14556,7 +14556,7 @@ msgstr ""
 msgid "Hide Terms"
 msgstr ""
 
-#: includes/forms/template.php:2303
+#: includes/forms/template.php:2305
 #: includes/gateways/stripe/includes/class-give-stripe-gateway.php:121
 #: includes/gateways/stripe/includes/class-give-stripe-gateway.php:132
 #: includes/gateways/stripe/includes/class-give-stripe-gateway.php:143
@@ -14569,11 +14569,11 @@ msgstr ""
 msgid "Notice:"
 msgstr ""
 
-#: includes/forms/template.php:2303
+#: includes/forms/template.php:2305
 msgid "Test mode is enabled. While in test mode no live donations are processed."
 msgstr ""
 
-#: includes/forms/template.php:2332
+#: includes/forms/template.php:2334
 msgid "Please log in in order to complete your donation."
 msgstr ""
 
