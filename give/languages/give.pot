@@ -2,14 +2,14 @@
 # This file is distributed under the same license as the Give - Donation Plugin plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: Give - Donation Plugin 4.16.2\n"
+"Project-Id-Version: Give - Donation Plugin 4.16.3\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/givewp\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-07-01T14:53:55+00:00\n"
+"POT-Creation-Date: 2026-07-06T16:22:34+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: give\n"
@@ -147,10 +147,10 @@ msgstr ""
 #: src/Onboarding/DefaultFormFactory.php:41
 #: src/Onboarding/DefaultFormFactory.php:45
 #: src/Onboarding/DefaultFormFactory.php:129
-#: src/PaymentGateways/Gateways/Stripe/Traits/CheckoutModal.php:124
+#: src/PaymentGateways/Gateways/Stripe/Traits/CheckoutModal.php:125
 #: src/ThirdPartySupport/Elementor/Widgets/V1/GiveTotalsWidget.php:163
-#: src/Views/Form/Templates/Sequoia/Actions.php:230
-#: src/Views/Form/Templates/Sequoia/Actions.php:293
+#: src/Views/Form/Templates/Sequoia/Actions.php:231
+#: src/Views/Form/Templates/Sequoia/Actions.php:294
 #: src/Views/Form/Templates/Sequoia/optionConfig.php:124
 #: src/Views/Form/Templates/Sequoia/optionConfig.php:126
 #: src/Views/Form/Templates/Sequoia/Sequoia.php:95
@@ -14589,7 +14589,7 @@ msgstr ""
 #: includes/forms/widget.php:177
 #: src/DonationForms/Properties/FormSettings.php:373
 #: src/Onboarding/DefaultFormFactory.php:140
-#: src/Views/Form/Templates/Sequoia/Actions.php:321
+#: src/Views/Form/Templates/Sequoia/Actions.php:322
 #: src/Views/Form/Templates/Sequoia/optionConfig.php:178
 #: src/Views/Form/Templates/Sequoia/optionConfig.php:180
 #: src/Views/Form/Templates/Sequoia/Sequoia.php:100
@@ -14706,7 +14706,7 @@ msgstr ""
 msgid "You must enable a payment gateway to use Give."
 msgstr ""
 
-#: includes/gateways/functions.php:321
+#: includes/gateways/functions.php:319
 msgid "Payment Error"
 msgstr ""
 
@@ -16605,11 +16605,11 @@ msgstr ""
 
 #: src/API/REST/V3/Routes/Donations/DataTransferObjects/DonationCreateData.php:133
 #: src/API/REST/V3/Routes/Donations/DataTransferObjects/DonationCreateData.php:172
-#: src/API/REST/V3/Routes/Subscriptions/SubscriptionController.php:252
-#: src/API/REST/V3/Routes/Subscriptions/SubscriptionController.php:329
-#: src/API/REST/V3/Routes/Subscriptions/SubscriptionController.php:388
-#: src/API/REST/V3/Routes/Subscriptions/SubscriptionController.php:432
-#: src/API/REST/V3/Routes/Subscriptions/SubscriptionController.php:475
+#: src/API/REST/V3/Routes/Subscriptions/SubscriptionController.php:258
+#: src/API/REST/V3/Routes/Subscriptions/SubscriptionController.php:334
+#: src/API/REST/V3/Routes/Subscriptions/SubscriptionController.php:393
+#: src/API/REST/V3/Routes/Subscriptions/SubscriptionController.php:437
+#: src/API/REST/V3/Routes/Subscriptions/SubscriptionController.php:480
 #: src/API/REST/V3/Routes/Subscriptions/SubscriptionNotesController.php:100
 #: src/API/REST/V3/Routes/Subscriptions/SubscriptionNotesController.php:162
 #: src/API/REST/V3/Routes/Subscriptions/SubscriptionNotesController.php:196
@@ -17408,27 +17408,27 @@ msgstr ""
 msgid "Whether to also move the subscription to trash (trash=true) instead of just canceling it."
 msgstr ""
 
-#: src/API/REST/V3/Routes/Subscriptions/SubscriptionController.php:297
+#: src/API/REST/V3/Routes/Subscriptions/SubscriptionController.php:302
 #, php-format
 msgid "Failed to create subscription: %s"
 msgstr ""
 
-#: src/API/REST/V3/Routes/Subscriptions/SubscriptionController.php:397
-#: src/API/REST/V3/Routes/Subscriptions/SubscriptionController.php:443
+#: src/API/REST/V3/Routes/Subscriptions/SubscriptionController.php:402
+#: src/API/REST/V3/Routes/Subscriptions/SubscriptionController.php:448
 msgid "Failed to delete subscription"
 msgstr ""
 
-#: src/API/REST/V3/Routes/Subscriptions/SubscriptionController.php:403
-#: src/API/REST/V3/Routes/Subscriptions/SubscriptionController.php:451
+#: src/API/REST/V3/Routes/Subscriptions/SubscriptionController.php:408
+#: src/API/REST/V3/Routes/Subscriptions/SubscriptionController.php:456
 msgid "Failed to trash subscription"
 msgstr ""
 
-#: src/API/REST/V3/Routes/Subscriptions/SubscriptionController.php:497
+#: src/API/REST/V3/Routes/Subscriptions/SubscriptionController.php:502
 #: build/subscriptionDetails.js:10
 msgid "Failed to cancel subscription"
 msgstr ""
 
-#: src/API/REST/V3/Routes/Subscriptions/SubscriptionController.php:628
+#: src/API/REST/V3/Routes/Subscriptions/SubscriptionController.php:633
 #, php-format
 msgid "Error while preparing subscription for response: %s"
 msgstr ""
@@ -19257,7 +19257,7 @@ msgstr ""
 
 #: src/Onboarding/DefaultFormFactory.php:149
 #: src/Views/Form/Templates/Classic/optionConfig.php:165
-#: src/Views/Form/Templates/Sequoia/Actions.php:253
+#: src/Views/Form/Templates/Sequoia/Actions.php:254
 #: src/Views/Form/Templates/Sequoia/optionConfig.php:210
 #: src/Views/Form/Templates/Sequoia/optionConfig.php:212
 msgid "Who's giving today?"
@@ -19265,7 +19265,7 @@ msgstr ""
 
 #: src/Onboarding/DefaultFormFactory.php:150
 #: src/Views/Form/Templates/Classic/optionConfig.php:172
-#: src/Views/Form/Templates/Sequoia/Actions.php:257
+#: src/Views/Form/Templates/Sequoia/Actions.php:258
 #: src/Views/Form/Templates/Sequoia/optionConfig.php:223
 #: src/Views/Form/Templates/Sequoia/optionConfig.php:225
 msgid "We’ll never share this information with anyone."
@@ -23405,14 +23405,14 @@ msgstr ""
 msgid "Step description will show up here if any"
 msgstr ""
 
-#: src/Views/Form/Templates/Sequoia/Actions.php:287
+#: src/Views/Form/Templates/Sequoia/Actions.php:288
 #: src/Views/Form/Templates/Sequoia/optionConfig.php:157
 #: src/Views/Form/Templates/Sequoia/optionConfig.php:165
 #, php-format
 msgid "How much would you like to donate? As a contributor to %s we make sure your donation goes directly to supporting our cause. Thank you for your generosity!"
 msgstr ""
 
-#: src/Views/Form/Templates/Sequoia/Actions.php:347
+#: src/Views/Form/Templates/Sequoia/Actions.php:348
 #, php-format
 msgid "Donate with %1$s"
 msgstr ""
@@ -23653,20 +23653,20 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. translators: 1: amount of income raised 2: goal target amount.
-#: templates/shortcode-goal.php:204
+#: templates/shortcode-goal.php:206
 #, php-format
 msgid "<span class=\"income\" data-amounts=\"%1$s\">%2$s</span> of <span class=\"goal-text\" data-amounts=\"%3$s\">%4$s</span> raised"
 msgstr ""
 
 #. translators: %s: percentage of the amount raised compared to the goal target
-#: templates/shortcode-goal.php:214
+#: templates/shortcode-goal.php:216
 #: templates/shortcode-totals-progress.php:34
 #, php-format
 msgid "<span class=\"give-percentage\">%s%%</span> funded"
 msgstr ""
 
 #. translators: 1: total number of donations completed 2: total number of donations set as goal
-#: templates/shortcode-goal.php:221
+#: templates/shortcode-goal.php:223
 #, php-format
 msgid "<span class=\"income\">%1$s</span> of <span class=\"goal-text\">%2$s</span> donation"
 msgid_plural "<span class=\"income\">%1$s</span> of <span class=\"goal-text\">%2$s</span> donations"
@@ -23674,7 +23674,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. translators: 1: total number of donors completed 2: total number of donors set as goal
-#: templates/shortcode-goal.php:235
+#: templates/shortcode-goal.php:237
 #, php-format
 msgid "<span class=\"income\">%1$s</span> of <span class=\"goal-text\">%2$s</span> donor"
 msgid_plural "<span class=\"income\">%1$s</span> of <span class=\"goal-text\">%2$s</span> donors"
