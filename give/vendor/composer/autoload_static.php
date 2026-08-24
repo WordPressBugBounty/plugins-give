@@ -359,6 +359,7 @@ class ComposerStaticInitb75550006f5bc80dbe46d39f13664bf0
         'Give\\DonationForms\\Actions\\ReplaceGiveReceiptShortcodeViewWithDonationConfirmationIframe' => __DIR__ . '/../..' . '/src/DonationForms/Actions/ReplaceGiveReceiptShortcodeViewWithDonationConfirmationIframe.php',
         'Give\\DonationForms\\Actions\\SanitizeDonationFormPreviewRequest' => __DIR__ . '/../..' . '/src/DonationForms/Actions/SanitizeDonationFormPreviewRequest.php',
         'Give\\DonationForms\\Actions\\StoreBackwardsCompatibleFormMeta' => __DIR__ . '/../..' . '/src/DonationForms/Actions/StoreBackwardsCompatibleFormMeta.php',
+        'Give\\DonationForms\\Actions\\ValidateDonationFormRequest' => __DIR__ . '/../..' . '/src/DonationForms/Actions/ValidateDonationFormRequest.php',
         'Give\\DonationForms\\Actions\\ValidateReceiptViewPermission' => __DIR__ . '/../..' . '/src/DonationForms/Actions/ValidateReceiptViewPermission.php',
         'Give\\DonationForms\\AsyncData\\Actions\\GetAsyncFormDataForListView' => __DIR__ . '/../..' . '/src/DonationForms/AsyncData/Actions/GetAsyncFormDataForListView.php',
         'Give\\DonationForms\\AsyncData\\Actions\\GiveGoalProgressStats' => __DIR__ . '/../..' . '/src/DonationForms/AsyncData/Actions/GiveGoalProgressStats.php',

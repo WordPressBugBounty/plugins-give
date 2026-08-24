@@ -280,6 +280,7 @@ return array(
     'Give\\DonationForms\\Actions\\ReplaceGiveReceiptShortcodeViewWithDonationConfirmationIframe' => $baseDir . '/src/DonationForms/Actions/ReplaceGiveReceiptShortcodeViewWithDonationConfirmationIframe.php',
     'Give\\DonationForms\\Actions\\SanitizeDonationFormPreviewRequest' => $baseDir . '/src/DonationForms/Actions/SanitizeDonationFormPreviewRequest.php',
     'Give\\DonationForms\\Actions\\StoreBackwardsCompatibleFormMeta' => $baseDir . '/src/DonationForms/Actions/StoreBackwardsCompatibleFormMeta.php',
+    'Give\\DonationForms\\Actions\\ValidateDonationFormRequest' => $baseDir . '/src/DonationForms/Actions/ValidateDonationFormRequest.php',
     'Give\\DonationForms\\Actions\\ValidateReceiptViewPermission' => $baseDir . '/src/DonationForms/Actions/ValidateReceiptViewPermission.php',
     'Give\\DonationForms\\AsyncData\\Actions\\GetAsyncFormDataForListView' => $baseDir . '/src/DonationForms/AsyncData/Actions/GetAsyncFormDataForListView.php',
     'Give\\DonationForms\\AsyncData\\Actions\\GiveGoalProgressStats' => $baseDir . '/src/DonationForms/AsyncData/Actions/GiveGoalProgressStats.php',

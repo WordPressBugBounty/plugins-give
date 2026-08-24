@@ -2,14 +2,14 @@
 # This file is distributed under the same license as the Give - Donation Plugin plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: Give - Donation Plugin 4.16.7\n"
+"Project-Id-Version: Give - Donation Plugin 4.16.7.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/givewp\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-08-20T17:59:53+00:00\n"
+"POT-Creation-Date: 2026-08-24T19:32:33+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: give\n"
@@ -16027,6 +16027,7 @@ msgid "Widgets in this area will be shown on the single GiveWP forms aside area.
 msgstr ""
 
 #: includes/process-donation.php:63
+#: src/DonationForms/Actions/ValidateDonationFormRequest.php:67
 msgid "The donation form ID is invalid. Please reload the page and try again."
 msgstr ""
 
@@ -20014,37 +20015,42 @@ msgstr ""
 msgid "Disconnect"
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:204
+#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:208
 msgid "You are not allowed to perform this action."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:377
-msgid "Make sure to complete the entire PayPal process. Do not close the window until you have finished the process."
-msgstr ""
-
-#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:381
-msgid "The last screen of the PayPal connect process includes a button to be sent back to your site. It is important you click this and do not close the window yourself."
-msgstr ""
-
-#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:385
-msgid "If you’re still having problems connecting: "
-msgstr ""
-
-#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:393
-msgid "Having trouble connecting to PayPal?"
-msgstr ""
-
-#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:439
+#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:302
+#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:518
 msgid "Invalid donation amount."
 msgstr ""
 
+#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:407
+msgid "Make sure to complete the entire PayPal process. Do not close the window until you have finished the process."
+msgstr ""
+
+#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:411
+msgid "The last screen of the PayPal connect process includes a button to be sent back to your site. It is important you click this and do not close the window yourself."
+msgstr ""
+
+#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:415
+msgid "If you’re still having problems connecting: "
+msgstr ""
+
+#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:423
+msgid "Having trouble connecting to PayPal?"
+msgstr ""
+
 #. translators: %s: maximum donation amount
-#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:447
+#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:526
 #, php-format
 msgid "Donation amount must not exceed %s."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:471
+#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:544
+msgid "This request is not supported for this donation form."
+msgstr ""
+
+#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:567
 msgid "Donation amount cannot be decreased."
 msgstr ""
 
@@ -29910,6 +29916,10 @@ msgstr ""
 
 #: build/offlineGatewayFormBuilder.js:1
 msgid "Enter the instructions you want to display to the donor during the donation process. Most likely this would include important information like mailing address and who to make the check out to"
+msgstr ""
+
+#: build/payPalCommerceGateway.js:1
+msgid "Unable to create the PayPal order."
 msgstr ""
 
 #: build/payPalCommerceGateway.js:1
