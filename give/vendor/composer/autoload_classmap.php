@@ -447,6 +447,7 @@ return array(
     'Give\\Donations\\Migrations\\AddMissingDonorIdToDonationComments' => $baseDir . '/src/Donations/Migrations/AddMissingDonorIdToDonationComments.php',
     'Give\\Donations\\Migrations\\MoveDonationCommentToDonationMetaTable' => $baseDir . '/src/Donations/Migrations/MoveDonationCommentToDonationMetaTable.php',
     'Give\\Donations\\Migrations\\RecalculateExchangeRate' => $baseDir . '/src/Donations/Migrations/RecalculateExchangeRate.php',
+    'Give\\Donations\\Migrations\\SanitizeSerializedObjectPayloads' => $baseDir . '/src/Donations/Migrations/SanitizeSerializedObjectPayloads.php',
     'Give\\Donations\\Migrations\\SetAutomaticFormattingOption' => $baseDir . '/src/Donations/Migrations/SetAutomaticFormattingOption.php',
     'Give\\Donations\\Migrations\\UnserializeTitlePrefix' => $baseDir . '/src/Donations/Migrations/UnserializeTitlePrefix.php',
     'Give\\Donations\\Models\\Donation' => $baseDir . '/src/Donations/Models/Donation.php',

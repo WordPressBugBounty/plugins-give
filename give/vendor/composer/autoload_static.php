@@ -526,6 +526,7 @@ class ComposerStaticInitb75550006f5bc80dbe46d39f13664bf0
         'Give\\Donations\\Migrations\\AddMissingDonorIdToDonationComments' => __DIR__ . '/../..' . '/src/Donations/Migrations/AddMissingDonorIdToDonationComments.php',
         'Give\\Donations\\Migrations\\MoveDonationCommentToDonationMetaTable' => __DIR__ . '/../..' . '/src/Donations/Migrations/MoveDonationCommentToDonationMetaTable.php',
         'Give\\Donations\\Migrations\\RecalculateExchangeRate' => __DIR__ . '/../..' . '/src/Donations/Migrations/RecalculateExchangeRate.php',
+        'Give\\Donations\\Migrations\\SanitizeSerializedObjectPayloads' => __DIR__ . '/../..' . '/src/Donations/Migrations/SanitizeSerializedObjectPayloads.php',
         'Give\\Donations\\Migrations\\SetAutomaticFormattingOption' => __DIR__ . '/../..' . '/src/Donations/Migrations/SetAutomaticFormattingOption.php',
         'Give\\Donations\\Migrations\\UnserializeTitlePrefix' => __DIR__ . '/../..' . '/src/Donations/Migrations/UnserializeTitlePrefix.php',
         'Give\\Donations\\Models\\Donation' => __DIR__ . '/../..' . '/src/Donations/Models/Donation.php',
