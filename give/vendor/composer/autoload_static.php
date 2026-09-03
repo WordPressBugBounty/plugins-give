@@ -7,8 +7,6 @@ namespace Composer\Autoload;
 class ComposerStaticInitb75550006f5bc80dbe46d39f13664bf0
 {
     public static $files = array (
-        '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
-        '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         '5f6326688f4debc6e43d6860fdea3df8' => __DIR__ . '/../..' . '/src/Framework/Http/Response/functions.php',
         'd07363a44b39ed7758400be44c013440' => __DIR__ . '/../..' . '/src/FormMigration/functions.php',
     );
@@ -16,8 +14,6 @@ class ComposerStaticInitb75550006f5bc80dbe46d39f13664bf0
     public static $prefixLengthsPsr4 = array (
         'S' =>
         array (
-            'Symfony\\Polyfill\\Mbstring\\' => 26,
-            'Symfony\\Polyfill\\Ctype\\' => 23,
             'Stripe\\' => 7,
             'Sample\\' => 7,
         ),
@@ -42,14 +38,6 @@ class ComposerStaticInitb75550006f5bc80dbe46d39f13664bf0
     );
 
     public static $prefixDirsPsr4 = array (
-        'Symfony\\Polyfill\\Mbstring\\' =>
-        array (
-            0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
-        ),
-        'Symfony\\Polyfill\\Ctype\\' =>
-        array (
-            0 => __DIR__ . '/..' . '/symfony/polyfill-ctype',
-        ),
         'Stripe\\' =>
         array (
             0 => __DIR__ . '/..' . '/stripe/stripe-php/lib',
@@ -423,6 +411,7 @@ class ComposerStaticInitb75550006f5bc80dbe46d39f13664bf0
         'Give\\DonationForms\\Rules\\BillingAddressCityRule' => __DIR__ . '/../..' . '/src/DonationForms/Rules/BillingAddressCityRule.php',
         'Give\\DonationForms\\Rules\\BillingAddressStateRule' => __DIR__ . '/../..' . '/src/DonationForms/Rules/BillingAddressStateRule.php',
         'Give\\DonationForms\\Rules\\BillingAddressZipRule' => __DIR__ . '/../..' . '/src/DonationForms/Rules/BillingAddressZipRule.php',
+        'Give\\DonationForms\\Rules\\Concerns\\HasExemptAmounts' => __DIR__ . '/../..' . '/src/DonationForms/Rules/Concerns/HasExemptAmounts.php',
         'Give\\DonationForms\\Rules\\CurrencyRule' => __DIR__ . '/../..' . '/src/DonationForms/Rules/CurrencyRule.php',
         'Give\\DonationForms\\Rules\\DonationTypeRule' => __DIR__ . '/../..' . '/src/DonationForms/Rules/DonationTypeRule.php',
         'Give\\DonationForms\\Rules\\GatewayRule' => __DIR__ . '/../..' . '/src/DonationForms/Rules/GatewayRule.php',
@@ -1953,8 +1942,6 @@ class ComposerStaticInitb75550006f5bc80dbe46d39f13664bf0
         'Stripe\\Webhook' => __DIR__ . '/..' . '/stripe/stripe-php/lib/Webhook.php',
         'Stripe\\WebhookEndpoint' => __DIR__ . '/..' . '/stripe/stripe-php/lib/WebhookEndpoint.php',
         'Stripe\\WebhookSignature' => __DIR__ . '/..' . '/stripe/stripe-php/lib/WebhookSignature.php',
-        'Symfony\\Polyfill\\Ctype\\Ctype' => __DIR__ . '/..' . '/symfony/polyfill-ctype/Ctype.php',
-        'Symfony\\Polyfill\\Mbstring\\Mbstring' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/Mbstring.php',
         'TCPDF' => __DIR__ . '/..' . '/tecnickcom/tcpdf/tcpdf.php',
         'TCPDF2DBarcode' => __DIR__ . '/..' . '/tecnickcom/tcpdf/tcpdf_barcodes_2d.php',
         'TCPDFBarcode' => __DIR__ . '/..' . '/tecnickcom/tcpdf/tcpdf_barcodes_1d.php',

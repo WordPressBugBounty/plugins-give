@@ -22,7 +22,7 @@ use Give\Vendors\Psr\Http\Client\ClientExceptionInterface;
 /**
  * Provides operations for the credits quotas API resource.
  *
- * @phpstan-import-type SetQuotaPayload from \LiquidWeb\LicensingApiClient\Requests\Credit\SetQuota
+ * @phpstan-import-type SetQuotaPayload from \Give\Vendors\LiquidWeb\LicensingApiClient\Requests\Credit\SetQuota
  * @phpstan-type SiteQuotaPayload array{
  *     domain: string,
  *     credit_type: string,
