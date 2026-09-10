@@ -555,6 +555,7 @@ return array(
     'Give\\EventTickets\\Actions\\EnqueueListTableScripts' => $baseDir . '/src/EventTickets/Actions/EnqueueListTableScripts.php',
     'Give\\EventTickets\\Actions\\GenerateTicketsFromPurchaseData' => $baseDir . '/src/EventTickets/Actions/GenerateTicketsFromPurchaseData.php',
     'Give\\EventTickets\\Actions\\RegisterEventsMenuItem' => $baseDir . '/src/EventTickets/Actions/RegisterEventsMenuItem.php',
+    'Give\\EventTickets\\Actions\\ReleaseEventTicketsForDonation' => $baseDir . '/src/EventTickets/Actions/ReleaseEventTicketsForDonation.php',
     'Give\\EventTickets\\Actions\\RenderDonationFormBlock' => $baseDir . '/src/EventTickets/Actions/RenderDonationFormBlock.php',
     'Give\\EventTickets\\Actions\\UpdateDonationConfirmationPageReceiptDonationAmount' => $baseDir . '/src/EventTickets/Actions/UpdateDonationConfirmationPageReceiptDonationAmount.php',
     'Give\\EventTickets\\DataTransferObjects\\EventTicketTypeData' => $baseDir . '/src/EventTickets/DataTransferObjects/EventTicketTypeData.php',

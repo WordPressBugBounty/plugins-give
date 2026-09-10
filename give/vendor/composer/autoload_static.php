@@ -622,6 +622,7 @@ class ComposerStaticInitb75550006f5bc80dbe46d39f13664bf0
         'Give\\EventTickets\\Actions\\EnqueueListTableScripts' => __DIR__ . '/../..' . '/src/EventTickets/Actions/EnqueueListTableScripts.php',
         'Give\\EventTickets\\Actions\\GenerateTicketsFromPurchaseData' => __DIR__ . '/../..' . '/src/EventTickets/Actions/GenerateTicketsFromPurchaseData.php',
         'Give\\EventTickets\\Actions\\RegisterEventsMenuItem' => __DIR__ . '/../..' . '/src/EventTickets/Actions/RegisterEventsMenuItem.php',
+        'Give\\EventTickets\\Actions\\ReleaseEventTicketsForDonation' => __DIR__ . '/../..' . '/src/EventTickets/Actions/ReleaseEventTicketsForDonation.php',
         'Give\\EventTickets\\Actions\\RenderDonationFormBlock' => __DIR__ . '/../..' . '/src/EventTickets/Actions/RenderDonationFormBlock.php',
         'Give\\EventTickets\\Actions\\UpdateDonationConfirmationPageReceiptDonationAmount' => __DIR__ . '/../..' . '/src/EventTickets/Actions/UpdateDonationConfirmationPageReceiptDonationAmount.php',
         'Give\\EventTickets\\DataTransferObjects\\EventTicketTypeData' => __DIR__ . '/../..' . '/src/EventTickets/DataTransferObjects/EventTicketTypeData.php',

@@ -2,14 +2,14 @@
 # This file is distributed under the same license as the Give - Donation Plugin plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: Give - Donation Plugin 4.16.8\n"
+"Project-Id-Version: Give - Donation Plugin 4.16.8.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/givewp\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-09-03T18:38:12+00:00\n"
+"POT-Creation-Date: 2026-09-10T20:15:51+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: give\n"
@@ -2125,9 +2125,9 @@ msgstr ""
 #: src/Form/Template/Options.php:170
 #: src/Form/Template/Options.php:194
 #: src/PaymentGateways/Gateways/PayPalStandard/PayPalStandard.php:240
-#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:190
-#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:222
-#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:277
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:195
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:227
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:282
 #: src/Settings/Security/Actions/RegisterSettings.php:56
 #: src/ThirdPartySupport/Elementor/Settings/RegisterSettings.php:52
 #: src/Tracking/AdminSettings.php:47
@@ -2198,9 +2198,9 @@ msgstr ""
 #: src/Form/Template/Options.php:171
 #: src/Form/Template/Options.php:195
 #: src/PaymentGateways/Gateways/PayPalStandard/PayPalStandard.php:241
-#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:191
-#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:223
-#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:278
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:196
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:228
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:283
 #: src/Settings/Security/Actions/RegisterSettings.php:57
 #: src/ThirdPartySupport/Elementor/Settings/RegisterSettings.php:53
 #: src/Tracking/AdminSettings.php:48
@@ -3674,7 +3674,7 @@ msgstr ""
 #: includes/admin/payments/class-payments-table.php:415
 #: src/API/Endpoints/Reports/TopDonors.php:46
 #: src/PaymentGateways/Gateways/PayPalStandard/PayPalStandard.php:225
-#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:253
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:258
 #: src/ThirdPartySupport/Elementor/Widgets/V1/DonationReceiptWidget.php:347
 #: templates/shortcode-receipt.php:88
 #: build/assets/dist/js/donor-dashboards-app.js:1
@@ -4894,7 +4894,7 @@ msgstr ""
 
 #: includes/admin/settings/class-settings-gateways.php:68
 #: includes/gateways/stripe/includes/admin/class-give-stripe-admin-settings.php:197
-#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:268
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:273
 msgid "Collect Billing Details"
 msgstr ""
 
@@ -14891,7 +14891,7 @@ msgstr ""
 #: includes/gateways/stripe/class-give-stripe.php:194
 #: includes/gateways/stripe/class-give-stripe.php:200
 #: includes/gateways/stripe/includes/admin/class-give-stripe-admin-settings.php:112
-#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:80
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:81
 msgid "Credit Card"
 msgstr ""
 
@@ -18342,6 +18342,12 @@ msgstr ""
 msgid "Events"
 msgstr ""
 
+#. translators: 1: event ID, 2: ticket type ID, 3: donation status
+#: src/EventTickets/Actions/ReleaseEventTicketsForDonation.php:45
+#, php-format
+msgid "Event ticket released (event #%1$d, ticket type #%2$d) because the donation status changed to \"%3$s\"."
+msgstr ""
+
 #: src/EventTickets/ListTable/Columns/DescriptionColumn.php:34
 #: src/Views/Form/Templates/Classic/optionConfig.php:77
 #: src/Views/Form/Templates/Classic/optionConfig.php:146
@@ -19654,12 +19660,12 @@ msgid "PayPal Transaction Type"
 msgstr ""
 
 #: src/PaymentGateways/Gateways/PayPalStandard/PayPalStandard.php:218
-#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:246
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:251
 msgid "Nonprofits must verify their status to withdraw donations they receive via PayPal. PayPal users that are not verified nonprofits must demonstrate how their donations will be used, once they raise more than $10,000. By default, GiveWP transactions are sent to PayPal as donations. You may change the transaction type using this option if you feel you may not meet PayPal's donation requirements."
 msgstr ""
 
 #: src/PaymentGateways/Gateways/PayPalStandard/PayPalStandard.php:226
-#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:254
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:259
 msgid "Standard Transaction"
 msgstr ""
 
@@ -19884,7 +19890,7 @@ msgid "Account Status"
 msgstr ""
 
 #: src/PaymentGateways/PayPalCommerce/AdminSettingFields.php:93
-#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:171
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:176
 msgid "Account Country"
 msgstr ""
 
@@ -20964,91 +20970,91 @@ msgstr ""
 msgid "For Mastercard, account closed as fraudulent. Obtain another type of payment from customer due to account being closed or fraud. Possible reason: Account closed as fraudulent. For Visa, the card holder wants to stop all recurring payment transactions for a specific merchant. Stop recurring payment requests."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:70
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:71
 msgid "PayPal Donations"
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:132
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:137
 #, php-format
 msgid "Transaction Successful. PayPal Transaction ID: %1$s    PayPal Order ID: %2$s"
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:176
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:181
 msgid "Connect With Paypal"
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:181
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:186
 msgid "Accept Venmo"
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:184
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:189
 msgid "Displays a button allowing Donors to pay with Venmo (US-only). Donations still come into your PayPal account and are subject to normal PayPal transaction fees."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:195
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:200
 msgid "Payment Field Type"
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:197
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:202
 #, php-format
 msgid "\"Auto\" provides the most payment options to the donor as possible, based on your account. \"Smart Buttons Only\" shows only the payment buttons. There is no \"Hosted Only\" option at this time due to limitations with PayPal's hosted fields. Not sure what this means? %1$sRead here%2$s."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:207
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:212
 #: src/ThirdPartySupport/Elementor/Widgets/V2/ElementorDonationFormGridWidget/ElementorDonationFormGridWidget.php:318
 #: build/adminBlocks.js:1
 msgid "Auto"
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:208
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:213
 msgid "Smart Buttons Only"
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:213
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:218
 msgid "Accept Credit Card (Smart Buttons Only)"
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:216
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:221
 msgid "Displays a button allowing Donors to pay with Credit Card. This option is only available if \"Smart Buttons Only\" is selected on Payment Field Type."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:227
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:232
 msgid "PayPal Donations Gateway Settings Docs Link"
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:230
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:235
 msgid "PayPal Donations Gateway Settings"
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:245
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:250
 msgid "Transaction Type"
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:271
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:276
 msgid "If enabled, required billing address fields are added to PayPal Donations Donation forms. These fields are required to process the transaction when enabled. Billing address details are added to both the donation and donor record in GiveWP."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:332
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:411
 #, php-format
 msgid "PayPal Order has been declined.  Transaction status:: %s"
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:341
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:420
 #, php-format
 msgid "PayPal Order has an error: %s"
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:378
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:457
 #, php-format
 msgid "Donation refunded in PayPal for transaction ID: %s"
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:388
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:467
 #, php-format
 msgid "Error! Donation %s was NOT refunded. Find more details on the error in the logs at Donations > Tools > Logs. To refund the donation, use the PayPal dashboard tools."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:396
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:475
 #, php-format
 msgid "PayPal API error: %s"
 msgstr ""
