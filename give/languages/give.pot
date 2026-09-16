@@ -2,14 +2,14 @@
 # This file is distributed under the same license as the Give - Donation Plugin plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: Give - Donation Plugin 4.16.8.1\n"
+"Project-Id-Version: Give - Donation Plugin 4.16.9\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/givewp\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-09-10T20:15:51+00:00\n"
+"POT-Creation-Date: 2026-09-16T20:41:23+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: give\n"
@@ -81,7 +81,7 @@ msgstr ""
 
 #: blocks/donor-wall/class-give-donor-wall.php:164
 #: includes/admin/shortcodes/shortcode-give-donor-wall.php:99
-#: includes/donors/class-give-donor-wall.php:221
+#: includes/donors/class-give-donor-wall.php:222
 #: build/adminBlocks.js:1
 #: build/formBuilderRegistrars.js:1
 msgid "Read more"
@@ -89,7 +89,7 @@ msgstr ""
 
 #: blocks/donor-wall/class-give-donor-wall.php:168
 #: includes/admin/shortcodes/shortcode-give-donor-wall.php:106
-#: includes/donors/class-give-donor-wall.php:222
+#: includes/donors/class-give-donor-wall.php:223
 #: src/Campaigns/Shortcodes/CampaignDonationsShortcode.php:72
 #: src/Campaigns/Shortcodes/CampaignDonorsShortcode.php:74
 #: src/ThirdPartySupport/Elementor/Widgets/V2/ElementorCampaignDonationsWidget/ElementorCampaignDonationsWidget.php:203
@@ -746,7 +746,7 @@ msgid "API Key"
 msgstr ""
 
 #: includes/admin/class-api-keys-table.php:59
-#: includes/gateways/stripe/includes/admin/admin-helpers.php:79
+#: includes/gateways/stripe/includes/admin/admin-helpers.php:90
 msgid "API Keys"
 msgstr ""
 
@@ -1275,7 +1275,7 @@ msgstr ""
 #: includes/api/class-give-api.php:2004
 #: includes/class-give-scripts.php:306
 #: includes/class-notices.php:630
-#: includes/formatting.php:829
+#: includes/formatting.php:855
 #: includes/gateways/stripe/includes/admin/admin-actions.php:183
 #: src/LegacyPaymentGateways/Adapters/LegacyPaymentGatewayAdapter.php:282
 #: src/LegacyPaymentGateways/Adapters/LegacyPaymentGatewayAdapter.php:303
@@ -1337,8 +1337,8 @@ msgstr ""
 #: includes/admin/tools/export/export-actions.php:31
 #: includes/admin/tools/export/pdf-reports.php:35
 #: includes/api/class-give-api.php:1961
-#: includes/formatting.php:825
-#: includes/formatting.php:867
+#: includes/formatting.php:851
+#: includes/formatting.php:893
 #: includes/gateways/actions.php:51
 #: includes/process-donation.php:985
 #: src/LegacyPaymentGateways/Adapters/LegacyPaymentGatewayAdapter.php:278
@@ -2125,9 +2125,9 @@ msgstr ""
 #: src/Form/Template/Options.php:170
 #: src/Form/Template/Options.php:194
 #: src/PaymentGateways/Gateways/PayPalStandard/PayPalStandard.php:240
-#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:195
-#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:227
-#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:282
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:198
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:230
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:285
 #: src/Settings/Security/Actions/RegisterSettings.php:56
 #: src/ThirdPartySupport/Elementor/Settings/RegisterSettings.php:52
 #: src/Tracking/AdminSettings.php:47
@@ -2198,9 +2198,9 @@ msgstr ""
 #: src/Form/Template/Options.php:171
 #: src/Form/Template/Options.php:195
 #: src/PaymentGateways/Gateways/PayPalStandard/PayPalStandard.php:241
-#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:196
-#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:228
-#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:283
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:199
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:231
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:286
 #: src/Settings/Security/Actions/RegisterSettings.php:57
 #: src/ThirdPartySupport/Elementor/Settings/RegisterSettings.php:53
 #: src/Tracking/AdminSettings.php:48
@@ -3674,7 +3674,7 @@ msgstr ""
 #: includes/admin/payments/class-payments-table.php:415
 #: src/API/Endpoints/Reports/TopDonors.php:46
 #: src/PaymentGateways/Gateways/PayPalStandard/PayPalStandard.php:225
-#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:258
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:261
 #: src/ThirdPartySupport/Elementor/Widgets/V1/DonationReceiptWidget.php:347
 #: templates/shortcode-receipt.php:88
 #: build/assets/dist/js/donor-dashboards-app.js:1
@@ -4894,7 +4894,7 @@ msgstr ""
 
 #: includes/admin/settings/class-settings-gateways.php:68
 #: includes/gateways/stripe/includes/admin/class-give-stripe-admin-settings.php:197
-#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:273
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:276
 msgid "Collect Billing Details"
 msgstr ""
 
@@ -15008,7 +15008,7 @@ msgstr ""
 msgid "Stripe Account:"
 msgstr ""
 
-#: includes/gateways/stripe/includes/admin/admin-helpers.php:80
+#: includes/gateways/stripe/includes/admin/admin-helpers.php:91
 #: includes/gateways/stripe/includes/admin/class-give-stripe-admin-settings.php:161
 msgid "Stripe Connect"
 msgstr ""
@@ -19660,12 +19660,12 @@ msgid "PayPal Transaction Type"
 msgstr ""
 
 #: src/PaymentGateways/Gateways/PayPalStandard/PayPalStandard.php:218
-#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:251
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:254
 msgid "Nonprofits must verify their status to withdraw donations they receive via PayPal. PayPal users that are not verified nonprofits must demonstrate how their donations will be used, once they raise more than $10,000. By default, GiveWP transactions are sent to PayPal as donations. You may change the transaction type using this option if you feel you may not meet PayPal's donation requirements."
 msgstr ""
 
 #: src/PaymentGateways/Gateways/PayPalStandard/PayPalStandard.php:226
-#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:259
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:262
 msgid "Standard Transaction"
 msgstr ""
 
@@ -19890,7 +19890,7 @@ msgid "Account Status"
 msgstr ""
 
 #: src/PaymentGateways/PayPalCommerce/AdminSettingFields.php:93
-#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:176
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:179
 msgid "Account Country"
 msgstr ""
 
@@ -20034,43 +20034,43 @@ msgstr ""
 msgid "Disconnect"
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:208
+#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:207
 msgid "You are not allowed to perform this action."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:302
-#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:518
+#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:301
+#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:495
 msgid "Invalid donation amount."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:407
+#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:346
+msgid "PayPal orders are captured when the donation is submitted."
+msgstr ""
+
+#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:364
+msgid "PayPal order amounts are reconciled when the donation is submitted."
+msgstr ""
+
+#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:384
 msgid "Make sure to complete the entire PayPal process. Do not close the window until you have finished the process."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:411
+#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:388
 msgid "The last screen of the PayPal connect process includes a button to be sent back to your site. It is important you click this and do not close the window yourself."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:415
+#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:392
 msgid "If you’re still having problems connecting: "
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:423
+#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:400
 msgid "Having trouble connecting to PayPal?"
 msgstr ""
 
 #. translators: %s: maximum donation amount
-#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:526
+#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:503
 #, php-format
 msgid "Donation amount must not exceed %s."
-msgstr ""
-
-#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:544
-msgid "This request is not supported for this donation form."
-msgstr ""
-
-#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:567
-msgid "Donation amount cannot be decreased."
 msgstr ""
 
 #: src/PaymentGateways/PayPalCommerce/Banners/GatewaySettingPageBanner.php:48
@@ -20193,780 +20193,780 @@ msgstr ""
 msgid "There was a problem setting up the webhooks for your PayPal account. Please try disconnecting and reconnecting your PayPal account. If the problem persists, please contact support and provide them with the latest %1$s"
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:74
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:76
 msgid "For Maestro, all address information matches."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:75
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:77
 msgid "For Maestro, none of the address information matches."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:76
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:78
 msgid "For Maestro, part of the address information matches."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:77
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:79
 msgid "For Maestro, the merchant did not provide AVS information. It was not processed."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:81
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:83
 msgid "For Maestro, the address was not checked or the acquirer had no response. The service is not available."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:85
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:87
 msgid "For Visa, Mastercard, or Discover transactions, the address matches but the zip code does not match. For American Express transactions, the card holder address is correct."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:89
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:91
 msgid "For Visa, Mastercard, or Discover transactions, the address matches. International A."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:93
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:95
 msgid "For Visa, Mastercard, or Discover transactions, no values match. International N."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:97
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:99
 msgid "For Visa, Mastercard, or Discover transactions, the address and postal code match. International X."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:101
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:103
 msgid "For Visa, Mastercard, or Discover transactions, not allowed for Internet or phone transactions. For American Express card holder, the name is incorrect but the address and postal code match."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:105
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:107
 msgid "For Visa, Mastercard, or Discover transactions, the address and postal code match. UK-specific X. For American Express card holder, the name is incorrect but the address matches."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:109
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:111
 msgid "For Visa, Mastercard, or Discover transactions, global is unavailable. Nothing matches."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:113
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:115
 msgid "For Visa, Mastercard, or Discover transactions, international is unavailable. Not applicable."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:117
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:119
 msgid "For Visa, Mastercard, or Discover transactions, the address and postal code match. For American Express card holder, the name, address, and postal code match."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:121
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:123
 msgid "For Visa, Mastercard, or Discover transactions, nothing matches. For American Express card holder, the address and postal code are both incorrect."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:125
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:127
 msgid "For Visa, Mastercard, or Discover transactions, postal international Z. Postal code only."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:129
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:131
 msgid "For Visa, Mastercard, or Discover transactions, re-try the request. For American Express, the system is unavailable."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:133
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:180
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:135
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:182
 msgid "For Visa, Mastercard, Discover, or American Express, the service is not supported."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:137
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:139
 msgid "For Visa, Mastercard, or Discover transactions, the service is unavailable. For American Express, information is not available. For Maestro, the address is not checked or the acquirer had no response. The service is not available."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:141
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:143
 msgid "For Visa, Mastercard, or Discover transactions, whole ZIP code. For American Express, the card holder name, address, and postal code are all incorrect."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:145
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:147
 msgid "For Visa, Mastercard, or Discover transactions, exact match of the address and the nine-digit ZIP code. For American Express, the card holder name, address, and postal code are all incorrect."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:149
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:151
 msgid "For Visa, Mastercard, or Discover transactions, the address and five-digit ZIP code match. For American Express, the card holder address and postal code are both correct."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:153
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:155
 msgid "For Visa, Mastercard, or Discover transactions, the five - digit ZIP code matches but no address . for American Express, only the card holder postal code is correct."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:157
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:159
 msgid "For Maestro, no AVS response was obtained ."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:164
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:166
 msgid "For Maestro, the CVV2 matched."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:165
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:167
 msgid "For Maestro, the CVV2 did not match."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:166
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:168
 msgid "For Maestro, the merchant has not implemented CVV2 code handling."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:167
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:169
 msgid "For Maestro, the merchant has indicated that CVV2 is not present on card."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:168
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:170
 msgid "For Maestro, the service is not available."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:169
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:171
 msgid "For Visa, Mastercard, Discover, or American Express, error - unrecognized or unknown response."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:173
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:175
 msgid "For Visa, Mastercard, Discover, or American Express, invalid or null."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:174
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:176
 msgid "For Visa, Mastercard, Discover, or American Express, the CVV2/CSC matches."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:175
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:177
 msgid "For Visa, Mastercard, Discover, or American Express, the CVV2/CSC does not match."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:179
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:181
 msgid "For Visa, Mastercard, Discover, or American Express, it was not processed."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:184
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:186
 msgid "For Visa, Mastercard, Discover, or American Express, unknown - the issuer is not certified."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:188
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:190
 msgid "For Visa, Mastercard, Discover, or American Express, no response. For Maestro, the service is not available."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:201
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:203
 msgid "PARTIAL_AUTHORIZATION."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:202
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:204
 msgid "INVALID_DATA_FORMAT."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:203
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:205
 msgid "INVALID_AMOUNT."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:204
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:206
 msgid "INVALID_TRANSACTION_CARD_ISSUER_ACQUIRER."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:205
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:207
 msgid "INVALID_CAPTURE_DATE."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:206
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:208
 msgid "INVALID_CURRENCY_CODE."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:207
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:209
 msgid "INVALID_ACCOUNT."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:208
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:210
 msgid "INVALID_ACCOUNT_RECURRING."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:209
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:211
 msgid "INVALID_TERMINAL."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:210
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:212
 msgid "INVALID_MERCHANT."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:211
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:213
 msgid "RESTRICTED_OR_INACTIVE_ACCOUNT."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:212
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:214
 msgid "BAD_PROCESSING_CODE."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:213
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:215
 msgid "INVALID_MCC."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:214
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:216
 msgid "INVALID_EXPIRATION."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:215
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:217
 msgid "INVALID_CARD_VERIFICATION_VALUE."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:216
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:218
 msgid "INVALID_LIFE_CYCLE_OF_TRANSACTION."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:217
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:219
 msgid "INVALID_ORDER."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:218
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:220
 msgid "TRANSACTION_CANNOT_BE_COMPLETED."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:219
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:221
 msgid "GENERIC_DECLINE."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:220
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:222
 msgid "CVV2_FAILURE."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:221
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:223
 msgid "INSUFFICIENT_FUNDS."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:222
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:224
 msgid "INVALID_PIN."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:223
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:225
 msgid "DECLINED_PIN_TRY_EXCEEDED."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:224
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:226
 msgid "CARD_CLOSED."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:225
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:227
 msgid "PICKUP_CARD_SPECIAL_CONDITIONS. try using another card. Do not retry the same card."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:229
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:231
 msgid "UNAUTHORIZED_USER."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:230
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:232
 msgid "AVS_FAILURE."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:231
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:233
 msgid "INVALID_OR_RESTRICTED_CARD. try using another card. Do not retry the same card."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:235
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:237
 msgid "SOFT_AVS."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:236
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:238
 msgid "DUPLICATE_TRANSACTION."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:237
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:239
 msgid "INVALID_TRANSACTION."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:238
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:240
 msgid "EXPIRED_CARD."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:239
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:241
 msgid "INCORRECT_PIN_REENTER."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:240
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:242
 msgid "DECLINED_SCA_REQUIRED."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:241
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:243
 msgid "TRANSACTION_NOT_PERMITTED. Outside of scope of accepted business."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:242
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:244
 msgid "TX_ATTEMPTS_EXCEED_LIMIT."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:243
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:245
 msgid "REVERSAL_REJECTED."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:244
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:246
 msgid "INVALID_ISSUE."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:245
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:247
 msgid "ISSUER_NOT_AVAILABLE_NOT_RETRIABLE."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:246
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:248
 msgid "ISSUER_NOT_AVAILABLE_RETRIABLE."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:247
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:249
 msgid "CARD_NOT_ACTIVATED."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:248
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:250
 msgid "DECLINED_DUE_TO_UPDATED_ACCOUNT. External decline as an updated card has been issued."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:252
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:254
 msgid "ACCOUNT_NOT_ON_FILE."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:253
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:255
 msgid "APPROVED_NON_CAPTURE."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:254
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:256
 msgid "ERROR_3DS."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:255
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:257
 msgid "AUTHENTICATION_FAILED."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:256
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:258
 msgid "BIN_ERROR."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:257
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:259
 msgid "PIN_ERROR."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:258
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:260
 msgid "PROCESSOR_SYSTEM_ERROR."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:259
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:261
 msgid "HOST_KEY_ERROR."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:260
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:262
 msgid "CONFIGURATION_ERROR."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:261
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:263
 msgid "UNSUPPORTED_OPERATION."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:262
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:264
 msgid "FATAL_COMMUNICATION_ERROR."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:263
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:265
 msgid "RETRIABLE_COMMUNICATION_ERROR."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:264
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:266
 msgid "SYSTEM_UNAVAILABLE."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:265
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:267
 msgid "DECLINED_PLEASE_RETRY. Retry."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:266
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:268
 msgid "SUSPECTED_FRAUD. try using another card. Do not retry the same card."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:267
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:269
 msgid "SECURITY_VIOLATION."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:268
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:270
 msgid "LOST_OR_STOLEN. try using another card. Do not retry the same card."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:269
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:271
 msgid "HOLD_CALL_CENTER. The merchant must call the number on the back of the card. POS scenario."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:273
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:275
 msgid "REFUSED_CARD."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:274
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:276
 msgid "UNRECOGNIZED_RESPONSE_CODE."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:275
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:277
 msgid "APPROVED."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:276
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:278
 msgid "CVV2_FAILURE_POSSIBLE_RETRY_WITH_CVV."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:277
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:279
 msgid "REFERRAL."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:278
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:280
 msgid "ACCOUNT_NOT_FOUND."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:279
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:281
 msgid "DO_NOT_HONOR."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:280
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:282
 msgid "UNAUTHORIZED_TRANSACTION."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:281
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:283
 msgid "BAD_RESPONSE_REVERSAL_REQUIRED."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:282
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:284
 msgid "CRYPTOGRAPHIC_FAILURE."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:283
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:285
 msgid "UNACCEPTABLE_PIN."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:284
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:286
 msgid "SYSTEM_MALFUNCTION."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:285
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:287
 msgid "CANCELLED_PAYMENT."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:286
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:288
 msgid "ISSUER_REJECTED."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:287
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:289
 msgid "CONTINGENCIES_NOT_RESOLVED."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:288
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:290
 msgid "CVV_FAILURE."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:289
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:291
 msgid "ACCOUNT_CLOSED. A previously open account is now closed."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:290
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:292
 msgid "REATTEMPT_NOT_PERMITTED."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:291
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:293
 msgid "BILLING_ADDRESS."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:292
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:294
 msgid "ACCOUNT_BLOCKED_BY_ISSUER."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:293
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:295
 msgid "AMEX_DISABLED."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:294
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:296
 msgid "ADULT_GAMING_UNSUPPORTED."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:295
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:297
 msgid "AMOUNT_INCOMPATIBLE."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:296
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:298
 msgid "AUTH_RESULT."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:297
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:299
 msgid "MCC_CODE."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:298
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:300
 msgid "ARC_AVS."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:299
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:301
 msgid "AMOUNT_EXCEEDED."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:300
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:302
 msgid "BAD_GAMING."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:301
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:303
 msgid "ARC_CVV."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:302
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:304
 msgid "CE_REGISTRATION_INCOMPLETE."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:303
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:305
 msgid "COUNTRY."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:304
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:306
 msgid "CREDIT_ERROR."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:305
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:307
 msgid "CARD_TYPE_UNSUPPORTED."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:306
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:308
 msgid "CURRENCY_USED_INVALID."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:307
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:309
 msgid "SECURE_ERROR_3DS."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:308
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:310
 msgid "DCC_UNSUPPORTED."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:309
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:311
 msgid "DINERS_REJECT."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:310
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:312
 msgid "AUTH_MESSAGE."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:311
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:313
 msgid "DECLINE_THRESHOLD_BREACH."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:312
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:314
 msgid "EXPIRED_FUNDING_INSTRUMENT."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:313
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:315
 msgid "EXCEEDS_FREQUENCY_LIMIT."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:314
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:316
 msgid "INTERNAL_SYSTEM_ERROR."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:315
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:317
 msgid "EXPIRY_DATE."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:316
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:318
 msgid "FUNDING_SOURCE_ALREADY_EXISTS."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:317
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:319
 msgid "INVALID_FUNDING_INSTRUMENT."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:318
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:320
 msgid "RESTRICTED_FUNDING_INSTRUMENT."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:319
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:321
 msgid "FIELD_VALIDATION_FAILED."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:320
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:322
 msgid "GAMING_REFUND_ERROR."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:321
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:323
 msgid "H1_ERROR."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:322
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:324
 msgid "IDEMPOTENCY_FAILURE."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:323
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:325
 msgid "INVALID_INPUT_FAILURE."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:324
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:326
 msgid "ID_MISMATCH."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:325
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:327
 msgid "INVALID_TRACE_ID."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:326
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:328
 msgid "LATE_REVERSAL."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:327
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:329
 msgid "LARGE_STATUS_CODE."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:328
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:330
 msgid "MISSING_BUSINESS_RULE_OR_DATA."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:329
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:331
 msgid "BLOCKED_Mastercard."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:330
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:332
 msgid "PPMD."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:331
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:333
 msgid "NOT_SUPPORTED_NRC."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:332
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:334
 msgid "EXCEEDS_NETWORK_FREQUENCY_LIMIT."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:333
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:335
 msgid "NO_MID_FOUND."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:334
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:336
 msgid "NETWORK_ERROR."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:335
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:337
 msgid "NO_PHONE_FOR_DCC_TRANSACTION."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:336
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:338
 msgid "INVALID_PRODUCT."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:337
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:339
 msgid "INVALID_PAYMENT_METHOD."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:338
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:340
 msgid "QUASI_CASH_UNSUPPORTED."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:339
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:341
 msgid "UNSUPPORT_REFUND_ON_PENDING_BC."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:340
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:342
 msgid "INVALID_PARENT_TRANSACTION_STATUS."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:341
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:343
 msgid "MERCHANT_NOT_REGISTERED."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:342
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:344
 msgid "BANKAUTH_ROW_MISMATCH."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:343
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:345
 msgid "BANKAUTH_ROW_SETTLED."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:344
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:346
 msgid "BANKAUTH_ROW_VOIDED."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:345
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:347
 msgid "BANKAUTH_EXPIRED."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:346
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:348
 msgid "CURRENCY_MISMATCH."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:347
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:349
 msgid "CREDITCARD_MISMATCH."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:348
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:350
 msgid "AMOUNT_MISMATCH."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:349
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:351
 msgid "ARC_SCORE."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:350
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:352
 msgid "STATUS_DESCRIPTION."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:351
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:353
 msgid "AMEX_DENIED."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:352
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:354
 msgid "VERIFICATION_TOKEN_EXPIRED."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:353
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:355
 msgid "INVALID_TRACE_REFERENCE."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:354
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:356
 msgid "INVALID_TRANSACTION_ID."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:355
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:357
 msgid "VERIFICATION_TOKEN_REVOKED."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:356
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:358
 msgid "TRANSACTION_TYPE_UNSUPPORTED."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:357
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:359
 msgid "INVALID_VERIFICATION_TOKEN."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:358
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:360
 msgid "USER_NOT_AUTHORIZED."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:359
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:361
 msgid "CURRENCY_CODE_UNSUPPORTED."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:360
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:362
 msgid "UNSUPPORT_ENTITY."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:361
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:363
 msgid "UNSUPPORT_INSTALLMENT."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:362
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:364
 msgid "UNSUPPORT_POS_FLAG."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:363
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:365
 msgid "UNSUPPORTED_REVERSAL."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:364
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:366
 msgid "VALIDATE_CURRENCY."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:365
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:367
 msgid "VALIDATION_ERROR."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:366
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:368
 msgid "VIRTUAL_TERMINAL_UNSUPPORTE.D"
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:376
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:378
 msgid "For Mastercard, the card holder has been unsuccessful at canceling recurring payment through merchant. Stop recurring payment requests. For Visa, all recurring payments were canceled for the card number requested. Stop recurring payment requests."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:380
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:382
 msgid "For Mastercard, expired card account upgrade or portfolio sale conversion. Obtain new account information before next billing cycle."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:384
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:386
 msgid "For Mastercard, over credit limit or insufficient funds. Retry the transaction 72 hours later. For Visa, the card holder wants to stop only one specific payment in the recurring payment relationship. The merchant must NOT resubmit the same transaction. The merchant can continue the billing process in the subsequent billing period."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:388
+#: src/PaymentGateways/PayPalCommerce/PayPalCheckoutSdk/ProcessorResponseError.php:390
 msgid "For Mastercard, account closed as fraudulent. Obtain another type of payment from customer due to account being closed or fraud. Possible reason: Account closed as fraudulent. For Visa, the card holder wants to stop all recurring payment transactions for a specific merchant. Stop recurring payment requests."
 msgstr ""
 
@@ -20974,87 +20974,111 @@ msgstr ""
 msgid "PayPal Donations"
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:137
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:110
+msgid "PayPal Order is not ready to be captured."
+msgstr ""
+
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:140
 #, php-format
 msgid "Transaction Successful. PayPal Transaction ID: %1$s    PayPal Order ID: %2$s"
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:181
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:184
 msgid "Connect With Paypal"
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:186
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:189
 msgid "Accept Venmo"
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:189
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:192
 msgid "Displays a button allowing Donors to pay with Venmo (US-only). Donations still come into your PayPal account and are subject to normal PayPal transaction fees."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:200
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:203
 msgid "Payment Field Type"
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:202
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:205
 #, php-format
 msgid "\"Auto\" provides the most payment options to the donor as possible, based on your account. \"Smart Buttons Only\" shows only the payment buttons. There is no \"Hosted Only\" option at this time due to limitations with PayPal's hosted fields. Not sure what this means? %1$sRead here%2$s."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:212
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:215
 #: src/ThirdPartySupport/Elementor/Widgets/V2/ElementorDonationFormGridWidget/ElementorDonationFormGridWidget.php:318
 #: build/adminBlocks.js:1
 msgid "Auto"
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:213
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:216
 msgid "Smart Buttons Only"
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:218
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:221
 msgid "Accept Credit Card (Smart Buttons Only)"
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:221
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:224
 msgid "Displays a button allowing Donors to pay with Credit Card. This option is only available if \"Smart Buttons Only\" is selected on Payment Field Type."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:232
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:235
 msgid "PayPal Donations Gateway Settings Docs Link"
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:235
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:238
 msgid "PayPal Donations Gateway Settings"
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:250
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:253
 msgid "Transaction Type"
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:276
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:279
 msgid "If enabled, required billing address fields are added to PayPal Donations Donation forms. These fields are required to process the transaction when enabled. Billing address details are added to both the donation and donor record in GiveWP."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:411
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:348
+msgid "PayPal capture does not have an amount."
+msgstr ""
+
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:363
+msgid "Captured PayPal amount does not match donation amount."
+msgstr ""
+
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:382
+msgid "The payment method was declined. Please try another card or payment method."
+msgstr ""
+
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:385
+msgid "PayPal was unable to complete the payment."
+msgstr ""
+
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:398
+msgid "PayPal Order does not have a transaction."
+msgstr ""
+
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:417
 #, php-format
 msgid "PayPal Order has been declined.  Transaction status:: %s"
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:420
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:428
 #, php-format
 msgid "PayPal Order has an error: %s"
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:457
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:462
 #, php-format
 msgid "Donation refunded in PayPal for transaction ID: %s"
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:467
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:472
 #, php-format
 msgid "Error! Donation %s was NOT refunded. Find more details on the error in the logs at Donations > Tools > Logs. To refund the donation, use the PayPal dashboard tools."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:475
+#: src/PaymentGateways/PayPalCommerce/PayPalCommerce.php:480
 #, php-format
 msgid "PayPal API error: %s"
 msgstr ""
