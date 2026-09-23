@@ -8,7 +8,6 @@ $baseDir = dirname(dirname($vendorDir));
 return array(
     'Symfony\\Polyfill\\Mbstring\\' => array($vendorDir . '/symfony/polyfill-mbstring'),
     'Symfony\\Polyfill\\Ctype\\' => array($vendorDir . '/symfony/polyfill-ctype'),
-    'Give\\Vendors\\Symfony\\Polyfill\\Php80\\' => array($vendorDir . '/symfony/polyfill-php80'),
     'Give\\Vendors\\Symfony\\Component\\HttpFoundation\\' => array($vendorDir . '/symfony/http-foundation'),
     'Give\\Vendors\\StellarWP\\Validation\\' => array($vendorDir . '/stellarwp/validation/src'),
     'Give\\Vendors\\StellarWP\\FieldConditions\\' => array($vendorDir . '/stellarwp/field-conditions/src'),

@@ -4230,29 +4230,6 @@ namespace Give\Vendors {
     array (
     ),
   ),
-  'Symfony\\Polyfill\\Php80\\Php80' => 
-  array (
-    'type' => 'class',
-    'classname' => 'Php80',
-    'isabstract' => false,
-    'namespace' => 'Symfony\\Polyfill\\Php80',
-    'extends' => 'Give\\Vendors\\Symfony\\Polyfill\\Php80\\Php80',
-    'implements' => 
-    array (
-    ),
-  ),
-  'Symfony\\Polyfill\\Php80\\PhpToken' => 
-  array (
-    'type' => 'class',
-    'classname' => 'PhpToken',
-    'isabstract' => false,
-    'namespace' => 'Symfony\\Polyfill\\Php80',
-    'extends' => 'Give\\Vendors\\Symfony\\Polyfill\\Php80\\PhpToken',
-    'implements' => 
-    array (
-      0 => 'Stringable',
-    ),
-  ),
   'Nyholm\\Psr7\\MessageTrait' => 
   array (
     'type' => 'trait',

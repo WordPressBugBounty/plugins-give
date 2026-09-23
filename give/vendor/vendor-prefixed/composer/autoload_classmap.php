@@ -6,7 +6,6 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname(dirname($vendorDir));
 
 return array(
-    'Attribute' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
     'Give\\Vendors\\Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
     'Give\\Vendors\\LiquidWeb\\Harbor\\API\\Functions\\Actions\\Display_Legacy_License_Page_Notice' => $vendorDir . '/stellarwp/harbor/src/Harbor/API/Functions/Actions/Display_Legacy_License_Page_Notice.php',
     'Give\\Vendors\\LiquidWeb\\Harbor\\API\\Functions\\Actions\\Register_Submenu' => $vendorDir . '/stellarwp/harbor/src/Harbor/API/Functions/Actions/Register_Submenu.php',
@@ -415,12 +414,6 @@ return array(
     'Give\\Vendors\\Symfony\\Component\\HttpFoundation\\Test\\Constraint\\ResponseIsUnprocessable' => $vendorDir . '/symfony/http-foundation/Test/Constraint/ResponseIsUnprocessable.php',
     'Give\\Vendors\\Symfony\\Component\\HttpFoundation\\Test\\Constraint\\ResponseStatusCodeSame' => $vendorDir . '/symfony/http-foundation/Test/Constraint/ResponseStatusCodeSame.php',
     'Give\\Vendors\\Symfony\\Component\\HttpFoundation\\UrlHelper' => $vendorDir . '/symfony/http-foundation/UrlHelper.php',
-    'Give\\Vendors\\Symfony\\Polyfill\\Php80\\Php80' => $vendorDir . '/symfony/polyfill-php80/Php80.php',
-    'Give\\Vendors\\Symfony\\Polyfill\\Php80\\PhpToken' => $vendorDir . '/symfony/polyfill-php80/PhpToken.php',
-    'PhpToken' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/PhpToken.php',
-    'Stringable' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/Stringable.php',
     'Symfony\\Polyfill\\Ctype\\Ctype' => $vendorDir . '/symfony/polyfill-ctype/Ctype.php',
     'Symfony\\Polyfill\\Mbstring\\Mbstring' => $vendorDir . '/symfony/polyfill-mbstring/Mbstring.php',
-    'UnhandledMatchError' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/UnhandledMatchError.php',
-    'ValueError' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/ValueError.php',
 );

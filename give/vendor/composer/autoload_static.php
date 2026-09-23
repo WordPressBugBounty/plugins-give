@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitb75550006f5bc80dbe46d39f13664bf0
+class ComposerStaticInite3564085369992ab8d213c4ce1520596
 {
     public static $files = array (
         '5f6326688f4debc6e43d6860fdea3df8' => __DIR__ . '/../..' . '/src/Framework/Http/Response/functions.php',
@@ -327,6 +327,7 @@ class ComposerStaticInitb75550006f5bc80dbe46d39f13664bf0
         'Give\\Controller\\Form' => __DIR__ . '/../..' . '/src/Controller/Form.php',
         'Give\\Controller\\PayPalWebhooks' => __DIR__ . '/../..' . '/src/Controller/PayPalWebhooks.php',
         'Give\\DonationForms\\Actions\\AddHoneyPotFieldToDonationForms' => __DIR__ . '/../..' . '/src/DonationForms/Actions/AddHoneyPotFieldToDonationForms.php',
+        'Give\\DonationForms\\Actions\\AuthenticateFormRequestWithToken' => __DIR__ . '/../..' . '/src/DonationForms/Actions/AuthenticateFormRequestWithToken.php',
         'Give\\DonationForms\\Actions\\ConvertConsentBlockToFieldsApi' => __DIR__ . '/../..' . '/src/DonationForms/Actions/ConvertConsentBlockToFieldsApi.php',
         'Give\\DonationForms\\Actions\\ConvertDonationAmountBlockToFieldsApi' => __DIR__ . '/../..' . '/src/DonationForms/Actions/ConvertDonationAmountBlockToFieldsApi.php',
         'Give\\DonationForms\\Actions\\ConvertDonationFormBlocksToFieldsApi' => __DIR__ . '/../..' . '/src/DonationForms/Actions/ConvertDonationFormBlocksToFieldsApi.php',
@@ -338,12 +339,17 @@ class ComposerStaticInitb75550006f5bc80dbe46d39f13664bf0
         'Give\\DonationForms\\Actions\\GenerateDonateRouteUrl' => __DIR__ . '/../..' . '/src/DonationForms/Actions/GenerateDonateRouteUrl.php',
         'Give\\DonationForms\\Actions\\GenerateDonationConfirmationReceiptUrl' => __DIR__ . '/../..' . '/src/DonationForms/Actions/GenerateDonationConfirmationReceiptUrl.php',
         'Give\\DonationForms\\Actions\\GenerateDonationConfirmationReceiptViewRouteUrl' => __DIR__ . '/../..' . '/src/DonationForms/Actions/GenerateDonationConfirmationReceiptViewRouteUrl.php',
+        'Give\\DonationForms\\Actions\\GenerateDonationFormPageUrl' => __DIR__ . '/../..' . '/src/DonationForms/Actions/GenerateDonationFormPageUrl.php',
         'Give\\DonationForms\\Actions\\GenerateDonationFormPreviewRouteUrl' => __DIR__ . '/../..' . '/src/DonationForms/Actions/GenerateDonationFormPreviewRouteUrl.php',
         'Give\\DonationForms\\Actions\\GenerateDonationFormValidationRouteUrl' => __DIR__ . '/../..' . '/src/DonationForms/Actions/GenerateDonationFormValidationRouteUrl.php',
         'Give\\DonationForms\\Actions\\GenerateDonationFormViewRouteUrl' => __DIR__ . '/../..' . '/src/DonationForms/Actions/GenerateDonationFormViewRouteUrl.php',
+        'Give\\DonationForms\\Actions\\GenerateExternalEmbedScriptUrl' => __DIR__ . '/../..' . '/src/DonationForms/Actions/GenerateExternalEmbedScriptUrl.php',
+        'Give\\DonationForms\\Actions\\GetExternalEmbedScriptData' => __DIR__ . '/../..' . '/src/DonationForms/Actions/GetExternalEmbedScriptData.php',
+        'Give\\DonationForms\\Actions\\GetFormSkeletonData' => __DIR__ . '/../..' . '/src/DonationForms/Actions/GetFormSkeletonData.php',
         'Give\\DonationForms\\Actions\\GetOrCreateDonor' => __DIR__ . '/../..' . '/src/DonationForms/Actions/GetOrCreateDonor.php',
         'Give\\DonationForms\\Actions\\IsolateEnqueuedFormViewAssets' => __DIR__ . '/../..' . '/src/DonationForms/Actions/IsolateEnqueuedFormViewAssets.php',
         'Give\\DonationForms\\Actions\\PrintFormMetaTags' => __DIR__ . '/../..' . '/src/DonationForms/Actions/PrintFormMetaTags.php',
+        'Give\\DonationForms\\Actions\\RenderFormSkeleton' => __DIR__ . '/../..' . '/src/DonationForms/Actions/RenderFormSkeleton.php',
         'Give\\DonationForms\\Actions\\ReplaceGiveReceiptShortcodeViewWithDonationConfirmationIframe' => __DIR__ . '/../..' . '/src/DonationForms/Actions/ReplaceGiveReceiptShortcodeViewWithDonationConfirmationIframe.php',
         'Give\\DonationForms\\Actions\\SanitizeDonationFormPreviewRequest' => __DIR__ . '/../..' . '/src/DonationForms/Actions/SanitizeDonationFormPreviewRequest.php',
         'Give\\DonationForms\\Actions\\StoreBackwardsCompatibleFormMeta' => __DIR__ . '/../..' . '/src/DonationForms/Actions/StoreBackwardsCompatibleFormMeta.php',
@@ -1072,6 +1078,7 @@ class ComposerStaticInitb75550006f5bc80dbe46d39f13664bf0
         'Give\\Framework\\Routes\\Route' => __DIR__ . '/../..' . '/src/Framework/Routes/Route.php',
         'Give\\Framework\\Routes\\RouteListener' => __DIR__ . '/../..' . '/src/Framework/Routes/RouteListener.php',
         'Give\\Framework\\Routes\\Router' => __DIR__ . '/../..' . '/src/Framework/Routes/Router.php',
+        'Give\\Framework\\Routes\\ScriptResponse' => __DIR__ . '/../..' . '/src/Framework/Routes/ScriptResponse.php',
         'Give\\Framework\\Support\\Contracts\\Arrayable' => __DIR__ . '/../..' . '/src/Framework/Support/Contracts/Arrayable.php',
         'Give\\Framework\\Support\\Contracts\\Jsonable' => __DIR__ . '/../..' . '/src/Framework/Support/Contracts/Jsonable.php',
         'Give\\Framework\\Support\\Contracts\\Renderable' => __DIR__ . '/../..' . '/src/Framework/Support/Contracts/Renderable.php',
@@ -1957,9 +1964,9 @@ class ComposerStaticInitb75550006f5bc80dbe46d39f13664bf0
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitb75550006f5bc80dbe46d39f13664bf0::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitb75550006f5bc80dbe46d39f13664bf0::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInitb75550006f5bc80dbe46d39f13664bf0::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInite3564085369992ab8d213c4ce1520596::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInite3564085369992ab8d213c4ce1520596::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInite3564085369992ab8d213c4ce1520596::$classMap;
 
         }, null, ClassLoader::class);
     }
