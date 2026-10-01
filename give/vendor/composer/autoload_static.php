@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInite3564085369992ab8d213c4ce1520596
+class ComposerStaticInita12788144966e1776c0614d6a352a5ab
 {
     public static $files = array (
         '5f6326688f4debc6e43d6860fdea3df8' => __DIR__ . '/../..' . '/src/Framework/Http/Response/functions.php',
@@ -295,6 +295,7 @@ class ComposerStaticInite3564085369992ab8d213c4ce1520596
         'Give\\Campaigns\\ListTable\\Routes\\GetCampaignsListTable' => __DIR__ . '/../..' . '/src/Campaigns/ListTable/Routes/GetCampaignsListTable.php',
         'Give\\Campaigns\\Migrations\\CacheCampaignsData' => __DIR__ . '/../..' . '/src/Campaigns/Migrations/CacheCampaignsData.php',
         'Give\\Campaigns\\Migrations\\Donations\\AddCampaignId' => __DIR__ . '/../..' . '/src/Campaigns/Migrations/Donations/AddCampaignId.php',
+        'Give\\Campaigns\\Migrations\\FlushCampaignsDataCache' => __DIR__ . '/../..' . '/src/Campaigns/Migrations/FlushCampaignsDataCache.php',
         'Give\\Campaigns\\Migrations\\MigrateFormsToCampaignForms' => __DIR__ . '/../..' . '/src/Campaigns/Migrations/MigrateFormsToCampaignForms.php',
         'Give\\Campaigns\\Migrations\\P2P\\SetCampaignType' => __DIR__ . '/../..' . '/src/Campaigns/Migrations/P2P/SetCampaignType.php',
         'Give\\Campaigns\\Migrations\\RevenueTable\\AddCampaignID' => __DIR__ . '/../..' . '/src/Campaigns/Migrations/RevenueTable/AddCampaignID.php',
@@ -518,6 +519,7 @@ class ComposerStaticInite3564085369992ab8d213c4ce1520596
         'Give\\Donations\\ListTable\\DonationsListTable' => __DIR__ . '/../..' . '/src/Donations/ListTable/DonationsListTable.php',
         'Give\\Donations\\Listeners\\DonationCreated\\UpdateDonationMetaWithCurrencySettings' => __DIR__ . '/../..' . '/src/Donations/Listeners/DonationCreated/UpdateDonationMetaWithCurrencySettings.php',
         'Give\\Donations\\Listeners\\DonationCreated\\UpdateDonorMetaWithLastDonatedCurrency' => __DIR__ . '/../..' . '/src/Donations/Listeners/DonationCreated/UpdateDonorMetaWithLastDonatedCurrency.php',
+        'Give\\Donations\\Migrations\\AddIndexesToDonationMetaTable' => __DIR__ . '/../..' . '/src/Donations/Migrations/AddIndexesToDonationMetaTable.php',
         'Give\\Donations\\Migrations\\AddMissingDonorIdToDonationComments' => __DIR__ . '/../..' . '/src/Donations/Migrations/AddMissingDonorIdToDonationComments.php',
         'Give\\Donations\\Migrations\\MoveDonationCommentToDonationMetaTable' => __DIR__ . '/../..' . '/src/Donations/Migrations/MoveDonationCommentToDonationMetaTable.php',
         'Give\\Donations\\Migrations\\RecalculateExchangeRate' => __DIR__ . '/../..' . '/src/Donations/Migrations/RecalculateExchangeRate.php',
@@ -1964,9 +1966,9 @@ class ComposerStaticInite3564085369992ab8d213c4ce1520596
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInite3564085369992ab8d213c4ce1520596::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInite3564085369992ab8d213c4ce1520596::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInite3564085369992ab8d213c4ce1520596::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInita12788144966e1776c0614d6a352a5ab::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInita12788144966e1776c0614d6a352a5ab::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInita12788144966e1776c0614d6a352a5ab::$classMap;
 
         }, null, ClassLoader::class);
     }

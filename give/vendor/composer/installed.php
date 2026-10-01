@@ -158,9 +158,9 @@
             'dev_requirement' => false,
         ),
         'stellarwp/field-conditions' => array(
-            'pretty_version' => '1.1.1',
-            'version' => '1.1.1.0',
-            'reference' => '03f5aff2f4977359e672efe5426bbb4ef62101cd',
+            'pretty_version' => '1.1.2',
+            'version' => '1.1.2.0',
+            'reference' => '9650a5154d46adf4f25b79f3d60b9ef863402f3f',
             'type' => 'library',
             'install_path' => __DIR__ . '/../stellarwp/field-conditions',
             'aliases' => array(),
