@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInita12788144966e1776c0614d6a352a5ab
+class ComposerStaticInitcba370f3adb8e636eae0bbec254b18f8
 {
     public static $files = array (
         '5f6326688f4debc6e43d6860fdea3df8' => __DIR__ . '/../..' . '/src/Framework/Http/Response/functions.php',
@@ -263,7 +263,6 @@ class ComposerStaticInita12788144966e1776c0614d6a352a5ab
         'Give\\Campaigns\\Actions\\LoadCampaignPublicOptions' => __DIR__ . '/../..' . '/src/Campaigns/Actions/LoadCampaignPublicOptions.php',
         'Give\\Campaigns\\Actions\\LoadCampaignsListTableAssets' => __DIR__ . '/../..' . '/src/Campaigns/Actions/LoadCampaignsListTableAssets.php',
         'Give\\Campaigns\\Actions\\PreventDeleteDefaultForm' => __DIR__ . '/../..' . '/src/Campaigns/Actions/PreventDeleteDefaultForm.php',
-        'Give\\Campaigns\\Actions\\RedirectLegacyCreateFormToCreateCampaign' => __DIR__ . '/../..' . '/src/Campaigns/Actions/RedirectLegacyCreateFormToCreateCampaign.php',
         'Give\\Campaigns\\Actions\\RegisterCampaignBlocks' => __DIR__ . '/../..' . '/src/Campaigns/Actions/RegisterCampaignBlocks.php',
         'Give\\Campaigns\\Actions\\RegisterCampaignIdRestField' => __DIR__ . '/../..' . '/src/Campaigns/Actions/RegisterCampaignIdRestField.php',
         'Give\\Campaigns\\Actions\\RegisterCampaignShortcodes' => __DIR__ . '/../..' . '/src/Campaigns/Actions/RegisterCampaignShortcodes.php',
@@ -301,6 +300,7 @@ class ComposerStaticInita12788144966e1776c0614d6a352a5ab
         'Give\\Campaigns\\Migrations\\RevenueTable\\AddCampaignID' => __DIR__ . '/../..' . '/src/Campaigns/Migrations/RevenueTable/AddCampaignID.php',
         'Give\\Campaigns\\Migrations\\RevenueTable\\AddIndexes' => __DIR__ . '/../..' . '/src/Campaigns/Migrations/RevenueTable/AddIndexes.php',
         'Give\\Campaigns\\Migrations\\RevenueTable\\AssociateDonationsToCampaign' => __DIR__ . '/../..' . '/src/Campaigns/Migrations/RevenueTable/AssociateDonationsToCampaign.php',
+        'Give\\Campaigns\\Migrations\\Tables\\AddUniqueFormIdToCampaignFormsTable' => __DIR__ . '/../..' . '/src/Campaigns/Migrations/Tables/AddUniqueFormIdToCampaignFormsTable.php',
         'Give\\Campaigns\\Migrations\\Tables\\CreateCampaignFormsTable' => __DIR__ . '/../..' . '/src/Campaigns/Migrations/Tables/CreateCampaignFormsTable.php',
         'Give\\Campaigns\\Migrations\\Tables\\CreateCampaignsTable' => __DIR__ . '/../..' . '/src/Campaigns/Migrations/Tables/CreateCampaignsTable.php',
         'Give\\Campaigns\\Models\\Campaign' => __DIR__ . '/../..' . '/src/Campaigns/Models/Campaign.php',
@@ -402,7 +402,6 @@ class ComposerStaticInita12788144966e1776c0614d6a352a5ab
         'Give\\DonationForms\\Migrations\\RemoveDuplicateMeta' => __DIR__ . '/../..' . '/src/DonationForms/Migrations/RemoveDuplicateMeta.php',
         'Give\\DonationForms\\Migrations\\UpdateDonationLevelsSchema' => __DIR__ . '/../..' . '/src/DonationForms/Migrations/UpdateDonationLevelsSchema.php',
         'Give\\DonationForms\\Models\\DonationForm' => __DIR__ . '/../..' . '/src/DonationForms/Models/DonationForm.php',
-        'Give\\DonationForms\\OrphanedForms\\Actions\\Assets' => __DIR__ . '/../..' . '/src/DonationForms/OrphanedForms/Actions/Assets.php',
         'Give\\DonationForms\\Properties\\FormSettings' => __DIR__ . '/../..' . '/src/DonationForms/Properties/FormSettings.php',
         'Give\\DonationForms\\Properties\\GoalSettings' => __DIR__ . '/../..' . '/src/DonationForms/Properties/GoalSettings.php',
         'Give\\DonationForms\\Repositories\\DonationFormDataRepository' => __DIR__ . '/../..' . '/src/DonationForms/Repositories/DonationFormDataRepository.php',
@@ -440,6 +439,7 @@ class ComposerStaticInita12788144966e1776c0614d6a352a5ab
         'Give\\DonationForms\\V2\\Endpoints\\FormActions' => __DIR__ . '/../..' . '/src/DonationForms/V2/Endpoints/FormActions.php',
         'Give\\DonationForms\\V2\\Endpoints\\ListDonationForms' => __DIR__ . '/../..' . '/src/DonationForms/V2/Endpoints/ListDonationForms.php',
         'Give\\DonationForms\\V2\\Endpoints\\SwitchDonationFormView' => __DIR__ . '/../..' . '/src/DonationForms/V2/Endpoints/SwitchDonationFormView.php',
+        'Give\\DonationForms\\V2\\ListTable\\Columns\\CampaignColumn' => __DIR__ . '/../..' . '/src/DonationForms/V2/ListTable/Columns/CampaignColumn.php',
         'Give\\DonationForms\\V2\\ListTable\\Columns\\DateCreatedColumn' => __DIR__ . '/../..' . '/src/DonationForms/V2/ListTable/Columns/DateCreatedColumn.php',
         'Give\\DonationForms\\V2\\ListTable\\Columns\\DonationCountColumn' => __DIR__ . '/../..' . '/src/DonationForms/V2/ListTable/Columns/DonationCountColumn.php',
         'Give\\DonationForms\\V2\\ListTable\\Columns\\DonationRevenueColumn' => __DIR__ . '/../..' . '/src/DonationForms/V2/ListTable/Columns/DonationRevenueColumn.php',
@@ -511,6 +511,7 @@ class ComposerStaticInita12788144966e1776c0614d6a352a5ab
         'Give\\Donations\\ListTable\\Columns\\CampaignColumn' => __DIR__ . '/../..' . '/src/Donations/ListTable/Columns/CampaignColumn.php',
         'Give\\Donations\\ListTable\\Columns\\CreatedAtColumn' => __DIR__ . '/../..' . '/src/Donations/ListTable/Columns/CreatedAtColumn.php',
         'Give\\Donations\\ListTable\\Columns\\DonorColumn' => __DIR__ . '/../..' . '/src/Donations/ListTable/Columns/DonorColumn.php',
+        'Give\\Donations\\ListTable\\Columns\\FormColumn' => __DIR__ . '/../..' . '/src/Donations/ListTable/Columns/FormColumn.php',
         'Give\\Donations\\ListTable\\Columns\\GatewayColumn' => __DIR__ . '/../..' . '/src/Donations/ListTable/Columns/GatewayColumn.php',
         'Give\\Donations\\ListTable\\Columns\\IdColumn' => __DIR__ . '/../..' . '/src/Donations/ListTable/Columns/IdColumn.php',
         'Give\\Donations\\ListTable\\Columns\\PaymentTypeColumn' => __DIR__ . '/../..' . '/src/Donations/ListTable/Columns/PaymentTypeColumn.php',
@@ -1095,6 +1096,7 @@ class ComposerStaticInita12788144966e1776c0614d6a352a5ab
         'Give\\Framework\\Support\\Facades\\Scripts\\ScriptAsset' => __DIR__ . '/../..' . '/src/Framework/Support/Facades/Scripts/ScriptAsset.php',
         'Give\\Framework\\Support\\Facades\\Scripts\\ScriptAssetFacade' => __DIR__ . '/../..' . '/src/Framework/Support/Facades/Scripts/ScriptAssetFacade.php',
         'Give\\Framework\\Support\\Facades\\Str' => __DIR__ . '/../..' . '/src/Framework/Support/Facades/Str.php',
+        'Give\\Framework\\Support\\PostDataGlobals' => __DIR__ . '/../..' . '/src/Framework/Support/PostDataGlobals.php',
         'Give\\Framework\\Support\\Scripts\\Concerns\\HasScriptAssetFile' => __DIR__ . '/../..' . '/src/Framework/Support/Scripts/Concerns/HasScriptAssetFile.php',
         'Give\\Framework\\Support\\ValueObjects\\BaseEnum' => __DIR__ . '/../..' . '/src/Framework/Support/ValueObjects/BaseEnum.php',
         'Give\\Framework\\Support\\ValueObjects\\Enum' => __DIR__ . '/../..' . '/src/Framework/Support/ValueObjects/Enum.php',
@@ -1372,6 +1374,8 @@ class ComposerStaticInita12788144966e1776c0614d6a352a5ab
         'Give\\Promotions\\InPluginUpsells\\LegacyFormEditor' => __DIR__ . '/../..' . '/src/Promotions/InPluginUpsells/LegacyFormEditor.php',
         'Give\\Promotions\\InPluginUpsells\\PaymentGateways' => __DIR__ . '/../..' . '/src/Promotions/InPluginUpsells/PaymentGateways.php',
         'Give\\Promotions\\InPluginUpsells\\SaleBanners' => __DIR__ . '/../..' . '/src/Promotions/InPluginUpsells/SaleBanners.php',
+        'Give\\Promotions\\NexcessBanner\\NexcessBanner' => __DIR__ . '/../..' . '/src/Promotions/NexcessBanner/NexcessBanner.php',
+        'Give\\Promotions\\NexcessBanner\\NexcessBannerAudience' => __DIR__ . '/../..' . '/src/Promotions/NexcessBanner/NexcessBannerAudience.php',
         'Give\\Promotions\\ReportsWidgetBanner\\ReportsWidgetBanner' => __DIR__ . '/../..' . '/src/Promotions/ReportsWidgetBanner/ReportsWidgetBanner.php',
         'Give\\Promotions\\ServiceProvider' => __DIR__ . '/../..' . '/src/Promotions/ServiceProvider.php',
         'Give\\Promotions\\WelcomeBanner\\Endpoints\\DismissWelcomeBannerRoute' => __DIR__ . '/../..' . '/src/Promotions/WelcomeBanner/Endpoints/DismissWelcomeBannerRoute.php',
@@ -1595,6 +1599,7 @@ class ComposerStaticInita12788144966e1776c0614d6a352a5ab
         'Give\\ValueObjects\\ValueObjects' => __DIR__ . '/../..' . '/src/ValueObjects/ValueObjects.php',
         'Give\\VendorOverrides\\AdminNotices\\AdminNoticesServiceProvider' => __DIR__ . '/../..' . '/src/VendorOverrides/AdminNotices/AdminNoticesServiceProvider.php',
         'Give\\VendorOverrides\\FieldConditions\\FieldConditionsServiceProvider' => __DIR__ . '/../..' . '/src/VendorOverrides/FieldConditions/FieldConditionsServiceProvider.php',
+        'Give\\VendorOverrides\\Harbor\\Actions\\GetFeatureSlugByPluginDirname' => __DIR__ . '/../..' . '/src/VendorOverrides/Harbor/Actions/GetFeatureSlugByPluginDirname.php',
         'Give\\VendorOverrides\\Harbor\\Actions\\HarborHasLoaded' => __DIR__ . '/../..' . '/src/VendorOverrides/Harbor/Actions/HarborHasLoaded.php',
         'Give\\VendorOverrides\\Harbor\\Actions\\HasActivePremiumAddons' => __DIR__ . '/../..' . '/src/VendorOverrides/Harbor/Actions/HasActivePremiumAddons.php',
         'Give\\VendorOverrides\\Harbor\\Actions\\ReportLegacyLicences' => __DIR__ . '/../..' . '/src/VendorOverrides/Harbor/Actions/ReportLegacyLicences.php',
@@ -1966,9 +1971,9 @@ class ComposerStaticInita12788144966e1776c0614d6a352a5ab
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInita12788144966e1776c0614d6a352a5ab::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInita12788144966e1776c0614d6a352a5ab::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInita12788144966e1776c0614d6a352a5ab::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitcba370f3adb8e636eae0bbec254b18f8::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitcba370f3adb8e636eae0bbec254b18f8::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInitcba370f3adb8e636eae0bbec254b18f8::$classMap;
 
         }, null, ClassLoader::class);
     }

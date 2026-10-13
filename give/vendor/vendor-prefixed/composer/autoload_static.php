@@ -4,7 +4,7 @@
 
 namespace Give\Vendors\Composer\Autoload;
 
-class ComposerStaticInitf85f0c0a72e1fbd3be2a18711f218bfa
+class ComposerStaticInit20581062eaf624b03decb5680cfd1c9e
 {
     public static $files = array (
         '534bf5609da508f3482e4711dd09b54d' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
@@ -28,6 +28,7 @@ class ComposerStaticInitf85f0c0a72e1fbd3be2a18711f218bfa
             'Give\\Vendors\\Psr\\Http\\Message\\' => 30,
             'Give\\Vendors\\Psr\\Http\\Client\\' => 29,
             'Give\\Vendors\\Nyholm\\Psr7\\' => 25,
+            'Give\\Vendors\\Nexcess\\Banners\\' => 29,
             'Give\\Vendors\\LiquidWeb\\LicensingApiClient\\' => 42,
             'Give\\Vendors\\LiquidWeb\\LicensingApiClientWordPress\\' => 51,
             'Give\\Vendors\\LiquidWeb\\Harbor\\Views\\' => 36,
@@ -82,6 +83,10 @@ class ComposerStaticInitf85f0c0a72e1fbd3be2a18711f218bfa
         'Give\\Vendors\\Nyholm\\Psr7\\' =>
         array (
             0 => __DIR__ . '/..' . '/nyholm/psr7/src',
+        ),
+        'Give\\Vendors\\Nexcess\\Banners\\' =>
+        array (
+            0 => __DIR__ . '/..' . '/stellarwp/banners/src',
         ),
         'Give\\Vendors\\LiquidWeb\\LicensingApiClient\\' =>
         array (
@@ -334,6 +339,11 @@ class ComposerStaticInitf85f0c0a72e1fbd3be2a18711f218bfa
         'Give\\Vendors\\LiquidWeb\\LicensingApiClient\\Tracing\\TraceContext' => __DIR__ . '/..' . '/stellarwp/licensing-api-client/src/Tracing/TraceContext.php',
         'Give\\Vendors\\LiquidWeb\\LicensingApiClient\\Tracing\\TraceParent' => __DIR__ . '/..' . '/stellarwp/licensing-api-client/src/Tracing/TraceParent.php',
         'Give\\Vendors\\LiquidWeb\\LicensingApiClient\\Value\\AuthToken' => __DIR__ . '/..' . '/stellarwp/licensing-api-client/src/Value/AuthToken.php',
+        'Give\\Vendors\\Nexcess\\Banners\\Banner' => __DIR__ . '/..' . '/stellarwp/banners/src/Banner.php',
+        'Give\\Vendors\\Nexcess\\Banners\\BannerFields' => __DIR__ . '/..' . '/stellarwp/banners/src/BannerFields.php',
+        'Give\\Vendors\\Nexcess\\Banners\\Dismissals' => __DIR__ . '/..' . '/stellarwp/banners/src/Dismissals.php',
+        'Give\\Vendors\\Nexcess\\Banners\\Package' => __DIR__ . '/..' . '/stellarwp/banners/src/Package.php',
+        'Give\\Vendors\\Nexcess\\Banners\\Registry' => __DIR__ . '/..' . '/stellarwp/banners/src/Registry.php',
         'Give\\Vendors\\Nyholm\\Psr7\\Factory\\HttplugFactory' => __DIR__ . '/..' . '/nyholm/psr7/src/Factory/HttplugFactory.php',
         'Give\\Vendors\\Nyholm\\Psr7\\Factory\\Psr17Factory' => __DIR__ . '/..' . '/nyholm/psr7/src/Factory/Psr17Factory.php',
         'Give\\Vendors\\Nyholm\\Psr7\\MessageTrait' => __DIR__ . '/..' . '/nyholm/psr7/src/MessageTrait.php',
@@ -525,9 +535,9 @@ class ComposerStaticInitf85f0c0a72e1fbd3be2a18711f218bfa
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitf85f0c0a72e1fbd3be2a18711f218bfa::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitf85f0c0a72e1fbd3be2a18711f218bfa::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInitf85f0c0a72e1fbd3be2a18711f218bfa::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit20581062eaf624b03decb5680cfd1c9e::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit20581062eaf624b03decb5680cfd1c9e::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit20581062eaf624b03decb5680cfd1c9e::$classMap;
 
         }, null, ClassLoader::class);
     }

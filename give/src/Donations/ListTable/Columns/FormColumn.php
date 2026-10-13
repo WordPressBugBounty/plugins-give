@@ -8,17 +8,14 @@ use Give\Donations\Models\Donation;
 use Give\Framework\ListTable\ModelColumn;
 
 /**
- * @since 2.24.0
+ * @since 4.19.0
  *
  * @extends ModelColumn<Donation>
  */
 class FormColumn extends ModelColumn
 {
-
-    protected $sortColumn = 'formTitle';
-
     /**
-     * @since 2.24.0
+     * @since 4.19.0
      *
      * @inheritDoc
      */
@@ -28,17 +25,20 @@ class FormColumn extends ModelColumn
     }
 
     /**
-     * @since 2.24.0
+     * @since 4.19.0
      *
      * @inheritDoc
      */
     public function getLabel(): string
     {
-        return __('Donation Form', 'give');
+        return __('Form', 'give');
     }
 
     /**
-     * @since 2.24.0
+     * The title comes from the donation record, so no query runs per row. post.php redirects v3 forms to the
+     * form builder, so one edit link covers both form types.
+     *
+     * @since 4.19.0
      *
      * @inheritDoc
      *
@@ -46,11 +46,16 @@ class FormColumn extends ModelColumn
      */
     public function getCellValue($model): string
     {
+        $title = esc_html(wp_strip_all_tags((string)$model->formTitle));
+
+        if ( ! $model->formId || ! current_user_can('edit_give_forms')) {
+            return $title;
+        }
+
         return sprintf(
-            '<a href="%s" aria-label="%s">%s</a>',
-            admin_url("post.php?post={$model->formId}&action=edit"),
-            __('Visit donation form page', 'give'),
-            $model->formTitle
+            '<a href="%s">%s</a>',
+            esc_url(admin_url("post.php?post={$model->formId}&action=edit")),
+            $title
         );
     }
 }

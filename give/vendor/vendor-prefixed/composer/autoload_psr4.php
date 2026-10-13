@@ -17,6 +17,7 @@ return array(
     'Give\\Vendors\\Psr\\Http\\Message\\' => array($vendorDir . '/psr/http-factory/src', $vendorDir . '/psr/http-message/src'),
     'Give\\Vendors\\Psr\\Http\\Client\\' => array($vendorDir . '/psr/http-client/src'),
     'Give\\Vendors\\Nyholm\\Psr7\\' => array($vendorDir . '/nyholm/psr7/src'),
+    'Give\\Vendors\\Nexcess\\Banners\\' => array($vendorDir . '/stellarwp/banners/src'),
     'Give\\Vendors\\LiquidWeb\\LicensingApiClient\\' => array($vendorDir . '/stellarwp/licensing-api-client/src'),
     'Give\\Vendors\\LiquidWeb\\LicensingApiClientWordPress\\' => array($vendorDir . '/stellarwp/licensing-api-client-wordpress/src'),
     'Give\\Vendors\\LiquidWeb\\Harbor\\Views\\' => array($vendorDir . '/stellarwp/harbor/src/views'),
