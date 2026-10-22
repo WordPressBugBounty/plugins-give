@@ -517,17 +517,17 @@
         },
         {
             "name": "stellarwp/harbor",
-            "version": "v2.0.2",
-            "version_normalized": "2.0.2.0",
+            "version": "v2.0.3",
+            "version_normalized": "2.0.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/stellarwp/harbor.git",
-                "reference": "bc13f0ee39c7f1460aa746dddb183dcf0462c5d3"
+                "reference": "a2515166cfed839550e8a2fc74d1009675dd824c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stellarwp/harbor/zipball/bc13f0ee39c7f1460aa746dddb183dcf0462c5d3",
-                "reference": "bc13f0ee39c7f1460aa746dddb183dcf0462c5d3",
+                "url": "https://api.github.com/repos/stellarwp/harbor/zipball/a2515166cfed839550e8a2fc74d1009675dd824c",
+                "reference": "a2515166cfed839550e8a2fc74d1009675dd824c",
                 "shasum": ""
             },
             "require": {
@@ -557,7 +557,7 @@
                 "szepeviktor/phpstan-wordpress": ">=1.0",
                 "wp-cli/wp-cli": "^2"
             },
-            "time": "2026-10-13T13:58:47+00:00",
+            "time": "2026-10-21T18:38:30+00:00",
             "bin": [
                 "bin/stellar-harbor"
             ],
@@ -584,7 +584,7 @@
             "description": "A library that integrates a WordPress product with the Liquid Web licensing system.",
             "support": {
                 "issues": "https://github.com/stellarwp/harbor/issues",
-                "source": "https://github.com/stellarwp/harbor/tree/v2.0.2"
+                "source": "https://github.com/stellarwp/harbor/tree/v2.0.3"
             },
             "install-path": "../stellarwp/harbor"
         },

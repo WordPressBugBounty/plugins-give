@@ -2,9 +2,9 @@
   'root' => 
   array (
     'name' => 'impress-org/give',
-    'pretty_version' => '4.19.0',
-    'version' => '4.19.0.0',
-    'reference' => '58b0505af04649dd71bfb9bfe609894d569106e8',
+    'pretty_version' => '4.19.0.1',
+    'version' => '4.19.0.1',
+    'reference' => 'b0dd612e3e5ab3567e4ce5edf20cbae5f5c17c54',
     'type' => 'wordpress-plugin',
     'install_path' => __DIR__ . '/../',
     'aliases' => 
@@ -124,9 +124,9 @@
     ),
     'stellarwp/harbor' => 
     array (
-      'pretty_version' => 'v2.0.2',
-      'version' => '2.0.2.0',
-      'reference' => 'bc13f0ee39c7f1460aa746dddb183dcf0462c5d3',
+      'pretty_version' => 'v2.0.3',
+      'version' => '2.0.3.0',
+      'reference' => 'a2515166cfed839550e8a2fc74d1009675dd824c',
       'type' => 'library',
       'install_path' => __DIR__ . '/../stellarwp/harbor',
       'aliases' => 
