@@ -418,6 +418,7 @@ class ComposerStaticInit0b8cc37b04eb480548d56c97edb265bf
         'Give\\DonationForms\\Rules\\BillingAddressStateRule' => __DIR__ . '/../..' . '/src/DonationForms/Rules/BillingAddressStateRule.php',
         'Give\\DonationForms\\Rules\\BillingAddressZipRule' => __DIR__ . '/../..' . '/src/DonationForms/Rules/BillingAddressZipRule.php',
         'Give\\DonationForms\\Rules\\Concerns\\HasExemptAmounts' => __DIR__ . '/../..' . '/src/DonationForms/Rules/Concerns/HasExemptAmounts.php',
+        'Give\\DonationForms\\Rules\\Concerns\\ParsesAmountAsMoney' => __DIR__ . '/../..' . '/src/DonationForms/Rules/Concerns/ParsesAmountAsMoney.php',
         'Give\\DonationForms\\Rules\\CurrencyRule' => __DIR__ . '/../..' . '/src/DonationForms/Rules/CurrencyRule.php',
         'Give\\DonationForms\\Rules\\DonationTypeRule' => __DIR__ . '/../..' . '/src/DonationForms/Rules/DonationTypeRule.php',
         'Give\\DonationForms\\Rules\\GatewayRule' => __DIR__ . '/../..' . '/src/DonationForms/Rules/GatewayRule.php',

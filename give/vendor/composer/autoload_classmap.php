@@ -351,6 +351,7 @@ return array(
     'Give\\DonationForms\\Rules\\BillingAddressStateRule' => $baseDir . '/src/DonationForms/Rules/BillingAddressStateRule.php',
     'Give\\DonationForms\\Rules\\BillingAddressZipRule' => $baseDir . '/src/DonationForms/Rules/BillingAddressZipRule.php',
     'Give\\DonationForms\\Rules\\Concerns\\HasExemptAmounts' => $baseDir . '/src/DonationForms/Rules/Concerns/HasExemptAmounts.php',
+    'Give\\DonationForms\\Rules\\Concerns\\ParsesAmountAsMoney' => $baseDir . '/src/DonationForms/Rules/Concerns/ParsesAmountAsMoney.php',
     'Give\\DonationForms\\Rules\\CurrencyRule' => $baseDir . '/src/DonationForms/Rules/CurrencyRule.php',
     'Give\\DonationForms\\Rules\\DonationTypeRule' => $baseDir . '/src/DonationForms/Rules/DonationTypeRule.php',
     'Give\\DonationForms\\Rules\\GatewayRule' => $baseDir . '/src/DonationForms/Rules/GatewayRule.php',
