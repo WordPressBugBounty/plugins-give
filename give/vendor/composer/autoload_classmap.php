@@ -1526,6 +1526,7 @@ return array(
     'Give\\Tracking\\TrackingServiceProvider' => $baseDir . '/src/Tracking/TrackingServiceProvider.php',
     'Give\\Tracking\\UsageTrackingOnBoarding' => $baseDir . '/src/Tracking/UsageTrackingOnBoarding.php',
     'Give\\Traits\\HasWpTheme' => $baseDir . '/src/Traits/HasWpTheme.php',
+    'Give\\Uninstall\\Actions\\DeleteGiveOptions' => $baseDir . '/src/Uninstall/Actions/DeleteGiveOptions.php',
     'Give\\ValueObjects\\Address' => $baseDir . '/src/ValueObjects/Address.php',
     'Give\\ValueObjects\\CardInfo' => $baseDir . '/src/ValueObjects/CardInfo.php',
     'Give\\ValueObjects\\DonorInfo' => $baseDir . '/src/ValueObjects/DonorInfo.php',

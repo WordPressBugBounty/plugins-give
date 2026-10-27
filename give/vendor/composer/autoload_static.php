@@ -6,11 +6,6 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit0b8cc37b04eb480548d56c97edb265bf
 {
-    public static $files = array (
-        '5f6326688f4debc6e43d6860fdea3df8' => __DIR__ . '/../..' . '/src/Framework/Http/Response/functions.php',
-        'd07363a44b39ed7758400be44c013440' => __DIR__ . '/../..' . '/src/FormMigration/functions.php',
-    );
-
     public static $prefixLengthsPsr4 = array (
         'S' =>
         array (
@@ -1593,6 +1588,7 @@ class ComposerStaticInit0b8cc37b04eb480548d56c97edb265bf
         'Give\\Tracking\\TrackingServiceProvider' => __DIR__ . '/../..' . '/src/Tracking/TrackingServiceProvider.php',
         'Give\\Tracking\\UsageTrackingOnBoarding' => __DIR__ . '/../..' . '/src/Tracking/UsageTrackingOnBoarding.php',
         'Give\\Traits\\HasWpTheme' => __DIR__ . '/../..' . '/src/Traits/HasWpTheme.php',
+        'Give\\Uninstall\\Actions\\DeleteGiveOptions' => __DIR__ . '/../..' . '/src/Uninstall/Actions/DeleteGiveOptions.php',
         'Give\\ValueObjects\\Address' => __DIR__ . '/../..' . '/src/ValueObjects/Address.php',
         'Give\\ValueObjects\\CardInfo' => __DIR__ . '/../..' . '/src/ValueObjects/CardInfo.php',
         'Give\\ValueObjects\\DonorInfo' => __DIR__ . '/../..' . '/src/ValueObjects/DonorInfo.php',
