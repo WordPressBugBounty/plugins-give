@@ -418,6 +418,7 @@ class ComposerStaticInit0b8cc37b04eb480548d56c97edb265bf
         'Give\\DonationForms\\Rules\\DonationTypeRule' => __DIR__ . '/../..' . '/src/DonationForms/Rules/DonationTypeRule.php',
         'Give\\DonationForms\\Rules\\GatewayRule' => __DIR__ . '/../..' . '/src/DonationForms/Rules/GatewayRule.php',
         'Give\\DonationForms\\Rules\\HoneyPotRule' => __DIR__ . '/../..' . '/src/DonationForms/Rules/HoneyPotRule.php',
+        'Give\\DonationForms\\Rules\\LoggedInDonorEmailRule' => __DIR__ . '/../..' . '/src/DonationForms/Rules/LoggedInDonorEmailRule.php',
         'Give\\DonationForms\\Rules\\Max' => __DIR__ . '/../..' . '/src/DonationForms/Rules/Max.php',
         'Give\\DonationForms\\Rules\\Min' => __DIR__ . '/../..' . '/src/DonationForms/Rules/Min.php',
         'Give\\DonationForms\\Rules\\PhoneIntlInputRule' => __DIR__ . '/../..' . '/src/DonationForms/Rules/PhoneIntlInputRule.php',

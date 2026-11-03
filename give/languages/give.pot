@@ -2,14 +2,14 @@
 # This file is distributed under the same license as the Give - Donation Plugin plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: Give - Donation Plugin 4.19.1\n"
+"Project-Id-Version: Give - Donation Plugin 4.19.1.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/givewp\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-10-27T20:09:10+00:00\n"
+"POT-Creation-Date: 2026-11-03T17:37:29+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: give\n"
@@ -133,7 +133,7 @@ msgstr ""
 #: build/Campaigns/Blocks/CampaignForm/render.php:34
 #: includes/forms/template.php:705
 #: includes/forms/template.php:737
-#: includes/forms/template.php:2071
+#: includes/forms/template.php:2078
 #: includes/forms/widget.php:177
 #: includes/gateways/stripe/includes/give-stripe-scripts.php:54
 #: includes/shortcodes.php:664
@@ -532,7 +532,7 @@ msgstr ""
 msgid "All subscriptions uploaded successfully!"
 msgstr ""
 
-#: includes/admin/admin-actions.php:1040
+#: includes/admin/admin-actions.php:1041
 #: includes/admin/tools/import/class-give-import-core-settings.php:485
 #: includes/misc-functions.php:1517
 #: includes/misc-functions.php:1523
@@ -541,18 +541,18 @@ msgstr ""
 msgid "Please upload or provide a valid JSON file."
 msgstr ""
 
-#: includes/admin/admin-actions.php:1137
+#: includes/admin/admin-actions.php:1145
 msgid "ERROR"
 msgstr ""
 
-#: includes/admin/admin-actions.php:1138
+#: includes/admin/admin-actions.php:1146
 #: includes/class-give-scripts.php:530
-#: includes/process-donation.php:703
+#: includes/process-donation.php:702
 #: includes/shortcodes.php:513
 msgid "Please enter your first name."
 msgstr ""
 
-#: includes/admin/admin-actions.php:1165
+#: includes/admin/admin-actions.php:1173
 #: includes/admin/donors/class-donor-table.php:65
 #: includes/admin/emails/abstract-email-notification.php:153
 #: includes/admin/emails/class-donation-receipt-email.php:46
@@ -574,15 +574,15 @@ msgstr ""
 msgid "Donor"
 msgstr ""
 
-#: includes/admin/admin-actions.php:1168
+#: includes/admin/admin-actions.php:1176
 msgid "View Donor Information"
 msgstr ""
 
-#: includes/admin/admin-actions.php:1296
+#: includes/admin/admin-actions.php:1271
 msgid "Error: Security issue."
 msgstr ""
 
-#: includes/admin/admin-actions.php:1308
+#: includes/admin/admin-actions.php:1283
 #: includes/admin/donors/donor-actions.php:34
 #: includes/admin/donors/donor-actions.php:213
 #: includes/admin/donors/donor-actions.php:305
@@ -590,31 +590,31 @@ msgstr ""
 msgid "You do not have permission to edit this donor."
 msgstr ""
 
-#: includes/admin/admin-actions.php:1342
+#: includes/admin/admin-actions.php:1317
 msgid "Error: Unable to save the address. Please check if address already exist."
 msgstr ""
 
-#: includes/admin/admin-actions.php:1371
+#: includes/admin/admin-actions.php:1346
 msgid "Successfully added a new address to the donor."
 msgstr ""
 
-#: includes/admin/admin-actions.php:1387
+#: includes/admin/admin-actions.php:1362
 msgid "Error: Unable to delete address."
 msgstr ""
 
-#: includes/admin/admin-actions.php:1395
+#: includes/admin/admin-actions.php:1370
 msgid "Successfully removed a address of donor."
 msgstr ""
 
-#: includes/admin/admin-actions.php:1407
+#: includes/admin/admin-actions.php:1382
 msgid "Error: Unable to update address. Please check if address already exist."
 msgstr ""
 
-#: includes/admin/admin-actions.php:1425
+#: includes/admin/admin-actions.php:1400
 msgid "Successfully updated a address of donor"
 msgstr ""
 
-#: includes/admin/admin-actions.php:1447
+#: includes/admin/admin-actions.php:1422
 #: includes/admin/payments/view-payment-details.php:786
 #: src/Framework/Receipts/Actions/GenerateConfirmationPageReceipt.php:200
 #: src/Receipt/DonationReceipt.php:86
@@ -622,15 +622,15 @@ msgstr ""
 msgid "Billing Address"
 msgstr ""
 
-#: includes/admin/admin-actions.php:1465
+#: includes/admin/admin-actions.php:1440
 msgid "Personal Address"
 msgstr ""
 
-#: includes/admin/admin-actions.php:1611
+#: includes/admin/admin-actions.php:1586
 msgid "Cache flushed successfully."
 msgstr ""
 
-#: includes/admin/admin-actions.php:1617
+#: includes/admin/admin-actions.php:1592
 msgid "An error occurred while flushing the cache."
 msgstr ""
 
@@ -1101,7 +1101,7 @@ msgstr ""
 
 #: includes/admin/donors/class-donor-table.php:304
 #: includes/admin/forms/dashboard-columns.php:35
-#: includes/admin/import-functions.php:445
+#: includes/admin/import-functions.php:446
 #: includes/admin/reports/class-donor-reports-table.php:221
 #: includes/admin/tools/export/export-functions.php:158
 #: includes/admin/tools/views/html-admin-page-system-info.php:1020
@@ -1118,7 +1118,7 @@ msgstr ""
 #: includes/admin/donors/donors.php:824
 #: includes/admin/emails/class-email-notification-table.php:68
 #: includes/admin/emails/class-email-setting-field.php:328
-#: includes/admin/import-functions.php:481
+#: includes/admin/import-functions.php:482
 #: includes/admin/reports/class-donor-reports-table.php:222
 #: includes/admin/tools/export/export-functions.php:159
 #: includes/admin/tools/import/class-give-import-subscriptions.php:1311
@@ -1236,7 +1236,7 @@ msgstr ""
 #: includes/admin/payments/view-payment-details.php:740
 #: includes/class-give-scripts.php:252
 #: includes/class-give-scripts.php:305
-#: includes/forms/template.php:1694
+#: includes/forms/template.php:1701
 #: src/ThirdPartySupport/Elementor/Widgets/V1/GiveSubscriptionsWidget.php:292
 #: build/assets/dist/js/admin.js:1
 #: build/assets/dist/js/give-admin-donation-forms.js:5
@@ -1385,15 +1385,15 @@ msgstr ""
 #: includes/formatting.php:859
 #: includes/formatting.php:902
 #: includes/gateways/actions.php:56
-#: includes/process-donation.php:990
+#: includes/process-donation.php:989
 #: src/LegacyPaymentGateways/Adapters/LegacyPaymentGatewayAdapter.php:278
 msgid "We're unable to recognize your session. Please refresh the screen to try again; otherwise contact your website administrator for assistance."
 msgstr ""
 
 #: includes/admin/donors/donor-actions.php:441
 #: includes/login-register.php:275
-#: includes/process-donation.php:944
-#: includes/process-donation.php:1142
+#: includes/process-donation.php:943
+#: includes/process-donation.php:1141
 #: includes/user-functions.php:374
 msgid "Invalid email."
 msgstr ""
@@ -1489,9 +1489,9 @@ msgid "Edit Donor: %1$s %2$s"
 msgstr ""
 
 #: includes/admin/donors/donors.php:377
-#: includes/admin/import-functions.php:553
+#: includes/admin/import-functions.php:554
 #: includes/forms/template.php:804
-#: src/DonationForms/Actions/ConvertDonationFormBlocksToFieldsApi.php:308
+#: src/DonationForms/Actions/ConvertDonationFormBlocksToFieldsApi.php:315
 #: src/ThirdPartySupport/Elementor/Widgets/V2/ElementorCampaignCommentsWidget/ElementorCampaignCommentsWidget.php:129
 #: build/adminBlocks.js:1
 #: build/campaignBlocks.js:1
@@ -1504,7 +1504,7 @@ msgid "Title"
 msgstr ""
 
 #: includes/admin/donors/donors.php:394
-#: includes/admin/import-functions.php:444
+#: includes/admin/import-functions.php:445
 #: includes/admin/tools/export/give-export-donations-exporter.php:185
 #: includes/admin/tools/import/class-give-import-donations.php:525
 #: includes/admin/tools/import/class-give-import-subscriptions.php:1309
@@ -1517,7 +1517,7 @@ msgid "First Name"
 msgstr ""
 
 #: includes/admin/donors/donors.php:403
-#: includes/admin/import-functions.php:450
+#: includes/admin/import-functions.php:451
 #: includes/admin/tools/export/give-export-donations-exporter.php:188
 #: includes/admin/tools/import/class-give-import-subscriptions.php:1310
 #: includes/forms/template.php:863
@@ -1692,7 +1692,7 @@ msgid "Make Primary"
 msgstr ""
 
 #: includes/admin/donors/donors.php:879
-#: includes/admin/import-functions.php:482
+#: includes/admin/import-functions.php:483
 #: includes/admin/tools/export/give-export-donations-exporter.php:191
 #: includes/admin/tools/import/class-give-import-donations.php:515
 #: includes/forms/template.php:980
@@ -1742,7 +1742,7 @@ msgstr ""
 #: includes/admin/donors/donors.php:914
 #: includes/admin/forms/class-metabox-form-data.php:279
 #: includes/admin/forms/dashboard-columns.php:38
-#: includes/admin/import-functions.php:419
+#: includes/admin/import-functions.php:420
 #: includes/admin/payments/class-payments-table.php:427
 #: includes/admin/tools/import/class-give-import-subscriptions.php:1315
 #: src/Donations/ListTable/Columns/AmountColumn.php:37
@@ -1757,7 +1757,7 @@ msgstr ""
 
 #: includes/admin/donors/donors.php:915
 #: includes/admin/forms/dashboard-columns.php:43
-#: includes/admin/import-functions.php:432
+#: includes/admin/import-functions.php:433
 #: includes/admin/payments/class-payments-table.php:426
 #: includes/admin/payments/view-payment-details.php:202
 #: includes/admin/tools/export/class-export-earnings.php:69
@@ -1777,7 +1777,7 @@ msgid "Date"
 msgstr ""
 
 #: includes/admin/donors/donors.php:916
-#: includes/admin/import-functions.php:486
+#: includes/admin/import-functions.php:487
 #: includes/admin/payments/class-payments-table.php:425
 #: includes/admin/tools/import/class-give-import-subscriptions.php:472
 #: includes/admin/tools/import/class-give-import-subscriptions.php:1317
@@ -1836,7 +1836,7 @@ msgid "No completed donations found."
 msgstr ""
 
 #: includes/admin/donors/donors.php:1068
-#: includes/admin/import-functions.php:499
+#: includes/admin/import-functions.php:500
 msgid "Notes"
 msgstr ""
 
@@ -2603,7 +2603,7 @@ msgid "Donation Limits: "
 msgstr ""
 
 #: includes/admin/forms/class-metabox-form-data.php:207
-#: includes/admin/import-functions.php:569
+#: includes/admin/import-functions.php:570
 msgid "Custom Amount Text"
 msgstr ""
 
@@ -2617,7 +2617,7 @@ msgstr ""
 
 #: includes/admin/forms/class-metabox-form-data.php:226
 #: includes/admin/forms/class-metabox-form-data.php:293
-#: includes/admin/import-functions.php:565
+#: includes/admin/import-functions.php:566
 msgid "Donation Level"
 msgstr ""
 
@@ -2769,8 +2769,8 @@ msgstr ""
 #: includes/admin/forms/class-metabox-form-data.php:428
 #: includes/admin/shortcodes/shortcode-give-login.php:24
 #: includes/admin/shortcodes/shortcode-give-login.php:25
-#: includes/forms/template.php:1551
-#: includes/forms/template.php:1690
+#: includes/forms/template.php:1558
+#: includes/forms/template.php:1697
 msgid "Login"
 msgstr ""
 
@@ -2923,8 +2923,8 @@ msgstr ""
 
 #: includes/admin/forms/class-metabox-form-data.php:592
 #: includes/admin/settings/class-settings-display.php:297
-#: includes/forms/template.php:1883
-#: includes/forms/template.php:1888
+#: includes/forms/template.php:1890
+#: includes/forms/template.php:1895
 #: includes/install.php:360
 #: src/FormMigration/FormMetaDecorator.php:154
 msgid "Agree to Terms?"
@@ -3121,22 +3121,22 @@ msgid "Add Row"
 msgstr ""
 
 #. translators: %s: Email address of the user who ran the import
-#: includes/admin/import-functions.php:266
-#: includes/admin/import-functions.php:358
+#: includes/admin/import-functions.php:267
+#: includes/admin/import-functions.php:359
 #, php-format
 msgid "This donor was imported by %s"
 msgstr ""
 
-#: includes/admin/import-functions.php:345
+#: includes/admin/import-functions.php:346
 #: includes/post-types.php:65
 msgid "New Form"
 msgstr ""
 
-#: includes/admin/import-functions.php:394
+#: includes/admin/import-functions.php:395
 msgid "Do not import"
 msgstr ""
 
-#: includes/admin/import-functions.php:416
+#: includes/admin/import-functions.php:417
 #: includes/admin/tools/export/give-export-donations-exporter.php:176
 #: includes/admin/tools/export/give-export-donations-functions.php:269
 #: src/API/REST/V3/Routes/Donations/DonationController.php:921
@@ -3146,7 +3146,7 @@ msgstr ""
 msgid "Donation ID"
 msgstr ""
 
-#: includes/admin/import-functions.php:418
+#: includes/admin/import-functions.php:419
 #: includes/admin/shortcodes/shortcode-give-donor-wall.php:56
 #: includes/admin/tools/import/class-give-import-donations.php:535
 #: src/FormBuilder/Actions/GenerateDefaultDonationFormBlockCollection.php:68
@@ -3160,7 +3160,7 @@ msgstr ""
 msgid "Donation Amount"
 msgstr ""
 
-#: includes/admin/import-functions.php:420
+#: includes/admin/import-functions.php:421
 #: includes/admin/tools/export/give-export-donations-exporter.php:211
 #: includes/admin/tools/export/give-export-donations-functions.php:291
 #: src/DonationSummary/resources/views/summary.php:116
@@ -3172,35 +3172,35 @@ msgstr ""
 msgid "Donation Total"
 msgstr ""
 
-#: includes/admin/import-functions.php:421
+#: includes/admin/import-functions.php:422
 #: build/donationDetails.js:11
 msgid "Total"
 msgstr ""
 
-#: includes/admin/import-functions.php:424
+#: includes/admin/import-functions.php:425
 msgid "Donation Currencies"
 msgstr ""
 
-#: includes/admin/import-functions.php:425
+#: includes/admin/import-functions.php:426
 msgid "Currencies"
 msgstr ""
 
-#: includes/admin/import-functions.php:426
+#: includes/admin/import-functions.php:427
 msgid "Currencies Code"
 msgstr ""
 
-#: includes/admin/import-functions.php:427
+#: includes/admin/import-functions.php:428
 #: includes/admin/tools/export/give-export-donations-exporter.php:214
 #: includes/admin/tools/export/give-export-donations-functions.php:299
 #: includes/admin/tools/views/html-admin-page-system-info.php:640
 msgid "Currency Code"
 msgstr ""
 
-#: includes/admin/import-functions.php:428
+#: includes/admin/import-functions.php:429
 msgid "Code"
 msgstr ""
 
-#: includes/admin/import-functions.php:431
+#: includes/admin/import-functions.php:432
 #: includes/admin/tools/export/give-export-donations-exporter.php:241
 #: includes/admin/tools/export/give-export-donations-functions.php:323
 #: src/ThirdPartySupport/Elementor/Widgets/V1/GiveDonorWallWidget.php:161
@@ -3208,47 +3208,47 @@ msgstr ""
 msgid "Donation Date"
 msgstr ""
 
-#: includes/admin/import-functions.php:435
+#: includes/admin/import-functions.php:436
 #: includes/admin/tools/export/give-export-donations-exporter.php:244
 #: includes/admin/tools/export/give-export-donations-functions.php:331
 msgid "Donation Time"
 msgstr ""
 
-#: includes/admin/import-functions.php:436
+#: includes/admin/import-functions.php:437
 msgid "Time"
-msgstr ""
-
-#: includes/admin/import-functions.php:439
-#: includes/admin/import-functions.php:556
-#: includes/admin/tools/export/give-export-donations-exporter.php:182
-msgid "Title Prefix"
 msgstr ""
 
 #: includes/admin/import-functions.php:440
 #: includes/admin/import-functions.php:557
+#: includes/admin/tools/export/give-export-donations-exporter.php:182
+msgid "Title Prefix"
+msgstr ""
+
+#: includes/admin/import-functions.php:441
+#: includes/admin/import-functions.php:558
 #: build/assets/dist/js/donor-dashboards-app.js:1
 msgid "Prefix"
 msgstr ""
 
-#: includes/admin/import-functions.php:443
+#: includes/admin/import-functions.php:444
 #: includes/admin/tools/import/class-give-import-subscriptions.php:1309
 msgid "Donor First Name"
 msgstr ""
 
-#: includes/admin/import-functions.php:446
+#: includes/admin/import-functions.php:447
 msgid "First"
 msgstr ""
 
-#: includes/admin/import-functions.php:449
+#: includes/admin/import-functions.php:450
 #: includes/admin/tools/import/class-give-import-subscriptions.php:1310
 msgid "Donor Last Name"
 msgstr ""
 
-#: includes/admin/import-functions.php:451
+#: includes/admin/import-functions.php:452
 msgid "Last"
 msgstr ""
 
-#: includes/admin/import-functions.php:454
+#: includes/admin/import-functions.php:455
 #: includes/admin/tools/export/give-export-donations-exporter.php:194
 #: includes/admin/tools/export/give-export-donations-functions.php:476
 #: includes/forms/template.php:943
@@ -3264,24 +3264,24 @@ msgstr ""
 msgid "Company Name"
 msgstr ""
 
-#: includes/admin/import-functions.php:455
+#: includes/admin/import-functions.php:456
 msgid "Donor Company Name"
 msgstr ""
 
-#: includes/admin/import-functions.php:456
+#: includes/admin/import-functions.php:457
 msgid "Donor Company"
 msgstr ""
 
-#: includes/admin/import-functions.php:457
+#: includes/admin/import-functions.php:458
 #: build/assets/dist/js/donor-dashboards-app.js:1
 #: build/donationDetails.js:11
 #: build/formBuilderRegistrars.js:1
 msgid "Company"
 msgstr ""
 
-#: includes/admin/import-functions.php:460
+#: includes/admin/import-functions.php:461
 #: includes/admin/tools/export/give-export-donations-exporter.php:197
-#: includes/forms/template.php:1301
+#: includes/forms/template.php:1308
 #: build/assets/dist/js/donor-dashboards-app.js:1
 #: build/donationDetails.js:11
 #: build/donorDetails.js:11
@@ -3289,7 +3289,7 @@ msgstr ""
 msgid "Address 1"
 msgstr ""
 
-#: includes/admin/import-functions.php:461
+#: includes/admin/import-functions.php:462
 #: includes/admin/tools/export/class-batch-export-donors.php:189
 #: includes/admin/tools/export/export-functions.php:160
 #: src/Exports/DonorsExport.php:191
@@ -3297,10 +3297,10 @@ msgstr ""
 msgid "Address"
 msgstr ""
 
-#: includes/admin/import-functions.php:463
+#: includes/admin/import-functions.php:464
 #: includes/admin/tools/export/class-batch-export-donors.php:190
 #: includes/admin/tools/export/give-export-donations-exporter.php:198
-#: includes/forms/template.php:1324
+#: includes/forms/template.php:1331
 #: src/Exports/DonorsExport.php:192
 #: build/assets/dist/js/donor-dashboards-app.js:1
 #: build/donationDetails.js:11
@@ -3309,11 +3309,11 @@ msgstr ""
 msgid "Address 2"
 msgstr ""
 
-#: includes/admin/import-functions.php:464
+#: includes/admin/import-functions.php:465
 #: includes/admin/tools/export/class-batch-export-donors.php:191
 #: includes/admin/tools/export/give-export-donations-exporter.php:199
-#: includes/forms/template.php:1345
-#: includes/forms/template.php:1357
+#: includes/forms/template.php:1352
+#: includes/forms/template.php:1364
 #: src/Exports/DonorsExport.php:193
 #: src/FormMigration/Concerns/Blocks/BlockFactory.php:91
 #: src/FormMigration/Concerns/Blocks/BlockFactory.php:92
@@ -3325,7 +3325,7 @@ msgstr ""
 msgid "City"
 msgstr ""
 
-#: includes/admin/import-functions.php:466
+#: includes/admin/import-functions.php:467
 #: includes/admin/settings/class-settings-general.php:316
 #: includes/admin/tools/export/class-batch-export-donors.php:192
 #: includes/admin/tools/export/give-export-donations-exporter.php:200
@@ -3333,7 +3333,7 @@ msgstr ""
 #: includes/country-functions.php:502
 #: includes/country-functions.php:552
 #: includes/country-functions.php:809
-#: includes/forms/template.php:1367
+#: includes/forms/template.php:1374
 #: src/Exports/DonorsExport.php:194
 #: build/assets/dist/js/donor-dashboards-app.js:1
 #: build/donationDetails.js:11
@@ -3342,7 +3342,7 @@ msgstr ""
 msgid "State"
 msgstr ""
 
-#: includes/admin/import-functions.php:467
+#: includes/admin/import-functions.php:468
 #: includes/country-functions.php:568
 #: includes/country-functions.php:579
 #: includes/country-functions.php:596
@@ -3355,24 +3355,24 @@ msgstr ""
 msgid "Province"
 msgstr ""
 
-#: includes/admin/import-functions.php:468
+#: includes/admin/import-functions.php:469
 #: includes/country-functions.php:652
 #: includes/country-functions.php:662
 #: includes/country-functions.php:814
 msgid "County"
 msgstr ""
 
-#: includes/admin/import-functions.php:469
+#: includes/admin/import-functions.php:470
 #: includes/country-functions.php:591
 #: includes/country-functions.php:647
 #: includes/country-functions.php:723
 msgid "Region"
 msgstr ""
 
-#: includes/admin/import-functions.php:471
+#: includes/admin/import-functions.php:472
 #: includes/admin/tools/export/class-batch-export-donors.php:194
 #: includes/admin/tools/export/give-export-donations-exporter.php:202
-#: includes/forms/template.php:1276
+#: includes/forms/template.php:1283
 #: src/Exports/DonorsExport.php:196
 #: src/FormMigration/Concerns/Blocks/BlockFactory.php:85
 #: src/Framework/FieldsAPI/BillingAddress.php:54
@@ -3384,11 +3384,11 @@ msgstr ""
 msgid "Country"
 msgstr ""
 
-#: includes/admin/import-functions.php:473
+#: includes/admin/import-functions.php:474
 msgid "Zip Code"
 msgstr ""
 
-#: includes/admin/import-functions.php:474
+#: includes/admin/import-functions.php:475
 #: includes/admin/tools/export/class-batch-export-donors.php:193
 #: includes/admin/tools/export/give-export-donations-exporter.php:201
 #: src/Exports/DonorsExport.php:195
@@ -3397,24 +3397,24 @@ msgstr ""
 msgid "Zip"
 msgstr ""
 
-#: includes/admin/import-functions.php:475
+#: includes/admin/import-functions.php:476
 msgid "zipcode"
 msgstr ""
 
-#: includes/admin/import-functions.php:476
+#: includes/admin/import-functions.php:477
 msgid "Postal Code"
 msgstr ""
 
-#: includes/admin/import-functions.php:477
+#: includes/admin/import-functions.php:478
 msgid "Postal"
 msgstr ""
 
-#: includes/admin/import-functions.php:480
+#: includes/admin/import-functions.php:481
 #: includes/admin/tools/import/class-give-import-subscriptions.php:1311
 msgid "Donor Email"
 msgstr ""
 
-#: includes/admin/import-functions.php:485
+#: includes/admin/import-functions.php:486
 #: includes/admin/tools/export/give-export-donations-exporter.php:220
 #: includes/admin/tools/export/give-export-donations-functions.php:315
 #: src/ThirdPartySupport/Elementor/Widgets/V1/DonationReceiptWidget.php:355
@@ -3422,7 +3422,7 @@ msgstr ""
 msgid "Donation Status"
 msgstr ""
 
-#: includes/admin/import-functions.php:489
+#: includes/admin/import-functions.php:490
 #: src/Framework/Receipts/Actions/GenerateConfirmationPageReceipt.php:143
 #: src/Receipt/DonationReceipt.php:125
 #: src/ThirdPartySupport/Elementor/Widgets/V1/DonationHistoryWidget.php:171
@@ -3434,17 +3434,17 @@ msgstr ""
 msgid "Payment Method"
 msgstr ""
 
-#: includes/admin/import-functions.php:490
+#: includes/admin/import-functions.php:491
 msgid "Method"
 msgstr ""
 
-#: includes/admin/import-functions.php:491
+#: includes/admin/import-functions.php:492
 #: includes/admin/tools/export/give-export-donations-exporter.php:223
 #: includes/admin/tools/export/give-export-donations-functions.php:339
 msgid "Payment Gateway"
 msgstr ""
 
-#: includes/admin/import-functions.php:492
+#: includes/admin/import-functions.php:493
 #: includes/admin/reports/class-gateways-reports-table.php:143
 #: includes/admin/settings/class-settings-gateways.php:493
 #: includes/admin/tools/import/class-give-import-subscriptions.php:1320
@@ -3454,50 +3454,50 @@ msgstr ""
 msgid "Gateway"
 msgstr ""
 
-#: includes/admin/import-functions.php:495
+#: includes/admin/import-functions.php:496
 #: includes/admin/tools/import/class-give-import-subscriptions.php:1319
 #: build/subscriptionDetails.js:11
 msgid "Transaction ID"
 msgstr ""
 
-#: includes/admin/import-functions.php:496
+#: includes/admin/import-functions.php:497
 msgid "Gateway Transaction ID"
 msgstr ""
 
-#: includes/admin/import-functions.php:497
+#: includes/admin/import-functions.php:498
 msgid "Transaction Identifier"
 msgstr ""
 
-#: includes/admin/import-functions.php:501
+#: includes/admin/import-functions.php:502
 #: includes/admin/tools/export/give-export-donations-exporter.php:226
 #: includes/admin/tools/export/give-export-donations-functions.php:347
 #: includes/admin/tools/import/class-give-import-subscriptions.php:1318
 msgid "Payment Mode"
 msgstr ""
 
-#: includes/admin/import-functions.php:502
+#: includes/admin/import-functions.php:503
 #: includes/admin/tools/import/class-give-import-subscriptions.php:1318
 msgid "Mode"
 msgstr ""
 
-#: includes/admin/import-functions.php:503
+#: includes/admin/import-functions.php:504
 #: includes/admin/settings/class-settings-gateways.php:115
 #: includes/admin/tools/views/html-admin-page-system-info.php:635
 msgid "Test Mode"
 msgstr ""
 
-#: includes/admin/import-functions.php:505
+#: includes/admin/import-functions.php:506
 #: includes/admin/tools/export/give-export-donations-exporter.php:253
 #: includes/admin/tools/export/give-export-donations-functions.php:524
 msgid "Donor IP Address"
 msgstr ""
 
-#: includes/admin/import-functions.php:506
+#: includes/admin/import-functions.php:507
 #: includes/admin/tools/import/class-give-import-donations.php:595
 msgid "Import as Meta"
 msgstr ""
 
-#: includes/admin/import-functions.php:527
+#: includes/admin/import-functions.php:528
 #: includes/admin/tools/export/give-export-donations-exporter.php:250
 #: includes/admin/tools/export/give-export-donations-functions.php:516
 #: includes/admin/tools/import/class-give-import-subscriptions.php:1308
@@ -3507,7 +3507,7 @@ msgstr ""
 msgid "Donor ID"
 msgstr ""
 
-#: includes/admin/import-functions.php:528
+#: includes/admin/import-functions.php:529
 #: includes/admin/tools/export/export-functions.php:161
 #: includes/admin/tools/export/give-export-donations-exporter.php:247
 #: includes/admin/tools/export/give-export-donations-functions.php:508
@@ -3515,12 +3515,12 @@ msgstr ""
 msgid "User ID"
 msgstr ""
 
-#: includes/admin/import-functions.php:550
+#: includes/admin/import-functions.php:551
 #: includes/admin/tools/export/give-export-donations-functions.php:400
 msgid "Donation Form Title"
 msgstr ""
 
-#: includes/admin/import-functions.php:551
+#: includes/admin/import-functions.php:552
 #: includes/admin/shortcodes/shortcode-give-form.php:27
 #: includes/admin/shortcodes/shortcode-give-form.php:28
 #: includes/post-types.php:73
@@ -3541,7 +3541,7 @@ msgstr ""
 msgid "Donation Form"
 msgstr ""
 
-#: includes/admin/import-functions.php:552
+#: includes/admin/import-functions.php:553
 #: includes/admin/shortcodes/shortcode-give-donation-grid.php:64
 #: includes/admin/tools/export/pdf-reports.php:103
 #: src/ThirdPartySupport/Elementor/Widgets/V1/GiveFormGridWidget.php:236
@@ -3550,18 +3550,18 @@ msgstr ""
 msgid "Form Name"
 msgstr ""
 
-#: includes/admin/import-functions.php:554
+#: includes/admin/import-functions.php:555
 #: includes/admin/tools/export/give-export-donations-exporter.php:232
 msgid "Form Title"
 msgstr ""
 
-#: includes/admin/import-functions.php:561
+#: includes/admin/import-functions.php:562
 #: includes/admin/tools/export/give-export-donations-functions.php:392
 #: includes/admin/tools/import/class-give-import-subscriptions.php:1307
 msgid "Donation Form ID"
 msgstr ""
 
-#: includes/admin/import-functions.php:562
+#: includes/admin/import-functions.php:563
 #: includes/admin/tools/export/give-export-donations-exporter.php:229
 #: includes/admin/tools/import/class-give-import-subscriptions.php:457
 #: includes/admin/tools/import/class-give-import-subscriptions.php:1307
@@ -3575,17 +3575,17 @@ msgstr ""
 msgid "Form ID"
 msgstr ""
 
-#: includes/admin/import-functions.php:566
+#: includes/admin/import-functions.php:567
 msgid "Level"
 msgstr ""
 
-#: includes/admin/import-functions.php:567
+#: includes/admin/import-functions.php:568
 #: includes/admin/tools/export/give-export-donations-exporter.php:238
 msgid "Level Title"
 msgstr ""
 
 #. translators: %s: Email address of the user who ran the import
-#: includes/admin/import-functions.php:1123
+#: includes/admin/import-functions.php:1124
 #, php-format
 msgid "This donation was imported by %s"
 msgstr ""
@@ -4710,7 +4710,7 @@ msgstr ""
 msgid "Please properly configure Akismet to enable SPAM protection."
 msgstr ""
 
-#: includes/admin/settings/class-settings-advanced.php:475
+#: includes/admin/settings/class-settings-advanced.php:469
 msgid "We recommend moving away from Legacy settings and the Option-Based Editor as they are not compatible with newer features and will eventually be removed."
 msgstr ""
 
@@ -5943,7 +5943,7 @@ msgid "Determines whether the name is visible."
 msgstr ""
 
 #: includes/admin/shortcodes/shortcode-give-donor-wall.php:154
-#: includes/forms/template.php:1985
+#: includes/forms/template.php:1992
 msgid "Donation Total:"
 msgstr ""
 
@@ -9238,13 +9238,13 @@ msgid "Please select payment mode."
 msgstr ""
 
 #: includes/class-give-scripts.php:531
-#: includes/process-donation.php:853
+#: includes/process-donation.php:852
 #: includes/process-donation.php:1733
 msgid "Please enter your last name."
 msgstr ""
 
 #: includes/class-give-scripts.php:532
-#: includes/process-donation.php:699
+#: includes/process-donation.php:698
 msgid "Please enter a valid email address."
 msgstr ""
 
@@ -9253,7 +9253,7 @@ msgid "Invalid email address or username."
 msgstr ""
 
 #: includes/class-give-scripts.php:534
-#: includes/process-donation.php:1059
+#: includes/process-donation.php:1058
 #: includes/user-functions.php:416
 msgid "Enter a password."
 msgstr ""
@@ -9264,7 +9264,7 @@ msgid "Enter the password confirmation."
 msgstr ""
 
 #: includes/class-give-scripts.php:536
-#: includes/process-donation.php:677
+#: includes/process-donation.php:676
 msgid "You must agree to the terms and conditions."
 msgstr ""
 
@@ -14687,7 +14687,7 @@ msgstr ""
 msgid "We will send the donation receipt to this address."
 msgstr ""
 
-#: includes/forms/template.php:1031
+#: includes/forms/template.php:1038
 #: src/FormBuilder/Actions/ConvertGlobalDefaultOptionsToDefaultBlocks.php:52
 #: src/FormMigration/Concerns/Blocks/BlockFactory.php:120
 #: src/Onboarding/BlockFactory.php:91
@@ -14695,7 +14695,7 @@ msgstr ""
 msgid "Make this an anonymous donation."
 msgstr ""
 
-#: includes/forms/template.php:1040
+#: includes/forms/template.php:1047
 #: src/FormBuilder/Actions/ConvertGlobalDefaultOptionsToDefaultBlocks.php:53
 #: src/FormMigration/Concerns/Blocks/BlockFactory.php:121
 #: src/Onboarding/BlockFactory.php:92
@@ -14703,11 +14703,11 @@ msgstr ""
 msgid "Would you like to prevent your name, image, and comment from being displayed publicly?"
 msgstr ""
 
-#: includes/forms/template.php:1040
+#: includes/forms/template.php:1047
 msgid "Would you like to prevent your name and image from being displayed publicly?"
 msgstr ""
 
-#: includes/forms/template.php:1052
+#: includes/forms/template.php:1059
 #: src/FormBuilder/Actions/ConvertGlobalDefaultOptionsToDefaultBlocks.php:34
 #: src/FormMigration/Concerns/Blocks/BlockFactory.php:109
 #: src/Framework/Receipts/Actions/GenerateConfirmationPageReceipt.php:229
@@ -14716,7 +14716,7 @@ msgstr ""
 msgid "Comment"
 msgstr ""
 
-#: includes/forms/template.php:1056
+#: includes/forms/template.php:1063
 #: src/FormBuilder/Actions/ConvertGlobalDefaultOptionsToDefaultBlocks.php:35
 #: src/FormMigration/Concerns/Blocks/BlockFactory.php:110
 #: src/Onboarding/BlockFactory.php:73
@@ -14724,16 +14724,16 @@ msgstr ""
 msgid "Would you like to add a comment to this donation?"
 msgstr ""
 
-#: includes/forms/template.php:1062
+#: includes/forms/template.php:1069
 msgid "Leave a comment"
 msgstr ""
 
-#: includes/forms/template.php:1120
+#: includes/forms/template.php:1127
 #: src/PaymentGateways/Gateways/Stripe/Traits/CreditCardForm.php:32
 msgid "Credit Card Info"
 msgstr ""
 
-#: includes/forms/template.php:1124
+#: includes/forms/template.php:1131
 #: includes/gateways/stripe/includes/payment-methods/class-give-stripe-sepa.php:87
 #: src/PaymentGateways/Gateways/Stripe/Traits/BECSMandateForm.php:32
 #: src/PaymentGateways/Gateways/Stripe/Traits/CreditCardForm.php:41
@@ -14741,148 +14741,148 @@ msgstr ""
 msgid "This is a secure SSL encrypted payment."
 msgstr ""
 
-#: includes/forms/template.php:1129
 #: includes/forms/template.php:1136
+#: includes/forms/template.php:1143
 #: includes/gateways/stripe/includes/give-stripe-scripts.php:52
 #: src/Helpers/Gateways/Stripe.php:109
 #: src/PaymentGateways/PayPalCommerce/ScriptLoader.php:257
 msgid "Card Number"
 msgstr ""
 
-#: includes/forms/template.php:1131
+#: includes/forms/template.php:1138
 #: includes/gateways/stripe/includes/payment-methods/class-give-stripe-sepa.php:98
 #: src/Helpers/Gateways/Stripe.php:113
 #: src/PaymentGateways/Gateways/Stripe/Traits/SEPAMandateForm.php:46
 msgid "The (typically) 16 digits on the front of your credit card."
 msgstr ""
 
-#: includes/forms/template.php:1142
-#: includes/forms/template.php:1148
+#: includes/forms/template.php:1149
+#: includes/forms/template.php:1155
 #: includes/gateways/stripe/includes/give-stripe-scripts.php:53
 #: src/Helpers/Gateways/Stripe.php:132
 #: src/PaymentGateways/PayPalCommerce/ScriptLoader.php:258
 msgid "CVC"
 msgstr ""
 
-#: includes/forms/template.php:1144
+#: includes/forms/template.php:1151
 #: src/Helpers/Gateways/Stripe.php:136
 msgid "The 3 digit (back) or 4 digit (front) value on your card."
 msgstr ""
 
-#: includes/forms/template.php:1154
-#: includes/forms/template.php:1160
+#: includes/forms/template.php:1161
+#: includes/forms/template.php:1167
 #: src/Helpers/Gateways/Stripe.php:152
 #: src/Helpers/Gateways/Stripe.php:166
 msgid "Cardholder Name"
 msgstr ""
 
-#: includes/forms/template.php:1156
+#: includes/forms/template.php:1163
 #: src/Helpers/Gateways/Stripe.php:156
 msgid "The name of the credit card account holder."
 msgstr ""
 
-#: includes/forms/template.php:1175
+#: includes/forms/template.php:1182
 #: src/Helpers/Gateways/Stripe.php:180
 msgid "Expiration"
 msgstr ""
 
-#: includes/forms/template.php:1177
+#: includes/forms/template.php:1184
 #: src/Helpers/Gateways/Stripe.php:184
 msgid "The date your credit card expires, typically on the front of the card."
 msgstr ""
 
-#: includes/forms/template.php:1186
+#: includes/forms/template.php:1193
 msgid "MM / YY"
 msgstr ""
 
-#: includes/forms/template.php:1237
+#: includes/forms/template.php:1244
 #: src/PaymentGateways/Gateways/PayPalStandard/PayPalStandard.php:231
 #: src/PaymentGateways/PayPalCommerce/AdvancedCardFields.php:85
 msgid "Billing Details"
 msgstr ""
 
-#: includes/forms/template.php:1281
+#: includes/forms/template.php:1288
 msgid "The country for your billing address."
 msgstr ""
 
-#: includes/forms/template.php:1307
+#: includes/forms/template.php:1314
 msgid "The primary billing address for your credit card."
 msgstr ""
 
-#: includes/forms/template.php:1316
+#: includes/forms/template.php:1323
 msgid "Address line 1"
 msgstr ""
 
-#: includes/forms/template.php:1328
+#: includes/forms/template.php:1335
 msgid "(optional) The suite, apartment number, post office box (etc) associated with your billing address."
 msgstr ""
 
-#: includes/forms/template.php:1337
+#: includes/forms/template.php:1344
 msgid "Address line 2"
 msgstr ""
 
-#: includes/forms/template.php:1349
+#: includes/forms/template.php:1356
 msgid "The city for your billing address."
 msgstr ""
 
-#: includes/forms/template.php:1394
+#: includes/forms/template.php:1401
 msgid "The state, province, or county for your billing address."
 msgstr ""
 
-#: includes/forms/template.php:1422
-#: includes/forms/template.php:1434
+#: includes/forms/template.php:1429
+#: includes/forms/template.php:1441
 msgid "Zip / Postal Code"
 msgstr ""
 
-#: includes/forms/template.php:1424
+#: includes/forms/template.php:1431
 msgid "The zip or postal code for your billing address."
 msgstr ""
 
-#: includes/forms/template.php:1530
+#: includes/forms/template.php:1537
 msgid "Create an account"
 msgstr ""
 
-#: includes/forms/template.php:1531
+#: includes/forms/template.php:1538
 msgid "Create an account on the site to see and manage donation history."
 msgstr ""
 
-#: includes/forms/template.php:1549
+#: includes/forms/template.php:1556
 #: src/FormMigration/Concerns/Blocks/BlockFactory.php:52
 #: build/assets/dist/js/donor-dashboards-app.js:1
 msgid "Already have an account?"
 msgstr ""
 
-#: includes/forms/template.php:1622
+#: includes/forms/template.php:1629
 msgid "Log In to Your Account"
 msgstr ""
 
-#: includes/forms/template.php:1624
+#: includes/forms/template.php:1631
 msgid "(optional)"
 msgstr ""
 
-#: includes/forms/template.php:1630
+#: includes/forms/template.php:1637
 msgid "Don't have an account?"
 msgstr ""
 
-#: includes/forms/template.php:1635
+#: includes/forms/template.php:1642
 msgid "Register as a part of your donation &raquo;"
 msgstr ""
 
-#: includes/forms/template.php:1637
+#: includes/forms/template.php:1644
 msgid "Register or donate as a guest &raquo;"
 msgstr ""
 
-#: includes/forms/template.php:1659
+#: includes/forms/template.php:1666
 #: src/ThirdPartySupport/Elementor/Widgets/V1/GiveLoginWidget.php:164
 #: templates/shortcode-login.php:42
 msgid "Username or Email Address"
 msgstr ""
 
-#: includes/forms/template.php:1668
+#: includes/forms/template.php:1675
 msgid "Your username or email"
 msgstr ""
 
-#: includes/forms/template.php:1674
+#: includes/forms/template.php:1681
 #: src/Framework/FieldsAPI/Authentication.php:29
 #: src/ThirdPartySupport/Elementor/Widgets/V1/GiveLoginWidget.php:169
 #: templates/shortcode-login.php:47
@@ -14891,40 +14891,40 @@ msgstr ""
 msgid "Password"
 msgstr ""
 
-#: includes/forms/template.php:1681
+#: includes/forms/template.php:1688
 msgid "Your password"
 msgstr ""
 
-#: includes/forms/template.php:1699
+#: includes/forms/template.php:1706
 #: src/ThirdPartySupport/Elementor/Widgets/V1/GiveLoginWidget.php:179
 #: templates/shortcode-login.php:60
 #: build/assets/dist/js/donor-dashboards-app.js:1
 msgid "Reset Password"
 msgstr ""
 
-#: includes/forms/template.php:1765
+#: includes/forms/template.php:1772
 msgid "Select Payment Method"
 msgstr ""
 
 #. translators: %s: URL of the form settings page
-#: includes/forms/template.php:1900
+#: includes/forms/template.php:1907
 #, php-format
 msgid "Please enter valid terms and conditions in <a href=\"%s\">this form's settings</a>."
 msgstr ""
 
-#: includes/forms/template.php:1915
+#: includes/forms/template.php:1922
 msgid "Terms"
 msgstr ""
 
-#: includes/forms/template.php:1936
+#: includes/forms/template.php:1943
 msgid "Show Terms"
 msgstr ""
 
-#: includes/forms/template.php:1938
+#: includes/forms/template.php:1945
 msgid "Hide Terms"
 msgstr ""
 
-#: includes/forms/template.php:2346
+#: includes/forms/template.php:2353
 #: includes/gateways/stripe/includes/class-give-stripe-gateway.php:121
 #: includes/gateways/stripe/includes/class-give-stripe-gateway.php:132
 #: includes/gateways/stripe/includes/class-give-stripe-gateway.php:143
@@ -14937,11 +14937,11 @@ msgstr ""
 msgid "Notice:"
 msgstr ""
 
-#: includes/forms/template.php:2346
+#: includes/forms/template.php:2353
 msgid "Test mode is enabled. While in test mode no live donations are processed."
 msgstr ""
 
-#: includes/forms/template.php:2375
+#: includes/forms/template.php:2382
 msgid "Please log in in order to complete your donation."
 msgstr ""
 
@@ -16117,7 +16117,7 @@ msgstr ""
 msgid "Status changed from %1$s to %2$s."
 msgstr ""
 
-#: includes/payments/class-give-payment.php:784
+#: includes/payments/class-give-payment.php:779
 msgid "This custom meta key has been deprecated for performance reasons. Your custom meta data will still be stored but we recommend updating your code to store meta keys individually from GiveWP 2.0.0."
 msgstr ""
 
@@ -16390,117 +16390,121 @@ msgstr ""
 msgid "Name fields cannot contain serialized data."
 msgstr ""
 
-#. translators: 1. Donor Email, 2. Submitted Email
-#: includes/process-donation.php:329
-#, php-format
-msgid "You are logged in as %1$s, and are submitting a donation as %2$s, which is an existing donor. To ensure that the email address is tied to the correct donor, please submit this donation from a logged-out browser, or choose another email address."
+#: includes/process-donation.php:313
+#: src/DonationForms/Rules/LoggedInDonorEmailRule.php:47
+msgid "You are logged in and must use your account email address to submit a donation."
 msgstr ""
 
-#: includes/process-donation.php:359
+#: includes/process-donation.php:332
+#: src/DonationForms/Rules/LoggedInDonorEmailRule.php:38
+msgid "You are logged in and must use your account primary email address to submit a donation."
+msgstr ""
+
+#: includes/process-donation.php:358
 msgid "Your session has expired. Please reload the page and try again."
 msgstr ""
 
 #. translators: %s: user first name
-#: includes/process-donation.php:391
+#: includes/process-donation.php:390
 #, php-format
 msgid "Welcome %s! You have successfully logged into your account."
 msgstr ""
 
-#: includes/process-donation.php:423
+#: includes/process-donation.php:422
 msgid "Honeypot field detected. Go away bad bot!"
 msgstr ""
 
-#: includes/process-donation.php:428
+#: includes/process-donation.php:427
 msgid "Serialized fields detected. Go away!"
 msgstr ""
 
-#: includes/process-donation.php:436
+#: includes/process-donation.php:435
 msgid "The email you are using has been flagged as one used in SPAM comments or donations by our system. Please try using a different email address or contact the site administrator if you have any questions."
 msgstr ""
 
-#: includes/process-donation.php:556
+#: includes/process-donation.php:555
 msgid "The donation form will process with a valid payment gateway."
 msgstr ""
 
-#: includes/process-donation.php:560
+#: includes/process-donation.php:559
 msgid "The selected payment gateway is not enabled."
 msgstr ""
 
-#: includes/process-donation.php:564
+#: includes/process-donation.php:563
 msgid "Please insert a valid donation amount."
 msgstr ""
 
 #. translators: %s: minimum donation amount
-#: includes/process-donation.php:572
+#: includes/process-donation.php:571
 #, php-format
 msgid "This form has a minimum donation amount of %s."
 msgstr ""
 
 #. translators: %s: Maximum donation amount
-#: includes/process-donation.php:589
+#: includes/process-donation.php:588
 #, php-format
 msgid "This form has a maximum donation amount of %s."
 msgstr ""
 
-#: includes/process-donation.php:711
+#: includes/process-donation.php:710
 msgid "Please enter your title."
 msgstr ""
 
-#: includes/process-donation.php:728
+#: includes/process-donation.php:727
 msgid "Please enter a credit card number."
 msgstr ""
 
-#: includes/process-donation.php:739
+#: includes/process-donation.php:738
 msgid "Please enter a credit card CVC information."
 msgstr ""
 
-#: includes/process-donation.php:759
+#: includes/process-donation.php:758
 msgid "Please enter a name of your credit card account holder."
 msgstr ""
 
-#: includes/process-donation.php:770
+#: includes/process-donation.php:769
 msgid "Please enter a credit card expiry date."
 msgstr ""
 
-#: includes/process-donation.php:780
+#: includes/process-donation.php:779
 msgid "Please enter your primary billing address."
 msgstr ""
 
-#: includes/process-donation.php:784
+#: includes/process-donation.php:783
 msgid "Please enter your zip / postal code."
 msgstr ""
 
-#: includes/process-donation.php:788
+#: includes/process-donation.php:787
 msgid "Please enter your billing city."
 msgstr ""
 
-#: includes/process-donation.php:792
+#: includes/process-donation.php:791
 msgid "Please select your billing country."
 msgstr ""
 
-#: includes/process-donation.php:797
+#: includes/process-donation.php:796
 msgid "Please enter billing state / province / County."
 msgstr ""
 
-#: includes/process-donation.php:845
+#: includes/process-donation.php:844
 msgid "Please enter Company Name."
 msgstr ""
 
-#: includes/process-donation.php:949
+#: includes/process-donation.php:948
 msgid "The user information is invalid."
 msgstr ""
 
-#: includes/process-donation.php:1050
+#: includes/process-donation.php:1049
 msgid "Please enter your username or email to log in."
 msgstr ""
 
-#: includes/process-donation.php:1079
-#: includes/process-donation.php:1085
+#: includes/process-donation.php:1078
+#: includes/process-donation.php:1084
 #: src/DonationForms/Routes/AuthenticationRoute.php:68
 msgid "The login/password does not match or is incorrect."
 msgstr ""
 
-#: includes/process-donation.php:1168
+#: includes/process-donation.php:1167
 #: includes/user-functions.php:364
 msgid "Enter an email."
 msgstr ""

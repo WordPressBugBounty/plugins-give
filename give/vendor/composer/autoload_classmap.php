@@ -356,6 +356,7 @@ return array(
     'Give\\DonationForms\\Rules\\DonationTypeRule' => $baseDir . '/src/DonationForms/Rules/DonationTypeRule.php',
     'Give\\DonationForms\\Rules\\GatewayRule' => $baseDir . '/src/DonationForms/Rules/GatewayRule.php',
     'Give\\DonationForms\\Rules\\HoneyPotRule' => $baseDir . '/src/DonationForms/Rules/HoneyPotRule.php',
+    'Give\\DonationForms\\Rules\\LoggedInDonorEmailRule' => $baseDir . '/src/DonationForms/Rules/LoggedInDonorEmailRule.php',
     'Give\\DonationForms\\Rules\\Max' => $baseDir . '/src/DonationForms/Rules/Max.php',
     'Give\\DonationForms\\Rules\\Min' => $baseDir . '/src/DonationForms/Rules/Min.php',
     'Give\\DonationForms\\Rules\\PhoneIntlInputRule' => $baseDir . '/src/DonationForms/Rules/PhoneIntlInputRule.php',
