@@ -4,7 +4,7 @@
 
 namespace Give\Vendors\Composer\Autoload;
 
-class ComposerStaticInit1467eeb6e2bd003301bebc8f55f43cc7
+class ComposerStaticInit259a27c1b7d12dc8b9467a4969ebfc0d
 {
     public static $files = array (
         '534bf5609da508f3482e4711dd09b54d' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
@@ -164,6 +164,9 @@ class ComposerStaticInit1467eeb6e2bd003301bebc8f55f43cc7
         'Give\\Vendors\\LiquidWeb\\Harbor\\Features\\Types\\Theme' => __DIR__ . '/..' . '/stellarwp/harbor/src/Harbor/Features/Types/Theme.php',
         'Give\\Vendors\\LiquidWeb\\Harbor\\Features\\Update\\Plugin_Handler' => __DIR__ . '/..' . '/stellarwp/harbor/src/Harbor/Features/Update/Plugin_Handler.php',
         'Give\\Vendors\\LiquidWeb\\Harbor\\Features\\Update\\Provider' => __DIR__ . '/..' . '/stellarwp/harbor/src/Harbor/Features/Update/Provider.php',
+        'Give\\Vendors\\LiquidWeb\\Harbor\\Features\\Update\\Requirements\\Guard' => __DIR__ . '/..' . '/stellarwp/harbor/src/Harbor/Features/Update/Requirements/Guard.php',
+        'Give\\Vendors\\LiquidWeb\\Harbor\\Features\\Update\\Requirements\\Headers' => __DIR__ . '/..' . '/stellarwp/harbor/src/Harbor/Features/Update/Requirements/Headers.php',
+        'Give\\Vendors\\LiquidWeb\\Harbor\\Features\\Update\\Requirements\\Resolve_Headers' => __DIR__ . '/..' . '/stellarwp/harbor/src/Harbor/Features/Update/Requirements/Resolve_Headers.php',
         'Give\\Vendors\\LiquidWeb\\Harbor\\Features\\Update\\Resolve_Update_Data' => __DIR__ . '/..' . '/stellarwp/harbor/src/Harbor/Features/Update/Resolve_Update_Data.php',
         'Give\\Vendors\\LiquidWeb\\Harbor\\Features\\Update\\Theme_Handler' => __DIR__ . '/..' . '/stellarwp/harbor/src/Harbor/Features/Update/Theme_Handler.php',
         'Give\\Vendors\\LiquidWeb\\Harbor\\Harbor' => __DIR__ . '/..' . '/stellarwp/harbor/src/Harbor/Harbor.php',
@@ -535,9 +538,9 @@ class ComposerStaticInit1467eeb6e2bd003301bebc8f55f43cc7
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit1467eeb6e2bd003301bebc8f55f43cc7::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit1467eeb6e2bd003301bebc8f55f43cc7::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit1467eeb6e2bd003301bebc8f55f43cc7::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit259a27c1b7d12dc8b9467a4969ebfc0d::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit259a27c1b7d12dc8b9467a4969ebfc0d::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit259a27c1b7d12dc8b9467a4969ebfc0d::$classMap;
 
         }, null, ClassLoader::class);
     }

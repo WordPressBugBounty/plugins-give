@@ -2,14 +2,14 @@
 # This file is distributed under the same license as the Give - Donation Plugin plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: Give - Donation Plugin 4.19.1.1\n"
+"Project-Id-Version: Give - Donation Plugin 4.19.2\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/givewp\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-11-03T17:37:29+00:00\n"
+"POT-Creation-Date: 2026-11-12T19:33:04+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: give\n"
@@ -561,6 +561,7 @@ msgstr ""
 #: includes/admin/emails/class-email-access-email.php:43
 #: includes/admin/reports/class-donor-reports-table.php:67
 #: src/Donations/ListTable/Columns/DonorColumn.php:38
+#: src/Email/Notifications/DonationMicrodepositVerificationEmail.php:35
 #: src/Email/Notifications/DonationProcessingReceipt.php:27
 #: src/ThirdPartySupport/Elementor/Widgets/V1/DonationHistoryWidget.php:135
 #: src/ThirdPartySupport/Elementor/Widgets/V1/DonationReceiptWidget.php:145
@@ -2018,6 +2019,7 @@ msgstr ""
 
 #: includes/admin/emails/class-email-access-email.php:183
 #: includes/emails/functions.php:118
+#: src/Email/Notifications/DonationMicrodepositVerificationEmail.php:65
 msgid "Sincerely,"
 msgstr ""
 
@@ -2396,6 +2398,7 @@ msgstr ""
 #: includes/admin/emails/class-failed-donation-email.php:63
 #: includes/emails/functions.php:88
 #: includes/emails/functions.php:111
+#: src/Email/Notifications/DonationMicrodepositVerificationEmail.php:61
 #: src/Email/Notifications/DonationProcessingReceipt.php:52
 msgid "Donation:"
 msgstr ""
@@ -2404,6 +2407,7 @@ msgstr ""
 #: includes/admin/emails/class-new-offline-donation-email.php:116
 #: includes/emails/functions.php:89
 #: includes/emails/functions.php:113
+#: src/Email/Notifications/DonationMicrodepositVerificationEmail.php:62
 #: src/Email/Notifications/DonationProcessingReceipt.php:54
 msgid "Amount:"
 msgstr ""
@@ -15305,9 +15309,9 @@ msgstr ""
 #: includes/gateways/stripe/includes/class-give-stripe-gateway.php:389
 #: includes/gateways/stripe/includes/class-give-stripe-gateway.php:468
 #: includes/gateways/stripe/includes/class-give-stripe-logger.php:77
-#: includes/gateways/stripe/includes/give-stripe-helpers.php:589
-#: includes/gateways/stripe/includes/give-stripe-helpers.php:674
-#: includes/gateways/stripe/includes/give-stripe-helpers.php:839
+#: includes/gateways/stripe/includes/give-stripe-helpers.php:591
+#: includes/gateways/stripe/includes/give-stripe-helpers.php:676
+#: includes/gateways/stripe/includes/give-stripe-helpers.php:841
 msgid "Stripe Error"
 msgstr ""
 
@@ -15651,7 +15655,7 @@ msgstr ""
 #: includes/gateways/stripe/includes/class-give-stripe-gateway.php:282
 #: includes/gateways/stripe/includes/class-give-stripe-gateway.php:322
 #: includes/gateways/stripe/includes/class-give-stripe-gateway.php:388
-#: includes/gateways/stripe/includes/give-stripe-helpers.php:681
+#: includes/gateways/stripe/includes/give-stripe-helpers.php:683
 msgid "An error occurred while processing the donation. Please try again."
 msgstr ""
 
@@ -15881,57 +15885,66 @@ msgstr ""
 msgid "Something went wrong with processing the payment gateway event."
 msgstr ""
 
-#: includes/gateways/stripe/includes/give-stripe-helpers.php:512
+#: includes/gateways/stripe/includes/give-stripe-helpers.php:514
 msgid "-- N/A --"
 msgstr ""
 
 #. translators: %s Exception Error Message
-#: includes/gateways/stripe/includes/give-stripe-helpers.php:592
+#: includes/gateways/stripe/includes/give-stripe-helpers.php:594
 #, php-format
 msgid "Unable to set application information to Stripe. Details: %s"
 msgstr ""
 
-#: includes/gateways/stripe/includes/give-stripe-helpers.php:597
+#: includes/gateways/stripe/includes/give-stripe-helpers.php:599
 msgid "Unable to set application information to Stripe. Please try again."
 msgstr ""
 
 #. translators: %s Exception Message Body
-#: includes/gateways/stripe/includes/give-stripe-helpers.php:677
+#: includes/gateways/stripe/includes/give-stripe-helpers.php:679
 #, php-format
 msgid "Unable to set Stripe API Key. Details: %s"
 msgstr ""
 
-#: includes/gateways/stripe/includes/give-stripe-helpers.php:986
+#: includes/gateways/stripe/includes/give-stripe-helpers.php:988
 msgid "Stripe Customer Creation Failed"
 msgstr ""
 
 #. translators: %s Donation Data
-#: includes/gateways/stripe/includes/give-stripe-helpers.php:989
+#: includes/gateways/stripe/includes/give-stripe-helpers.php:991
 #, php-format
 msgid "Customer creation failed while processing the donation. Details: %s"
 msgstr ""
 
-#: includes/gateways/stripe/includes/give-stripe-helpers.php:993
+#: includes/gateways/stripe/includes/give-stripe-helpers.php:995
+#: includes/gateways/stripe/includes/give-stripe-helpers.php:1056
 msgid "The Stripe Gateway returned an error while processing the donation."
 msgstr ""
 
+#: includes/gateways/stripe/includes/give-stripe-helpers.php:1053
+msgid "Stripe requires additional action"
+msgstr ""
+
+#: includes/gateways/stripe/includes/give-stripe-helpers.php:1054
+msgid "Stripe returned a Payment Intent in the requires_action state without a redirect URL."
+msgstr ""
+
 #. translators: %1$s: Site name
-#: includes/gateways/stripe/includes/give-stripe-helpers.php:1184
+#: includes/gateways/stripe/includes/give-stripe-helpers.php:1223
 #, php-format
 msgid "By providing your IBAN and confirming this payment, you are authorizing %1$s and Stripe, our payment service provider, to send instructions to your bank to debit your account and your bank to debit your account in accordance with those instructions. You are entitled to a refund from your bank under the terms and conditions of your agreement with your bank. A refund must be claimed within 8 weeks starting from the date on which your account was debited."
 msgstr ""
 
 #. translators: 1: URL of the Direct Debit Request service agreement, 2: Site name
-#: includes/gateways/stripe/includes/give-stripe-helpers.php:1192
+#: includes/gateways/stripe/includes/give-stripe-helpers.php:1231
 #, php-format
 msgid "By providing your bank account details and confirming this payment, you agree to this Direct Debit Request and the <a href=\"%1$s\" target=\"_blank\">Direct Debit Request service agreement</a>, and authorize Stripe Payments Australia Pty Ltd ACN 160 180 343 Direct Debit User ID number 507156 (“Stripe”) to debit your account through the Bulk Electronic Clearing System (BECS) on behalf of %2$s (the “Merchant”) for any amounts separately communicated to you by the Merchant. You certify that you are either an account holder or an authorized signatory on the account listed above."
 msgstr ""
 
-#: includes/gateways/stripe/includes/give-stripe-helpers.php:1528
+#: includes/gateways/stripe/includes/give-stripe-helpers.php:1567
 msgid "Give - Stripe Error"
 msgstr ""
 
-#: includes/gateways/stripe/includes/give-stripe-helpers.php:1531
+#: includes/gateways/stripe/includes/give-stripe-helpers.php:1570
 msgid "Unable to retrieve account details. Please contact support for assistance. Details:"
 msgstr ""
 
@@ -18733,6 +18746,55 @@ msgstr ""
 msgid "Repeat donor"
 msgstr ""
 
+#: src/Email/Notifications/DonationMicrodepositVerificationEmail.php:28
+msgid "ACH Microdeposit Verification"
+msgstr ""
+
+#: src/Email/Notifications/DonationMicrodepositVerificationEmail.php:29
+msgid "Sent to the donor when Stripe requires ACH bank account microdeposit verification. For the Stripe Payment Element, the Stripe webhook endpoint must be subscribed to the \"payment_intent.requires_action\" event."
+msgstr ""
+
+#: src/Email/Notifications/DonationMicrodepositVerificationEmail.php:36
+msgid "Action required: verify your bank account"
+msgstr ""
+
+#: src/Email/Notifications/DonationMicrodepositVerificationEmail.php:38
+msgid "Verify your bank account"
+msgstr ""
+
+#. translators: %s: Donor name email tag
+#. translators: %s: Donor first name
+#: src/Email/Notifications/DonationMicrodepositVerificationEmail.php:50
+#: src/Email/Notifications/DonationProcessingReceipt.php:47
+#, php-format
+msgid "Dear %s!"
+msgstr ""
+
+#: src/Email/Notifications/DonationMicrodepositVerificationEmail.php:51
+msgid "Thank you for your donation. Your bank has requested additional verification for your ACH payment, so your donation is on hold until it is complete."
+msgstr ""
+
+#: src/Email/Notifications/DonationMicrodepositVerificationEmail.php:55
+msgid "Stripe has sent one or two microdeposits to your bank account. They take 1-2 business days to appear on your statement. Use the link below to verify the account:"
+msgstr ""
+
+#: src/Email/Notifications/DonationMicrodepositVerificationEmail.php:60
+#: src/Email/Notifications/DonationProcessingReceipt.php:50
+msgid "Here are the details of your donation:"
+msgstr ""
+
+#: src/Email/Notifications/DonationMicrodepositVerificationEmail.php:63
+msgid "Donation ID:"
+msgstr ""
+
+#: src/Email/Notifications/DonationMicrodepositVerificationEmail.php:64
+msgid "Once your bank account is verified, your donation will be processed automatically."
+msgstr ""
+
+#: src/Email/Notifications/DonationMicrodepositVerificationEmail.php:92
+msgid "The hosted Stripe URL the donor uses to verify their bank account microdeposits."
+msgstr ""
+
 #: src/Email/Notifications/DonationProcessingReceipt.php:22
 #: src/Email/Notifications/DonationProcessingReceipt.php:28
 #: src/Email/Notifications/DonationProcessingReceipt.php:30
@@ -18743,18 +18805,8 @@ msgstr ""
 msgid "Sent to the donor when their donation is marked as processing."
 msgstr ""
 
-#. translators: %s: Donor first name
-#: src/Email/Notifications/DonationProcessingReceipt.php:47
-#, php-format
-msgid "Dear %s!"
-msgstr ""
-
 #: src/Email/Notifications/DonationProcessingReceipt.php:48
 msgid "Thank you for your donation. Your payment is currently being processed and you will receive a final email receipt once it has completed. Your generosity is appreciated!"
-msgstr ""
-
-#: src/Email/Notifications/DonationProcessingReceipt.php:50
-msgid "Here are the details of your donation:"
 msgstr ""
 
 #: src/Email/Notifications/DonationProcessingReceipt.php:58
@@ -20222,6 +20274,16 @@ msgstr ""
 msgid "Stripe Source/Payment Method ID: %s"
 msgstr ""
 
+#. translators: %s: Hosted Stripe verification URL
+#: src/PaymentGateways/Gateways/Stripe/Actions/RecordMicrodepositVerification.php:50
+#, php-format
+msgid "Stripe ACH microdeposit verification required. Hosted verification link: %s"
+msgstr ""
+
+#: src/PaymentGateways/Gateways/Stripe/Actions/RecordMicrodepositVerification.php:68
+msgid "The donor was emailed the Stripe ACH microdeposit verification link."
+msgstr ""
+
 #: src/PaymentGateways/Gateways/Stripe/BECSGateway.php:35
 msgid "Mandate form fields are disabled because your site is not running securely over HTTPS."
 msgstr ""
@@ -20323,8 +20385,12 @@ msgstr ""
 msgid "A Stripe window will open after you click the Donate Now button where you can securely make your donation. You will then be brought back to this page to view your receipt."
 msgstr ""
 
+#: src/PaymentGateways/Gateways/Stripe/Traits/HandlePaymentIntentStatus.php:47
+msgid "Stripe requires an additional action that GiveWP cannot handle automatically."
+msgstr ""
+
 #. translators: %s: Payment intent status
-#: src/PaymentGateways/Gateways/Stripe/Traits/HandlePaymentIntentStatus.php:38
+#: src/PaymentGateways/Gateways/Stripe/Traits/HandlePaymentIntentStatus.php:59
 #, php-format
 msgid "Unhandled payment intent status: %s"
 msgstr ""
@@ -20533,39 +20599,33 @@ msgstr ""
 msgid "You are not allowed to perform this action."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:312
-#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:511
+#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:313
+#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:513
 msgid "Invalid donation amount."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:360
+#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:361
 msgid "PayPal orders are captured when the donation is submitted."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:378
+#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:379
 msgid "PayPal order amounts are reconciled when the donation is submitted."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:398
+#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:399
 msgid "Make sure to complete the entire PayPal process. Do not close the window until you have finished the process."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:402
+#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:403
 msgid "The last screen of the PayPal connect process includes a button to be sent back to your site. It is important you click this and do not close the window yourself."
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:406
+#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:407
 msgid "If you’re still having problems connecting: "
 msgstr ""
 
-#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:414
+#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:415
 msgid "Having trouble connecting to PayPal?"
-msgstr ""
-
-#. translators: %s: maximum donation amount
-#: src/PaymentGateways/PayPalCommerce/AjaxRequestHandler.php:519
-#, php-format
-msgid "Donation amount must not exceed %s."
 msgstr ""
 
 #: src/PaymentGateways/PayPalCommerce/Banners/GatewaySettingPageBanner.php:48

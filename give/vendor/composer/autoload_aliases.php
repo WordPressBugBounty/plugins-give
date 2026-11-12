@@ -944,6 +944,39 @@ namespace Give\Vendors {
     array (
     ),
   ),
+  'LiquidWeb\\Harbor\\Features\\Update\\Requirements\\Guard' => 
+  array (
+    'type' => 'class',
+    'classname' => 'Guard',
+    'isabstract' => false,
+    'namespace' => 'LiquidWeb\\Harbor\\Features\\Update\\Requirements',
+    'extends' => 'Give\\Vendors\\LiquidWeb\\Harbor\\Features\\Update\\Requirements\\Guard',
+    'implements' => 
+    array (
+    ),
+  ),
+  'LiquidWeb\\Harbor\\Features\\Update\\Requirements\\Headers' => 
+  array (
+    'type' => 'class',
+    'classname' => 'Headers',
+    'isabstract' => false,
+    'namespace' => 'LiquidWeb\\Harbor\\Features\\Update\\Requirements',
+    'extends' => 'Give\\Vendors\\LiquidWeb\\Harbor\\Features\\Update\\Requirements\\Headers',
+    'implements' => 
+    array (
+    ),
+  ),
+  'LiquidWeb\\Harbor\\Features\\Update\\Requirements\\Resolve_Headers' => 
+  array (
+    'type' => 'class',
+    'classname' => 'Resolve_Headers',
+    'isabstract' => false,
+    'namespace' => 'LiquidWeb\\Harbor\\Features\\Update\\Requirements',
+    'extends' => 'Give\\Vendors\\LiquidWeb\\Harbor\\Features\\Update\\Requirements\\Resolve_Headers',
+    'implements' => 
+    array (
+    ),
+  ),
   'LiquidWeb\\Harbor\\Features\\Update\\Resolve_Update_Data' => 
   array (
     'type' => 'class',

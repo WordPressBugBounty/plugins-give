@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit0b8cc37b04eb480548d56c97edb265bf
+class ComposerStaticInitb05f8f4c388c3e284362931221253eed
 {
     public static $prefixLengthsPsr4 = array (
         'S' =>
@@ -616,6 +616,7 @@ class ComposerStaticInit0b8cc37b04eb480548d56c97edb265bf
         'Give\\Donors\\ValueObjects\\DonorNoteType' => __DIR__ . '/../..' . '/src/Donors/ValueObjects/DonorNoteType.php',
         'Give\\Donors\\ValueObjects\\DonorType' => __DIR__ . '/../..' . '/src/Donors/ValueObjects/DonorType.php',
         'Give\\Email\\GlobalSettingValidator' => __DIR__ . '/../..' . '/src/Email/GlobalSettingValidator.php',
+        'Give\\Email\\Notifications\\DonationMicrodepositVerificationEmail' => __DIR__ . '/../..' . '/src/Email/Notifications/DonationMicrodepositVerificationEmail.php',
         'Give\\Email\\Notifications\\DonationProcessingReceipt' => __DIR__ . '/../..' . '/src/Email/Notifications/DonationProcessingReceipt.php',
         'Give\\Email\\ServiceProvider' => __DIR__ . '/../..' . '/src/Email/ServiceProvider.php',
         'Give\\EventTickets\\Actions\\AddEventTicketsToDonationConfirmationPageDonationTotal' => __DIR__ . '/../..' . '/src/EventTickets/Actions/AddEventTicketsToDonationConfirmationPageDonationTotal.php',
@@ -1229,6 +1230,7 @@ class ComposerStaticInit0b8cc37b04eb480548d56c97edb265bf
         'Give\\PaymentGateways\\Gateways\\Stripe\\Actions\\CreatePaymentIntent' => __DIR__ . '/../..' . '/src/PaymentGateways/Gateways/Stripe/Actions/CreatePaymentIntent.php',
         'Give\\PaymentGateways\\Gateways\\Stripe\\Actions\\GetOrCreateStripeCustomer' => __DIR__ . '/../..' . '/src/PaymentGateways/Gateways/Stripe/Actions/GetOrCreateStripeCustomer.php',
         'Give\\PaymentGateways\\Gateways\\Stripe\\Actions\\GetPaymentMethodFromRequest' => __DIR__ . '/../..' . '/src/PaymentGateways/Gateways/Stripe/Actions/GetPaymentMethodFromRequest.php',
+        'Give\\PaymentGateways\\Gateways\\Stripe\\Actions\\RecordMicrodepositVerification' => __DIR__ . '/../..' . '/src/PaymentGateways/Gateways/Stripe/Actions/RecordMicrodepositVerification.php',
         'Give\\PaymentGateways\\Gateways\\Stripe\\Actions\\SaveDonationSummary' => __DIR__ . '/../..' . '/src/PaymentGateways/Gateways/Stripe/Actions/SaveDonationSummary.php',
         'Give\\PaymentGateways\\Gateways\\Stripe\\Actions\\UpdateStripeAccountStatementDescriptor' => __DIR__ . '/../..' . '/src/PaymentGateways/Gateways/Stripe/Actions/UpdateStripeAccountStatementDescriptor.php',
         'Give\\PaymentGateways\\Gateways\\Stripe\\Actions\\ValidatePaymentMethod' => __DIR__ . '/../..' . '/src/PaymentGateways/Gateways/Stripe/Actions/ValidatePaymentMethod.php',
@@ -1282,6 +1284,7 @@ class ComposerStaticInit0b8cc37b04eb480548d56c97edb265bf
         'Give\\PaymentGateways\\Gateways\\Stripe\\Webhooks\\Listeners\\ChargeRefunded' => __DIR__ . '/../..' . '/src/PaymentGateways/Gateways/Stripe/Webhooks/Listeners/ChargeRefunded.php',
         'Give\\PaymentGateways\\Gateways\\Stripe\\Webhooks\\Listeners\\CheckoutSessionCompleted' => __DIR__ . '/../..' . '/src/PaymentGateways/Gateways/Stripe/Webhooks/Listeners/CheckoutSessionCompleted.php',
         'Give\\PaymentGateways\\Gateways\\Stripe\\Webhooks\\Listeners\\PaymentIntentPaymentFailed' => __DIR__ . '/../..' . '/src/PaymentGateways/Gateways/Stripe/Webhooks/Listeners/PaymentIntentPaymentFailed.php',
+        'Give\\PaymentGateways\\Gateways\\Stripe\\Webhooks\\Listeners\\PaymentIntentRequiresAction' => __DIR__ . '/../..' . '/src/PaymentGateways/Gateways/Stripe/Webhooks/Listeners/PaymentIntentRequiresAction.php',
         'Give\\PaymentGateways\\Gateways\\Stripe\\Webhooks\\Listeners\\PaymentIntentSucceeded' => __DIR__ . '/../..' . '/src/PaymentGateways/Gateways/Stripe/Webhooks/Listeners/PaymentIntentSucceeded.php',
         'Give\\PaymentGateways\\Gateways\\Stripe\\Webhooks\\StripeEventListener' => __DIR__ . '/../..' . '/src/PaymentGateways/Gateways/Stripe/Webhooks/StripeEventListener.php',
         'Give\\PaymentGateways\\Gateways\\TestGateway\\TestGateway' => __DIR__ . '/../..' . '/src/PaymentGateways/Gateways/TestGateway/TestGateway.php',
@@ -1969,9 +1972,9 @@ class ComposerStaticInit0b8cc37b04eb480548d56c97edb265bf
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit0b8cc37b04eb480548d56c97edb265bf::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit0b8cc37b04eb480548d56c97edb265bf::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit0b8cc37b04eb480548d56c97edb265bf::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitb05f8f4c388c3e284362931221253eed::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitb05f8f4c388c3e284362931221253eed::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInitb05f8f4c388c3e284362931221253eed::$classMap;
 
         }, null, ClassLoader::class);
     }
