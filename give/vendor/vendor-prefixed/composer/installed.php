@@ -2,9 +2,9 @@
   'root' => 
   array (
     'name' => 'impress-org/give',
-    'pretty_version' => '4.19.2.1',
-    'version' => '4.19.2.1',
-    'reference' => '8149a27f772ed719132b6bdb7482f776597703d2',
+    'pretty_version' => 'dev-d8450e1a450b0e4119b7384b77df78e61ec89505',
+    'version' => 'dev-d8450e1a450b0e4119b7384b77df78e61ec89505',
+    'reference' => 'd8450e1a450b0e4119b7384b77df78e61ec89505',
     'type' => 'wordpress-plugin',
     'install_path' => __DIR__ . '/../',
     'aliases' => 
