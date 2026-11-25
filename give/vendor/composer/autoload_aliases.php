@@ -107,13 +107,13 @@ namespace Give\Vendors {
       0 => 'Psr\\Http\\Message\\StreamInterface',
     ),
   ),
-  'Nyholm\\Psr7\\c677394266eb0cd911237bbb7425c78a' => 
+  'Nyholm\\Psr7\\1605bd1b8444a728807825e54b6044cd' => 
   array (
     'type' => 'class',
-    'classname' => 'c677394266eb0cd911237bbb7425c78a',
+    'classname' => '1605bd1b8444a728807825e54b6044cd',
     'isabstract' => false,
     'namespace' => 'Nyholm\\Psr7',
-    'extends' => 'Give\\Vendors\\Nyholm\\Psr7\\c677394266eb0cd911237bbb7425c78a',
+    'extends' => 'Give\\Vendors\\Nyholm\\Psr7\\1605bd1b8444a728807825e54b6044cd',
     'implements' => 
     array (
     ),

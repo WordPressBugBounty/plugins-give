@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'impress-org/give',
-        'pretty_version' => 'dev-d8450e1a450b0e4119b7384b77df78e61ec89505',
-        'version' => 'dev-d8450e1a450b0e4119b7384b77df78e61ec89505',
-        'reference' => 'd8450e1a450b0e4119b7384b77df78e61ec89505',
+        'pretty_version' => 'dev-12dbb72bf23212897588fc226ab63ab5e9838d00',
+        'version' => 'dev-12dbb72bf23212897588fc226ab63ab5e9838d00',
+        'reference' => '12dbb72bf23212897588fc226ab63ab5e9838d00',
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -20,9 +20,9 @@
             'dev_requirement' => false,
         ),
         'impress-org/give' => array(
-            'pretty_version' => 'dev-d8450e1a450b0e4119b7384b77df78e61ec89505',
-            'version' => 'dev-d8450e1a450b0e4119b7384b77df78e61ec89505',
-            'reference' => 'd8450e1a450b0e4119b7384b77df78e61ec89505',
+            'pretty_version' => 'dev-12dbb72bf23212897588fc226ab63ab5e9838d00',
+            'version' => 'dev-12dbb72bf23212897588fc226ab63ab5e9838d00',
+            'reference' => '12dbb72bf23212897588fc226ab63ab5e9838d00',
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
